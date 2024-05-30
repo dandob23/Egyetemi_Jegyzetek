@@ -1,0 +1,5 @@
+6 nap
+
+Könyvek (2nap)
+Tetelek (3nap)
+UnitTest begyakorlasa (1nap)
