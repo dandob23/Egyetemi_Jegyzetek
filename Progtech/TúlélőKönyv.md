@@ -112,9 +112,7 @@
 
 #### Fontos részletek
 - **Követelmények definiálása:** A szoftverrel szemben támasztott követelmények világos és egyértelmű megfogalmazása.
-- **
-
-Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az elfogadási tesztek során.
+- **Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az elfogadási tesztek során.
 - **Felhasználói visszajelzések:** Az elfogadási tesztek segítségével gyűjtött felhasználói visszajelzések alapján történő fejlesztés.
 
 ---
