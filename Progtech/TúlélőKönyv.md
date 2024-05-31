@@ -1,5 +1,3 @@
-Úgy tűnik, technikai problémába ütköztünk a fejezetek kinyerése során. Megpróbálom újra feldolgozni a PDF-et, és kivonatolni a fejezeteket, hogy készítsek belőlük egy-egy rövid jegyzetet. Kezdjük a folyamatot a "Profizmus" fejezettel. 
-
 ### 1. fejezet: Profizmus
 
 #### Fogalmak
@@ -14,6 +12,8 @@
 - **Felelősségvállalás:** A profi programozó felelősséget vállal a munkájáért, és biztosítja, hogy a kód minőségi legyen.
 - **Kommunikáció:** Fontos, hogy a profi programozó hatékonyan kommunikáljon a csapat többi tagjával és az érintettekkel.
 - **Időgazdálkodás:** A jó időgazdálkodás és a határidők betartása elengedhetetlen a professzionális munka érdekében.
+
+---
 
 ### 2. fejezet: Nemet mondani
 
@@ -32,6 +32,8 @@
 
 ### 3. fejezet: Igent mondani
 
+---
+
 #### Fogalmak
 - **Igent mondani:** Az, hogy elköteleződjünk egy feladat mellett, és biztosítsuk, hogy az el lesz végezve.
 - **Kötelezettségvállalás nyelve:** Az a mód, ahogyan a programozók kommunikálják elköteleződésüket a projektek és feladatok iránt.
@@ -44,6 +46,8 @@
 - **Kötelezettségvállalás:** Fontos, hogy a programozó csak akkor mondjon igent, ha biztos benne, hogy teljesíteni tudja a vállalást.
 - **Elköteleződés:** Az igen mondása után a programozónak minden erőforrását a feladat teljesítésére kell fordítania.
 - **Kommunikáció:** Az igent mondás során világosan kell kommunikálni az elvárásokat és a határidőket.
+
+---
 
 ### 4. fejezet: Kódolás
 
@@ -60,6 +64,8 @@
 - **Hibakeresés:** A hibakeresés és javítás elengedhetetlen része a kódolási folyamatnak.
 - **Időgazdálkodás:** A programozónak meg kell tanulnia beosztani az idejét és hatékonyan kezelni a feladatait.
 
+---
+
 ### 5. fejezet: Tesztvezérelt fejlesztés
 
 #### Fogalmak
@@ -75,6 +81,8 @@
 - **Iteratív fejlesztés:** A TDD iteratív megközelítést alkalmaz, amely lehetővé teszi a folyamatos javítást és bővítést.
 - **Kód minősége:** A TDD segít abban, hogy a kód minőségi és karbantartható legyen.
 
+---
+
 ### 6. fejezet: Gyakorlás
 
 #### Fogalmak
@@ -89,6 +97,8 @@
 - **Folyamatos tanulás:** A programozóknak mindig törekedniük kell a tanulásra és az új technikák elsajátítására.
 - **Gyakorlási módszerek:** Különböző gyakorlási módszerek alkalmazása segít abban, hogy a programozók fejlesszék képességeiket.
 - **Közösségi tanulás:** A kódolók dódzsójában való részvétel lehetőséget ad a közösségi tanulásra és tapasztalatcserére.
+
+---
 
 ### 7. fejezet: Elfogadási tesztek
 
@@ -107,6 +117,8 @@
 Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az elfogadási tesztek során.
 - **Felhasználói visszajelzések:** Az elfogadási tesztek segítségével gyűjtött felhasználói visszajelzések alapján történő fejlesztés.
 
+---
+
 ### 8. fejezet: Tesztelési stratégiák
 
 #### Fogalmak
@@ -121,6 +133,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Automatizált tesztelés:** Az automatizált tesztelési módszerek alkalmazása segít a hibák gyorsabb és hatékonyabb felderítésében.
 - **Tesztelési hierarchia:** A különböző tesztelési szintek alkalmazása a teljes tesztelési folyamat során.
 - **Kockázatkezelés:** A tesztelési stratégiák részeként a kockázatok azonosítása és kezelése.
+
+---
 
 ### 9. fejezet: Az idő beosztása
 
@@ -137,6 +151,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Zavaró tényezők minimalizálása:** A zavaró tényezők minimalizálása és a koncentráció fenntartása.
 - **Hatékony munkavégzés:** Az időgazdálkodási technikák alkalmazása a hatékony munkavégzés érdekében.
 
+---
+
 ### 10. fejezet: Becslés
 
 #### Fogalmak
@@ -151,6 +167,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Becslési technikák:** Különböző becslési technikák alkalmazása a pontosabb eredmények érdekében.
 - **Kockázatok kezelése:** A becslési folyamat részeként a kockázatok azonosítása és kezelése.
 - **Folyamatos felülvizsgálat:** A becslések folyamatos felülvizsgálata és pontosítása a projekt során.
+
+---
 
 ### 11. fejezet: Nyomás
 
@@ -167,6 +185,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Prioritások kezelése:** A feladatok fontossági sorrendbe állítása és a prioritások kezelése.
 - **Mentális egészség:** A mentális egészség megőrzése és a kiégés elkerülése érdekében alkalmazott módszerek.
 
+---
+
 ### 12. fejezet: Együttműködés
 
 #### Fogalmak
@@ -181,6 +201,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Csapatmunka:** Azok a technikák, amelyek segítenek a csapat hatékony együttműködésében.
 - **Kommunikációs csatornák:** Azok a módszerek, amelyek segítenek a hatékony kommunikáció kialakításában.
 - **Konfliktuskezelés:** Azok a technikák, amelyek segítenek a csapaton belüli konfliktusok kezelésében és megoldásában.
+
+---
 
 ### 13. fejezet: Csapatok és projektek
 
@@ -197,6 +219,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Projektmenedzsment:** Azok a módszerek, amelyek segítenek a projektek hatékony irányításában és megvalósításában.
 - **Kommunikáció:** A hatékony kommunikáció a csapatok és projektek sikerének kulcsa.
 
+---
+
 ### 14. fejezet: Mesterek, tanítványok és a mesterségbeli tudás
 
 #### Fogalmak
@@ -211,6 +235,8 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Mentorálás:** Azok a módszerek, amelyek segítenek a mestereknek átadni a tudásukat a tanítványoknak.
 - **Tanulási folyamat:** Azok a technikák, amelyek segítenek a tanítványoknak hatékonyan tanulni és fejlődni.
 - **Közösségi tanulás:** A mesterek és tanítványok közötti közösségi tanulás fontossága.
+
+---
 
 ### 15. fejezet: Eszközök
 
@@ -228,5 +254,3 @@ Tesztelési módszerek:** Különböző tesztelési módszerek alkalmazása az e
 - **Automatizálás:** Az automatizálási eszközök alkalmazása segít a fejlesztési folyamat hatékonyságának növelésében.
 - **Verziókövetés:** A verziókövetési rendszerek használata segít a kód változásainak nyomon követésében és kezelésében.
 - **Integráció:** Az eszközök integrálása segít a fejlesztési folyamatok összhangjának megteremtésében.
-
-Ezek a jegyzetek segíthetnek a könyv főbb témáinak és koncepcióinak megértésében. Ha részletesebb összefoglalóra van szükséged bármelyik fejezetről, kérlek, jelezd!
