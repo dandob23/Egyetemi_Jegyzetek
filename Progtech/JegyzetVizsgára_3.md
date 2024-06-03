@@ -73,9 +73,7 @@
    - Az osztályok közötti kapcsolatok erőssége. A laza kapcsoltság azt jelenti, hogy az osztályok minimális függőséggel rendelkeznek egymás felé, ami növeli a rendszer modularitását és rugalmasságát.
 
 3. **Állapot- és állapottér modellezése**:
-   - Az objektumok belső állapotainak és az ezek közötti átmen
-
-eteknek a kezelése. Fontos, hogy az objektumok állapotváltozásait jól definiált szabályok szerint kezeljük, hogy a rendszer viselkedése kiszámítható legyen.
+   - Az objektumok belső állapotainak és az ezek közötti átmeneteknek a kezelése. Fontos, hogy az objektumok állapotváltozásait jól definiált szabályok szerint kezeljük, hogy a rendszer viselkedése kiszámítható legyen.
 
 4. **Eseményvezérelt programozás**:
    - Az események alapján történő vezérlés azt jelenti, hogy a rendszer bizonyos események bekövetkezésekor hajt végre műveleteket. Ez a megközelítés növeli a rendszer rugalmasságát és reagáló képességét.
