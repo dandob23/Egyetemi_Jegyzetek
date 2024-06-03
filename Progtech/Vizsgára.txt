@@ -1,0 +1,18 @@
+1-es fejezet,
+2.1
+3-as fejezet - OCP kötelező tétel.
+4-es fejezet 4.1.1 igen, többi nem kell (illik) 4.2, 4.3, 4.4 tétel, kivéve visitor. stratégia kötelező
+5-ös fejezet
+5.3-as fejezet tételek
+
+kötelező tételek:
+OCP
+Stratégia
+TDD
+
+vizsga:
+beugró -> unit test C#
+ha az jó kérdezget (ocp/gof1/gof2/...)
+ha az jó akkor 3 tervezési minta: Stratégia, +én mondok vmit, +1 amit ő választ (Visitor,....)
+	amit én választok azt sorrol sorra kérdi (Kódban/UML ábra rajzolás)
+aztán kérdezhet jobb jegyért
