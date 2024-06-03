@@ -28,6 +28,6 @@
   10. **Új igény felmerülése**
 
 #### Kép
-![Szoftverfejlesztés életciklusa](sandbox:/mnt/data/1abra.PNG)
+![Szoftverfejlesztés életciklusa](https://github.com/dandob23/jegyzetek/blob/main/Progtech/1abra.PNG)
 
 Ezzel a jegyzettel teljesítettük a 2.1 fejezet összefoglalását. Ha minden rendben, folytassuk a következő fejezettel!
