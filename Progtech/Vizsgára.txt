@@ -6,13 +6,13 @@
 5.3-as fejezet tételek
 
 kötelező tételek:
-OCP
+OCP, SRP
 Stratégia
 TDD
 
 vizsga:
 beugró -> unit test C#
 ha az jó kérdezget (ocp/gof1/gof2/...)
-ha az jó akkor 3 tervezési minta: Stratégia, +én mondok vmit, +1 amit ő választ (Visitor,....)
+ha az jó akkor 3 tervezési minta: Stratégia, +én mondok vmit, +1 amit ő választ
 	amit én választok azt sorrol sorra kérdi (Kódban/UML ábra rajzolás)
 aztán kérdezhet jobb jegyért
