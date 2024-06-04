@@ -445,3 +445,6 @@ public class Program {
 ```
 
 Ez a kód bemutatja, hogyan lehet alkalmazni az állapot tervezési mintát egy kapu (Gate) osztály különböző állapotainak kezelésére, ahol az állapotok közötti átmenetek és az egyes állapotok viselkedése külön-külön osztályokba van zárva.
+
+---
+
