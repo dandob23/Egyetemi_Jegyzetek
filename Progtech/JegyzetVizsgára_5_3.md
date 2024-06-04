@@ -1,21 +1,4 @@
-## Lecke 13: Tesztvezérelt fejlesztés – Test Driven Development (TDD)
-
-### A lecke célja és tartalma
-
-**Célok, megszerezhető kompetenciák:**
-A lecke végére a hallgatók megismerkednek a TDD alapjaival, alapelveivel és jelentőségével. Megértik, hogy a TDD a szoftverfejlesztés "kettős könyvelése", amely segít a kód tisztántartásában és a magas minőségű szoftverek fejlesztésében.
-
-**Szükséges eszközök, források:**
-Robert C. Martin "Tiszta kód" című könyve.
-
-**Feldolgozási idő:**
-90 perc.
-
-**Témakörök:**
-- TDD alapelvei
-- Piros – Zöld – Piros
-- Piros – Zöld – Kék – Piros
-- Kettős könyvelés
+## Tesztvezérelt fejlesztés – Test Driven Development (TDD)
 
 ### Bevezetés
 
