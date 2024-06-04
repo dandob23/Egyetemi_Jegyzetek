@@ -92,8 +92,6 @@
 
 **Visitor (Látogató):**
 - **Leírás:** A Visitor minta lehetővé teszi, hogy új műveleteket definiáljunk egy objektumstruktúrára anélkül, hogy megváltoztatnánk az osztályokat, amelyeken a műveleteket végzik.
--
-
  **Példa:** Egy fájlrendszer elemzése különböző műveletekkel (pl. méret kiszámítása, fájlok listázása).
 - **Előnyök:** Lehetővé teszi új műveletek hozzáadását anélkül, hogy megváltoztatnánk az objektumstruktúrát.
 - **Hátrányok:** Nehézkes lehet új objektumtípusok hozzáadása.
