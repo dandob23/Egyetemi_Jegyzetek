@@ -1,112 +1,93 @@
-## Formális Nyelvek és Fordítóprogramok Jegyzet
+### Fogalmak és Definíciók
 
-### Fogalomszótár
+#### Generatív Nyelvtan
+- **N**: Nemterminális jelek – a nyelvtan szimbólumai, amelyek további szimbólumokra bonthatók.
+- **T**: Terminális jelek – a nyelv legkisebb egységei, amelyeket nem lehet tovább bontani.
+- **P**: Szabályok halmaza – azok a szabályok, amelyek meghatározzák, hogyan alakulnak át a nemterminális jelek.
+- **S**: Kezdő szimbólum – a nyelvtan kiindulási pontja, amiből a mondatok generálhatók.
+- **Zárt szóhalmaz**: Az összes szóból és az üres szóból álló halmaz.
+- **Üresszó lemma**: Az állítás, miszerint egy kontextusfüggetlen nyelv csak akkor tartalmazza az üres szót, ha a kezdő szimbólum levezeti az üres szót.
 
-- **ABC (Ábécé):** Az ábécé egy adott nyelv összes karakterének halmaza. Például {a, b, 1, 2} lehet egy ábécé.
-- **Szó:** Az ábécé elemeiből alkotott sorozat. Például "ab" vagy "112".
-- **Véges halmaz:** Olyan halmaz, amelynek elemei számszerűen végesek.
-- **Üres szó (λ vagy ε):** Olyan szó, amely nem tartalmaz egyetlen karaktert sem.
-- **Generatív nyelvtan:** Egy formális rendszer, amely meghatározza, hogyan lehet helyes mondatokat generálni egy adott nyelvben. Formálisan: G = (N, T, P, S), ahol N a nem-terminális szimbólumok halmaza, T a terminális szimbólumok halmaza, P a produkciós szabályok halmaza, S a kezdő szimbólum.
-- **Levezetési szabály:** Nem determinisztikus szabályok halmaza, amely lehetővé teszi több szabály egyidejű alkalmazását.
-- **Chomsky hierarchia:** A formális nyelvtanok hierarchiája, amely négy típusba sorolja a nyelvtanokat a szabályaik erőssége szerint.
-- **Normálforma:** A nyelvtan szabályainak egy speciális formája, amely könnyebbé teszi a nyelvtan elemzését és feldolgozását.
-- **Veremautomata:** Olyan automata, amely egy veremet használ a műveletek elvégzéséhez.
+#### Chomsky Hierarchia
+- **0. típus**: Mondatszerkezetű nyelvtanok – minden szabályra igaz, hogy bármelyik szimbólum helyettesíthető.
+- **1. típus**: Monoton és környezetfüggő nyelvek – a szabályok jobboldala hosszabb vagy egyenlő hosszúságú, mint a baloldala.
+- **2. típus**: Környezetfüggetlen nyelvek – szabályok alakja: \( A \rightarrow u \), ahol \( A \in N \), \( u \in (T \cup N)^* \).
+- **3. típus**: Reguláris nyelvek – szabályok alakja: \( A \rightarrow aB \) vagy \( A \rightarrow a \) (jobblineáris) és \( A \rightarrow Ba \) vagy \( A \rightarrow a \) (ballineáris).
 
-## Fejezetek
+#### Normálformák
+- **Reguláris nyelvek**:
+  - **Gyenge normálforma**: Szabályok legfeljebb két karakterből állnak: \( A \rightarrow aB \) vagy \( A \rightarrow a \).
+  - **Erős normálforma**: Szabályok alakja: \( A \rightarrow BC \) vagy \( A \rightarrow a \).
+- **Lineáris nyelvek**: Szabályok alakja: \( A \rightarrow uBv \) vagy \( A \rightarrow u \).
+- **Környezetfüggetlen nyelvek**:
+  - **Chomsky-féle normálforma**: \( A \rightarrow BC \) vagy \( A \rightarrow a \).
+  - **Greibach-féle normálforma**: \( A \rightarrow a\alpha \).
+- **Környezetfüggő nyelvek**:
+  - **Kuroda normálforma**: Az összes kontextusfüggő nyelvtan átalakítható erre a formára.
+  - **Penttonen-féle normálforma**: Szabályok alakja: \( AB \rightarrow AC \), \( A \rightarrow a \).
+  - **Geffert-normálformák**: Speciális kontextusfüggő nyelvtan normálformák.
 
-### Fordítóprogramok Fejlődése
+#### Egyéb Normálformák
+- **Nulladik típushoz normálformák**: Speciális normálformák a 0. típusú nyelvekhez.
+- **Révész-féle trükk**: Egy egyszerűsítési módszer a nyelvtanokban.
+- **Révész-féle egyoldali normálforma**: Egy különleges normálforma a nyelvtanokban.
 
-A fordítóprogramok az idők folyamán jelentős fejlődésen mentek keresztül. Kezdetben egyszerű fordítókat készítettek, amelyek alapvető szintaktikai elemzést végeztek. Azonban a modern fordítók már komplex elemzési és optimalizálási feladatokat is ellátnak. A fordítóprogramok fejlődése során a következő főbb lépéseket különíthetjük el:
+#### Reguláris Kifejezések
+- **Kleene-csillag (\(r^*\))**: Lehetővé teszi egy kifejezés tetszőleges számú ismétlését.
+- **Reguláris kifejezések ekvivalenciái**:
+  - **Asszociatív**: \( (r + s) + t = r + (s + t) \).
+  - **Kommutatív**: \( r + s = s + r \).
+- **Unió normálforma**: Egy speciális forma, amelyben unió műveletek szerepelnek.
+- **Uniomentes nyelvek**: Nyelvek, amelyek nem használnak unió műveleteket.
 
-1. **Korai fordítók:** Egyszerű programok, amelyek a forráskódot egy az egyben fordították le gépi kódra, különösebb optimalizálás nélkül.
-2. **Szintaktikai elemzők:** Az 1960-as években kezdtek elterjedni a szintaktikai elemzők, amelyek képesek voltak a forráskód szintaktikai hibáinak felismerésére és kijavítására.
-3. **Optimalizáló fordítók:** Az 1970-es évektől kezdve jelentek meg az első optimalizáló fordítók, amelyek célja a hatékonyabb gépi kód generálása volt.
-4. **Modern fordítók:** A mai fordítók már fejlett elemzési és optimalizálási technikákat alkalmaznak, beleértve a szemantikai elemzést és a kódoptimalizálást is.
+### Automaták
 
-### Normál Formák Jelentősége
+#### Típusok
+- **0. típus**: Turing gép – minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
+- **1. típus**: Lineárisan korlátozott automata – egy Turing gép, amelynek szalagja csak egy előre meghatározott hosszúságú lehet.
+- **2. típus**: Veremautomata – olyan automata, amely egy veremet használ, determinisztikus és nemdeterminista változata is van.
+  - **Egyszer forduló veremautomata**: Kétfejű véges automata, amely csak egyszer mehet végig a veremen.
+- **3. típus**: Véges automaták – állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
+  - **2 fejű véges automaták**: Olyan véges automaták, amelyek két olvasó fejjel rendelkeznek.
 
-A normál formák különösen fontosak a formális nyelvek és nyelvtanok tanulmányozásában, mivel egyszerűsítik a nyelvtanok elemzését és feldolgozását.
+#### Speciális Automaták
+- **Determinista veremautomata**: Egy veremautomata, amely minden konfigurációban legfeljebb egy átmenetet engedélyez.
+- **Számlálónyelvek**: Veremben csak egyféle veremszimbólum van.
+- **Egyszer fordulós veremautomata**: Lineáris nyelveket fogad el.
+- **Fraktál automata**: Speciális véges automata.
 
-**Chomsky normálforma (CNF):**
-- Minden kontextusfüggetlen nyelvtan átalakítható olyan formára, ahol minden szabály vagy A → BC, vagy A → a formájú. Ez a forma különösen hasznos a szintaktikai elemző algoritmusok számára, mint például a CYK algoritmus.
+#### Egyéb Definíciók
+- **Cayley táblázat**: Véges csoportok műveleteinek ábrázolására szolgál.
+- **S(delta) függvény**: Az átmenetfüggvény speciális formája.
 
-**Greibach normálforma (GNF):**
-- Minden kontextusfüggetlen nyelvtan átalakítható olyan formára, ahol minden szabály A → aα formájú, ahol a terminális, α pedig nulla vagy több nem terminális. Ez a forma hasznos a fordítóprogramok tervezésében, mivel egyszerűsíti a szabályok feldolgozását.
+### Algoritmusok és Lemma
 
-### Veremautomaták és Működésük
+#### CYK Algoritmus
+- **Környezetfüggetlen nyelvek elemzése**: Algoritmus a szavak felismerésére Chomsky normálformájú nyelvekben.
+- **Példa**: A szó "aabb" felismerése egy kontextusfüggetlen nyelvtan segítségével.
 
-A veremautomaták olyan automaták, amelyek egy veremet használnak az állapotok nyilvántartására és a bemenet elemzésére. Ezek az automaták különösen hasznosak a kontextusfüggetlen nyelvek feldolgozásában.
+#### Early Algoritmus
+- **Környezetfüggetlen nyelvek elemzése**: Nincs szükség Chomsky normálformára, általánosabb elemzési módszer.
 
-**Deterministicus veremautomaták (DPDA):**
-- Minden konfigurációhoz legfeljebb egy átmenet van meghatározva. Ez azt jelenti, hogy a bemenet és a verem aktuális állapota egyértelműen meghatározza a következő állapotot.
+#### Szintaxis Gráf
+- Az automata állapotainak és átmeneteinek ábrázolása gráfként.
+- **Lemma**: Bizonyítja, hogy egy adott nyelv szabályai szerint generálható.
 
-**Nem-deterministicus veremautomaták (NPDA):**
-- Lehetőség van több lehetséges átmenetre egy adott konfigurációban. Ez azt jelenti, hogy a bemenet és a verem aktuális állapota többféle módon is folytatódhat.
+### Fordítóprogramok
 
-### Algoritmusok és Környezetfüggetlen Nyelvek
+#### Felépítés
+- **Forráskód -> Source handler -> Lista**
+  - **Compiler**
+  - **Code handler -> Tárgynyelvű program**
+- **Compiler Komponensei**
+  - **Lexikális elemző**: Szimbólumsorozatok felismerése.
+  - **Szintaktikai elemző**: Szimbólumok helyes szintaxis szerint.
+  - **Szemantikai elemző**: Értelmezhetőség vizsgálata, például azonosítók összeadása.
 
-Az algoritmusok fontos szerepet játszanak a nyelvtanok és automaták elemzésében. Különböző algoritmusok léteznek, például a CYK algoritmus, amely a Chomsky normálformájú nyelvtanokat elemzi, és az Earley algoritmus, amely általánosabb kontextusfüggetlen nyelvtanok elemzésére szolgál.
+### Egyéb Témakörök
+- **Formula vezérlésű gép**: Hardverek és szoftverek kombinációja magas szintű nyelvek értelmezésére.
+- **Interpreter**: Program, amely egy magas szintű nyelv utasításait közvetlenül végrehajtja.
+- **Hazug paradoxon**: Logikai paradoxon, amely egy állítás önellentmondását fogalmazza meg.
+- **Halting-probléma**: Az a kérdés, hogy egy adott program megáll-e véges időn belül egy adott bemenetre.
 
-**CYK Algoritmus:**
-- Ez az algoritmus Chomsky normálformájú nyelvtanokkal működik, és hatékonyan elemzi a bemenetet egy háromszögmátrix segítségével.
-
-**Earley Algoritmus:**
-- Ez az algoritmus általánosabb, mint a CYK, és nem igényli, hogy a nyelvtan Chomsky normálformában legyen. Képes kezelni a balrekurzív szabályokat is.
-
-### Fordítóprogramok és Működésük
-
-A fordítóprogramok magas szintű programozási nyelveket fordítanak alacsony szintű gépi kóddá. A fordítási folyamat több lépésből áll, beleértve a lexikális elemzést, a szintaktikai elemzést, a szemantikai elemzést, a kód generálást és a kód optimalizálást.
-
-**Lexikális elemzés:**
-- A forráskód karaktereinek tokenekre bontása, amelyek a nyelv alapvető egységei (például kulcsszavak, azonosítók, operátorok).
-
-**Szintaktikai elemzés:**
-- A tokenek szintaktikai struktúrájának ellenőrzése és szintaktikai fák generálása, amelyek a program szerkezetét ábrázolják.
-
-**Szemantikai elemzés:**
-- A szintaktikai elemzés után a szemantikai elemzés biztosítja, hogy a program helyesen értelmezhető legyen, figyelembe véve a változók típusait, a hatóköröket és más szemantikai szabályokat.
-
-**Kódgenerálás:**
-- Az elemzett és értelmezett programot gépi kóddá alakítják, amely végrehajtható a célplatformon.
-
-**Kódoptimalizálás:**
-- A generált kód hatékonyságának javítása különböző technikákkal, például hurkok optimalizálásával, redundáns kód eltávolításával és regiszter-allokációval.
-
-### Szintaktikai Elemzők
-
-**LL(1) elemző:**
-- Felülről lefelé elemző, amely egy előretekintéssel dolgozik. Könnyen implementálható, de korlátozottabb, mint az LR elemzők, mivel nem képes kezelni minden kontextusfüggetlen nyelvet.
-
-**LR(1) elemző:**
-- Alulról felfelé elemző, amely egy előretekintéssel dolgozik. Bonyolultabb implementálni, de sokkal erősebb, mivel képes kezelni az összes kontextusfüggetlen nyelvet.
-
-### Reguláris Kifejezések és Véges Automaták
-
-A reguláris kifejezések és véges automaták szorosan összefüggenek. Minden reguláris kifejezésnek létezik egy véges automata megfelelője, amely ugyanazt a nyelvet fogadja el. Az ilyen kapcsolatok lehetővé teszik a nyelvek és automaták közötti átjárást, valamint az elemzési és szintézis feladatok megoldását.
-
-### Képek Által Nyert Információk
-
-1. **Generatív Nyel
-
-vtan és Chomsky Hierarchia:**
-   - T = {a, b, 1, 2, 11}
-   - T* = {λ, a, b, 1, 2, 11, aa, ab, ...}
-   - Generatív nyelvtan: G = (N, T, P, S)
-   - S ∈ N, N ∩ T = {}
-   - P: (N ∪ T)* → N (N ∪ T)* × (N ∪ T)*
-
-2. **Kuroda Normál Forma és Permutációs Nyelvtanok:**
-   - AB → CD, A → BC, A → B, A → a; A, B, C, D ∈ N, a ∈ T
-   - Permutációs nyelvtanok szabályai és példák
-
-3. **Automaták és Átmenetfüggvények:**
-   - Véges automaták definíciói és konfigurációi
-   - Determinisztikus és nem-determinisztikus véges automaták átmenetfüggvényei
-
-### Példák és Bizonyítások
-
-Az automaták és nyelvtanok elméletében számos tétel és bizonyítás található, amelyek alapvető fontosságúak a formális nyelvek megértéséhez. Példák közé tartozik az üresszó lemma, a különböző normálformák ekvivalenciája és a veremautomaták és környezetfüggetlen nyelvek kapcsolata.
-
-### Összefoglalás
-
-Ez a jegyzet átfogó képet ad a formális nyelvek, fordítóprogramok, különböző automaták és nyelvtani normálformák működéséről és jelentőségéről. A részletes magyarázatok és példák segítik a megértést és a tanulást, valamint biztos alapot nyújtanak a formális nyelvek és fordítóprogramok elméletének további tanulmányozásához.
+Remélem, hogy ezek a magyarázatok segítenek jobban megérteni a fogalmakat és azok használatát. Ha további részletekre van szükség, kérlek jelezd!
