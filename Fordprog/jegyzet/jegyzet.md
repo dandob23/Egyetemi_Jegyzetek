@@ -11,20 +11,20 @@
 #### Chomsky Hierarchia
 - **0. típus**: Mondatszerkezetű nyelvtanok – minden szabályra igaz, hogy bármelyik szimbólum helyettesíthető.
 - **1. típus**: Monoton és környezetfüggő nyelvek – a szabályok jobboldala hosszabb vagy egyenlő hosszúságú, mint a baloldala.
-- **2. típus**: Környezetfüggetlen nyelvek – szabályok alakja: \( A \rightarrow u \), ahol \( A \in N \), \( u \in (T \cup N)^* \).
-- **3. típus**: Reguláris nyelvek – szabályok alakja: \( A \rightarrow aB \) vagy \( A \rightarrow a \) (jobblineáris) és \( A \rightarrow Ba \) vagy \( A \rightarrow a \) (ballineáris).
+- **2. típus**: Környezetfüggetlen nyelvek – szabályok alakja: `A -> u`, ahol `A` eleme `N`, `u` eleme `(T ∪ N)*`.
+- **3. típus**: Reguláris nyelvek – szabályok alakja: `A -> aB` vagy `A -> a` (jobblineáris) és `A -> Ba` vagy `A -> a` (ballineáris).
 
 #### Normálformák
 - **Reguláris nyelvek**:
-  - **Gyenge normálforma**: Szabályok legfeljebb két karakterből állnak: \( A \rightarrow aB \) vagy \( A \rightarrow a \).
-  - **Erős normálforma**: Szabályok alakja: \( A \rightarrow BC \) vagy \( A \rightarrow a \).
-- **Lineáris nyelvek**: Szabályok alakja: \( A \rightarrow uBv \) vagy \( A \rightarrow u \).
+  - **Gyenge normálforma**: Szabályok legfeljebb két karakterből állnak: `A -> aB` vagy `A -> a`.
+  - **Erős normálforma**: Szabályok alakja: `A -> BC` vagy `A -> a`.
+- **Lineáris nyelvek**: Szabályok alakja: `A -> uBv` vagy `A -> u`.
 - **Környezetfüggetlen nyelvek**:
-  - **Chomsky-féle normálforma**: \( A \rightarrow BC \) vagy \( A \rightarrow a \).
-  - **Greibach-féle normálforma**: \( A \rightarrow a\alpha \).
+  - **Chomsky-féle normálforma**: `A -> BC` vagy `A -> a`.
+  - **Greibach-féle normálforma**: `A -> aα`.
 - **Környezetfüggő nyelvek**:
   - **Kuroda normálforma**: Az összes kontextusfüggő nyelvtan átalakítható erre a formára.
-  - **Penttonen-féle normálforma**: Szabályok alakja: \( AB \rightarrow AC \), \( A \rightarrow a \).
+  - **Penttonen-féle normálforma**: Szabályok alakja: `AB -> AC`, `A -> a`.
   - **Geffert-normálformák**: Speciális kontextusfüggő nyelvtan normálformák.
 
 #### Egyéb Normálformák
@@ -33,10 +33,10 @@
 - **Révész-féle egyoldali normálforma**: Egy különleges normálforma a nyelvtanokban.
 
 #### Reguláris Kifejezések
-- **Kleene-csillag (\(r^*\))**: Lehetővé teszi egy kifejezés tetszőleges számú ismétlését.
+- **Kleene-csillag (`r*`)**: Lehetővé teszi egy kifejezés tetszőleges számú ismétlését.
 - **Reguláris kifejezések ekvivalenciái**:
-  - **Asszociatív**: \( (r + s) + t = r + (s + t) \).
-  - **Kommutatív**: \( r + s = s + r \).
+  - **Asszociatív**: `(r + s) + t = r + (s + t)`.
+  - **Kommutatív**: `r + s = s + r`.
 - **Unió normálforma**: Egy speciális forma, amelyben unió műveletek szerepelnek.
 - **Uniomentes nyelvek**: Nyelvek, amelyek nem használnak unió műveleteket.
 
@@ -89,5 +89,3 @@
 - **Interpreter**: Program, amely egy magas szintű nyelv utasításait közvetlenül végrehajtja.
 - **Hazug paradoxon**: Logikai paradoxon, amely egy állítás önellentmondását fogalmazza meg.
 - **Halting-probléma**: Az a kérdés, hogy egy adott program megáll-e véges időn belül egy adott bemenetre.
-
-Remélem, hogy ezek a magyarázatok segítenek jobban megérteni a fogalmakat és azok használatát. Ha további részletekre van szükség, kérlek jelezd!
