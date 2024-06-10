@@ -25,19 +25,44 @@
 - **3. típus**: Véges automaták – állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
   - **2 fejű véges automaták**: Olyan véges automaták, amelyek két olvasó fejjel rendelkeznek.
 
-#### Normálformák
-- **Reguláris nyelvek**:
-  - **Gyenge normálforma**: Szabályok legfeljebb két karakterből állnak: `A -> aB` vagy `A -> a`.
-  - **Erős normálforma**: Szabályok alakja: `A -> BC` vagy `A -> a`.
-- **Lineáris nyelvek**: Szabályok alakja: `A -> uBv` vagy `A -> u`.
-- **Környezetfüggetlen nyelvek**:
-  - **Chomsky-féle normálforma**: `A -> BC` vagy `A -> a`.
-  - **Greibach-féle normálforma**: `A -> aα`.
-- **Környezetfüggő nyelvek**:
-  - **Kuroda normálforma**: Az összes kontextusfüggő nyelvtan átalakítható erre a formára.
-  - **Penttonen-féle normálforma**: Szabályok alakja: `AB -> AC`, `A -> a`.
-  - **Geffert-normálformák**: Speciális kontextusfüggő nyelvtan normálformák.
+### Normálformák
 
+#### Reguláris nyelvek
+- **Gyenge normálforma:**
+  - **Szabályok**: `A -> aB` vagy `A -> a`.
+  - **Magyarázat**: Ebben a normálformában a szabályok egyszerűsítik a nyelvtant úgy, hogy minden szabály legfeljebb egy nemterminális és egy terminális szimbólumból állhat.
+
+- **Erős normálforma:**
+  - **Szabályok**: `A -> BC` vagy `A -> a`.
+  - **Magyarázat**: Ebben a formában minden szabály vagy két nemterminális szimbólumra bontja a bal oldali nemterminálist, vagy egy terminális szimbólumra cseréli.
+
+#### Lineáris nyelvek
+- **Lineáris nyelvek:**
+  - **Szabályok**: `A -> uBv` vagy `A -> u`.
+  - **Magyarázat**: A szabályok lehetővé teszik, hogy egy nemterminális szimbólumot egy terminális szimbólumokból álló sorozatra és egy másik nemterminális szimbólumra bontsunk, megengedve a terminális szimbólumok közbeiktatását.
+
+#### Környezetfüggetlen nyelvek
+- **Chomsky-féle normálforma:**
+  - **Szabályok**: `A -> BC` vagy `A -> a`.
+  - **Magyarázat**: Minden szabály vagy két nemterminális szimbólum kombinációjává alakítja a bal oldali nemterminálist, vagy egy terminális szimbólumra cseréli.
+
+- **Greibach-féle normálforma:**
+  - **Szabályok**: `A -> aα`.
+  - **Magyarázat**: A szabályok mindig egy terminális szimbólummal kezdődnek, amelyet egy (esetleg üres) nemterminális szimbólumsorozat követ.
+
+#### Környezetfüggő nyelvek
+- **Kuroda normálforma:**
+  - **Szabályok**: Az összes környezetfüggő nyelvtan átalakítható erre a formára.
+  - **Magyarázat**: Ez a normálforma lehetővé teszi, hogy minden környezetfüggő nyelvtant egy egységesített formára alakítsunk át, ami megkönnyíti a nyelvtanok elemzését és feldolgozását.
+
+- **Penttonen-féle normálforma:**
+  - **Szabályok**: `AB -> AC`, `A -> a`.
+  - **Magyarázat**: A szabályok két nemterminális szimbólumot egy nemterminális és egy terminális szimbólumra cserélnek, vagy egy nemterminális szimbólumot egy terminális szimbólumra.
+
+- **Geffert-normálformák:**
+  - **Szabályok**: Speciális környezetfüggő nyelvtan normálformák.
+  - **Magyarázat**: Ezek a normálformák speciális környezetfüggő nyelvtanokat egyszerűsítenek, hogy megkönnyítsék a nyelvtan szerkezetének és viselkedésének elemzését.
+  
 #### Egyéb Normálformák
 - **Nulladik típushoz normálformák**: Speciális normálformák a 0. típusú nyelvekhez.
 - **Révész-féle trükk**: Egy egyszerűsítési módszer a nyelvtanokban.
@@ -80,7 +105,7 @@
 
 #### CYK Algoritmus
 - **Környezetfüggetlen nyelvek elemzése**: Algoritmus a szavak felismerésére Chomsky normálformájú nyelvekben.
-- **Példa**: A szó "aabb" felismerése egy kontextusfüggetlen nyelvtan segítségével.
+- **Példa**: A szó "aabb" felismerése egy környezetfüggetlen nyelvtan segítségével.
 
 #### Early Algoritmus
 - **Környezetfüggetlen nyelvek elemzése**: Nincs szükség Chomsky normálformára, általánosabb elemzési módszer.
