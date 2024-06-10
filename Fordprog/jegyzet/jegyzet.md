@@ -172,6 +172,8 @@
 
 ### Fordítóprogramok
 
+![fordito](https://github.com/dandob23/jegyzetek/blob/main/Fordprog/jegyzet/ForditoProgramFelepitese.png)
+
 #### Felépítés
 - **Forráskód -> Source handler -> Lista**
   - **Compiler**
