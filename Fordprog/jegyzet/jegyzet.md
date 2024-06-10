@@ -61,31 +61,58 @@
     - **speciális környezetfüggő** nyelvtanokat egyszerűsítenek
     - megkönnyítik a nyelvtan **szerkezetének** és **viselkedésének elemzését**.
   
-#### Egyéb Normálformák
-- **Nulladik típushoz normálformák**: Speciális normálformák a 0. típusú nyelvekhez.
-- **Révész-féle trükk**: Egy egyszerűsítési módszer a nyelvtanokban.
-- **Révész-féle egyoldali normálforma**: Egy különleges normálforma a nyelvtanokban.
 
-#### Reguláris Kifejezések
-- **Kleene-csillag (`r*`)**: Lehetővé teszi egy kifejezés tetszőleges számú ismétlését.
-- **Reguláris kifejezések ekvivalenciái**:
-  - **Asszociatív**: `(r + s) + t = r + (s + t)`.
-  - **Kommutatív**: `r + s = s + r`.
-- **Unió normálforma**: Egy speciális forma, amelyben unió műveletek szerepelnek.
-- **Uniomentes nyelvek**: Nyelvek, amelyek nem használnak unió műveleteket.
+### Egyéb Normálformák
+#### Révész-féle trükk
+- `AB → CD`.
+- Egy **egyszerűsítési módszer** a nyelvtanokban.
+- lehetővé teszi, hogy a nyelvtanokat **egyoldalú szabályokra bontsuk**
+- segít **átalakítani és egyszerűsíteni** a nyelvtani szabályokat.
+- Például egy összetett szabály, mint `AB → CD`, több egyszerűbb szabályra bontható.
 
-### Automaták
+#### Révész-féle egyoldali normálforma
+- `A → aB vagy A → a`.
+- **minden szabály egy terminális szimbólummal kezdődik**.
+- biztosítja, hogy a nyelvtan szabályai **egyszerűek és egyoldalúak** legyenek
+- megkönnyíti a nyelvtanok **feldolgozását és elemzését**.
+  
+### Reguláris kifejezések ekvivalenciái
+#### Asszociatív
+- `(a + b) + c = a + (b + c)`.
+- **a kifejezések csoportosítása nem befolyásolja az eredményt**. 
+- Ez hasznos a reguláris kifejezések **egyszerűsítés**énél.
+
+#### Kommutatív
+- `a + b = b + a`.
+- **a kifejezések sorrendje nem számít** az unió műveletnél. 
+- Ez lehetővé teszi a reguláris kifejezések **rugalmasabb** használatát.
+
+#### Unió normálforma
+- **Szabály:** Egy speciális forma, amelyben unió műveletek szerepelnek.
+- **Példa:** `a(b + c)d`
+- olyan reguláris kifejezések speciális formája, amelyben az **unió műveletek vannak kiemelve**. 
+- Az ilyen formák segítenek a kifejezések **strukturáltabb elemzés**ében.
+
+#### Uniómentes nyelvek
+- **Szabály:** Nyelvek, amelyek nem használnak unió műveleteket.
+- **Példa:** `ab^c`
+- nem tartalmaznak alternatívákat a reguláris kifejezésekben. 
+- Ezek a nyelvek **egyszerűbb struktúrával rendelkeznek**, mivel **nem használnak uniót**.
 
 #### Chomsky Hierarchia
 - **0. típus**: Mondatszerkezetű nyelvtanok – minden szabályra igaz, hogy bármelyik szimbólum helyettesíthető.
 - **1. típus**: Monoton és környezetfüggő nyelvek – a szabályok jobboldala hosszabb vagy egyenlő hosszúságú, mint a baloldala.
 - **2. típus**: Környezetfüggetlen nyelvek – szabályok alakja: `A -> u`, ahol `A` eleme `N`, `u` eleme `(T ∪ N)*`.
+  - `megjegyzés (T ∪ N)* = Az összes létező terminális és nem terminális jelek + üres szavak halmaza`
 - **3. típus**: Reguláris nyelvek – szabályok alakja: `A -> aB` vagy `A -> a` (jobblineáris) és `A -> Ba` vagy `A -> a` (ballineáris).
 #### Típusok
 - **0. típus**: Turing gép – minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
+  - `megjegyzés: determinisztikus = minden állapotban egyértelműen meghatározott, hogy mi lesz a következő állapot a jelenlegi állapot és a bemeneti érték alapján.`
+  - `megjegyzés: nemdeterminista = egy adott állapot és bemenet esetén több lehetséges következő állapot is létezhet, és nem egyértelmű, hogy melyik lesz a következő állapot.`
 - **1. típus**: Lineárisan korlátozott automata – egy Turing gép, amelynek szalagja csak egy előre meghatározott hosszúságú lehet.
 - **2. típus**: Veremautomata – olyan automata, amely egy veremet használ, determinisztikus és nemdeterminista változata is van.
   - **Egyszer forduló veremautomata**: Kétfejű véges automata, amely csak egyszer mehet végig a veremen.
+  - `megjegyzés: verem = egy adatstruktúra, amely az elemeket LIFO (Last In, First Out - utolsóként be, elsőként ki) sorrendben kezeli, vagyis az utoljára betett elem kerül először kivételre. (Pl: szövegszerkesztő visszavonás funkció)`
 - **3. típus**: Véges automaták – állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
   - **2 fejű véges automaták**: Olyan véges automaták, amelyek két olvasó fejjel rendelkeznek.
 
