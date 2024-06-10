@@ -101,11 +101,31 @@
 
 ---
 
-#### Speciális Automaták
-- **Determinista veremautomata**: Egy veremautomata, amely minden konfigurációban legfeljebb egy átmenetet engedélyez.
-- **Számlálónyelvek**: Veremben csak egyféle veremszimbólum van.
-- **Egyszer fordulós veremautomata**: Lineáris nyelveket fogad el.
-- **Fraktál automata**: Speciális véges automata.
+### Speciális Automaták
+
+#### Determinista veremautomata
+- **Példa**: Egy veremautomata, amely **minden konfigurációban legfeljebb egy** átmenetet engedélyez.
+- **minden adott állapotban** és veremkonfigurációban **legfeljebb egy lehetséges átmenetet engedélyeznek**
+- az automata **működése** teljesen **meghatározott**.
+- Nyelvi feldolgozásnál és szintaktikai elemzésnél, ahol egyértelműségre van szükség.
+
+#### Számlálónyelvek
+- **Példa**: Veremben **csak egyféle** veremszimbólum van.
+- a veremben **csak egy** típusú szimbólumot használunk
+- lehetővé teszi a verem **aktuális tartalmának egyszerű számlálását**.
+- Egyszerűbb nyelvek modellezésére használjuk, ahol **a verem csak a szimbólumok számát** tartja nyilván.
+
+#### Egyszer fordulós veremautomata
+- `A → aB vagy A → a` 
+- **egy input szó** feldolgozása során **csak egyszer** használhatja a verem tartalmát.
+- **Lineáris nyelvek** elfogadására használjuk, ahol **a veremhasználat korlátozott**, és **az automata egyszerűsíthető**.
+
+#### Fraktál automata
+- **Példa**: Egy speciális véges automata, amely **komplex mintázatokat** képes előállítani.
+- **komplex, önhasonló struktúrákat képes generálni**
+- **Komplex mintázatok és struktúrák modellezésére és generálására**, például a számítógépes grafikában és a mintafelismerésben.
+
+--- 
 
 #### Egyéb Definíciók
 - **Cayley táblázat**: Véges csoportok műveleteinek ábrázolására szolgál.
