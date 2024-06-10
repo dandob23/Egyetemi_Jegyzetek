@@ -55,7 +55,7 @@
     - megkönnyíti a nyelvtanok **elemzését** és **feldolgozását**.
   - **Penttonen-féle normálforma:**
     - **Szabályok**: `AB -> AC`, `A -> a`.
-    - **két nemterminális szimbólumot** **egy nemterminális** és **egy terminális** szimbólumra cserélnek, vagy **egy nemterminális szimbólumot egy terminális szimbólumra**.
+    - **két nemterminális szimbólumot** **egy nemterminális** és **egy másik nemterminális** szimbólumra cserélnek, vagy **egy nemterminális szimbólumot egy terminális szimbólumra**.
   - **Geffert-normálformák:**
     - **Szabályok**: Speciális környezetfüggő nyelvtan normálformák.
     - **speciális környezetfüggő** nyelvtanokat egyszerűsítenek
