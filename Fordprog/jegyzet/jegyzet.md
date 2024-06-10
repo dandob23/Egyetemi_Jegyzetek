@@ -135,15 +135,27 @@
 
 ### Algoritmusok és Szintaxis
 
-#### CYK Algoritmus
-- A **Chomsky normálformájú nyelvekben, a szavak felismerésére használt algoritmus**.
-- **Példa**: A szó `"aabb"` felismerése egy **környezetfüggetlen** nyelvtan segítségével.
-- **dinamikus programozást** használ a szó **minden lehetséges szakaszának ellenőrzésére**, hogy megfelel-e a Chomsky normálformában definiált szabályoknak.
+
+### Algoritmusok működése
+#### CYK (Cocke-Younger-Kasami) Algoritmus
+-   A  **Chomsky normálformájú környezetfüggetlen nyelvekben, a szavak felismerésére használt algoritmus**.
+-   **dinamikus programozást**  használ a szó  **minden lehetséges szakaszának ellenőrzésére**, hogy megfelel-e a Chomsky normálformában definiált szabályoknak.
+- **Működés**:
+  1. **Tábla inicializálása**: **háromszög alakú táblázat**, ahol **a cellák jelölik a szótöredékeket**.
+  2. **Alap esetek kitöltése**: **a szó minden egyes betűjének azonosítása** a szabályok alapján, **első sor celláinak kitöltése**.
+  3. **Rekurzív kitöltés**: **táblázaton** való **végig haladás**, minden cellánál **a két alsó cellából generálható kombinációk megnézése** a nyelvtan szabályai alapján
+  4. **Elfogadás ellenőrzése**: Ha **a kezdő szimbólum** a legfelső cellában **megtalálható**, a szó **elfogadható**.
+- **Példa**: Az `"aabb"` szó felismerésekor a táblázat kitöltése során az `S -> AB`, `A -> a`, és `B -> b` szabályokat használjuk.
 
 #### Early Algoritmus
-- **Környezetfüggetlen nyelvek elemzésére használjuk**, ahol **nincs szükség Chomsky normálformára**.
-- **Példa**: A szó `"aabb"` felismerése egy **általános környezetfüggetlen** nyelvtan segítségével.
-- egy rugalmasabb elemzési módszer, amely lehetővé teszi a nyelvtan **közvetlen elemzését anélkül, hogy először Chomsky normálformára kellene átalakítani**.
+-  **Környezetfüggetlen nyelvek elemzésére használjuk**
+-  **Nincs szükség Chomsky normálformára átalakításra**.
+- **Működés**:
+  1. **Kezdőállapot inicializálása**: **kezdő szimbólum hozzáadása a kezdő állapothoz**, **üres tábla létrehozása** a szóra
+  2. **Szabályok alkalmazása**: a nyelvtan **szabályainak alkalmazása minden állapotban**, új **nemterminális szimbólumok generálása**
+  3. **Predikció és visszalépés**: további **szabályok prediktálása** a nemterminális szimbólumok alapján, **szükség esetén visszalép** az előző állapotra
+  4. **Elfogadás ellenőrzése**: a szó **elfogadható**, ha **a teljes szót bejárta**, a kezdő szimbólum **visszajut a kiinduló állapotba**
+- **Példa**: Az `"aabb"` szó elemzésekor a szabályok közvetlen alkalmazásával és predikcióval vizsgálja, hogy a szó megfelel-e a nyelvtannak anélkül, hogy előzetesen Chomsky normálformára alakítaná.
 
 #### Szintaxis Gráf
 - Az automata **állapotainak** és **átmeneteinek ábrázolása gráfként**.
