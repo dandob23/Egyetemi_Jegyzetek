@@ -175,13 +175,45 @@
 ![fordito](https://github.com/dandob23/jegyzetek/blob/main/Fordprog/jegyzet/ForditoProgramFelepitese.png)
 
 #### Felépítés
-- **Forráskód -> Source handler -> Lista**
-  - **Compiler**
-  - **Code handler -> Tárgynyelvű program**
-- **Compiler Komponensei**
-  - **Lexikális elemző**: Szimbólumsorozatok felismerése.
-  - **Szintaktikai elemző**: Szimbólumok helyes szintaxis szerint.
-  - **Szemantikai elemző**: Értelmezhetőség vizsgálata, például azonosítók összeadása.
+
+### Komponensek és Szerepük
+
+- **Forráskód**: A programozó által írt **eredeti program**.
+- **Source Handler**: A modul, amely **kezeli** **a forráskód beolvasását** és **előkészíti** azt **a fordításhoz**.
+- **Lista**: A forráskódból generált **szimbólumok listája**, amelyet **a fordítóprogram további feldolgozásra használ**.
+- **Compiler**: A program, amely **a forráskódot gépi kódra vagy köztes kódra fordítja**, hogy a program végrehajtható legyen.
+- **Code Handler**: A modul, amely **a fordított kódot kezeli**, **optimalizálja és előkészíti a tárgynyelvű program létrehozására**.
+- **Tárgynyelvű program**: **A végleges**, gép által végrehajtható **kód**.
+  
+
+### Compiler Komponensei
+
+#### Lexikális Elemző (tokenizáló)
+- az **input karaktersorozatot szimbólumsorozattá** (tokenekké) alakítja.
+- **Feladata**: 
+  - **Kiszedi a kommenteket, és a felesleges szóközöket**.
+  - A **lehető leghosszabb karaktersorozatokból** építi fel a szimbólumokat *(pl. "kiskutya" egy 8 betűs szimbólum = 1 egység / 1 jel)*.
+  - **Kulcsszavak felismerése** regex-szel vagy **kulcsszavakat tartalmazó táblázat** alapján.
+  - **Hibajelzéseket ad**, ha a bemenet nem felel meg a nyelv szabályainak.
+- **Példa**: A `"kiskutya"` szövegben az elemző felismeri a `"kiskutya"` szót, és tokenként adja meg.
+
+#### Szintaktikai Elemző
+- **ellenőrzi**, hogy **a szimbólumok helyes szintaktikai szerkezetet** alkotnak-e, és létrehozza a **szintaxisfát**.
+- **Feladata**:
+  - Ellenőrzi, hogy **a szimbólumok megfelelnek-e a nyelvtani szabályoknak**.
+  - **Konvertálja a szimbólumsorozatot** egy szintaxisfává.
+  - Elemző módszerek:
+    - **LL(k), LL(1)**: Felülről lefelé elemzés.
+    - **LR(k), LR(1)**: Alulról felfelé elemzés.
+- **Példa**: Az `if (x > 0) { x = x - 1; }` kódból a szintaktikai elemző **szintaxisfát épít**, amely **ábrázolja az if-et és a ciklust**.
+
+#### Szemantikai Elemző
+- **ellenőrzi a program jelentését és logikai összefüggéseit**.
+- **Feladata**:
+  - Értelmezhetőség vizsgálata, például **az azonosítók típusainak ellenőrzése**.
+  - **Biztosítja**, hogy az azonosítók és a műveletek **logikailag összhangban** vannak.
+  - például két azonosító **összeférhetőségének vizsgálata, típusellenőrzés**.
+- **Példa**: Az `int x = 5; x = x + 1.5;` kódban a szemantikai elemző **hibát jelez**, mivel **egy int és egy float** típusú érték összeadása **nem megengedett**.
 
 ### Egyéb Témakörök
 - **Formula vezérlésű gép**: Hardverek és szoftverek kombinációja magas szintű nyelvek értelmezésére.
