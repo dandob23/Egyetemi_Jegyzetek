@@ -124,6 +124,7 @@
 - **Példa**: Egy speciális véges automata, amely **komplex mintázatokat** képes előállítani.
 - **komplex, önhasonló struktúrákat képes generálni**
 - **Komplex mintázatok és struktúrák modellezésére és generálására**, például a számítógépes grafikában és a mintafelismerésben.
+- `megjegyzés: önhasonló = egy objektum vagy alakzat részei hasonlóak az egészhez / az alakzat kisebb méretű másolatai megtalálhatók az eredeti alakzaton belül / minden kisebb része hasonlít az egész alakzatra.`
 
 --- 
 
