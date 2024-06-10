@@ -30,34 +30,36 @@
 - #### Reguláris nyelvek
   - **Gyenge normálforma:**
     - **Szabályok**: `A -> aB` vagy `A -> a`.
-    - **Magyarázat**: Ebben a normálformában a szabályok egyszerűsítik a nyelvtant úgy, hogy minden szabály legfeljebb egy nemterminális és egy terminális szimbólumból állhat.
+    - minden szabály legfeljebb **egy nemterminális** és **egy terminális** szimbólumból állhat.
   - **Erős normálforma:**
     - **Szabályok**: `A -> BC` vagy `A -> a`.
-    - **Magyarázat**: Ebben a formában minden szabály vagy két nemterminális szimbólumra bontja a bal oldali nemterminálist, vagy egy terminális szimbólumra cseréli.
+    - minden szabály **vagy két nemterminális szimbólumra bontja a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
 
 - #### Lineáris nyelvek
   - **Lineáris nyelvek:**
     - **Szabályok**: `A -> uBv` vagy `A -> u`.
-    - **Magyarázat**: A szabályok lehetővé teszik, hogy egy nemterminális szimbólumot egy terminális szimbólumokból álló sorozatra és egy másik nemterminális szimbólumra bontsunk, megengedve a terminális szimbólumok közbeiktatását.
+    - **terminális szimbólumok közbeiktatása** : **egy nemterminális** szimbólumot **egy terminális szimbólumokból álló sorozatra** és **egy másik nemterminális** szimbólumra bontsunk.
 
 - #### Környezetfüggetlen nyelvek
   - **Chomsky-féle normálforma:**
     - **Szabályok**: `A -> BC` vagy `A -> a`.
-    - **Magyarázat**: Minden szabály vagy két nemterminális szimbólum kombinációjává alakítja a bal oldali nemterminálist, vagy egy terminális szimbólumra cseréli.
+    - vagy **két nemterminális szimbólum** kombinációjává alakítja **a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
   - **Greibach-féle normálforma:**
     - **Szabályok**: `A -> aα`.
-    - **Magyarázat**: A szabályok mindig egy terminális szimbólummal kezdődnek, amelyet egy (esetleg üres) nemterminális szimbólumsorozat követ.
+    - **egy terminális szimbólummal kezdődnek**, amelyet **egy** *(esetleg üres)* **nemterminális szimbólumsorozat** követ.
 
 - #### Környezetfüggő nyelvek
   - **Kuroda normálforma:**
     - **Szabályok**: Az összes környezetfüggő nyelvtan átalakítható erre a formára.
-    - **Magyarázat**: Ez a normálforma lehetővé teszi, hogy minden környezetfüggő nyelvtant egy egységesített formára alakítsunk át, ami megkönnyíti a nyelvtanok elemzését és feldolgozását.
+    - **minden környezetfüggő nyelvtant** egy egységesített formára alakítsunk át
+    - megkönnyíti a nyelvtanok **elemzését** és **feldolgozását**.
   - **Penttonen-féle normálforma:**
     - **Szabályok**: `AB -> AC`, `A -> a`.
-    - **Magyarázat**: A szabályok két nemterminális szimbólumot egy nemterminális és egy terminális szimbólumra cserélnek, vagy egy nemterminális szimbólumot egy terminális szimbólumra.
+    - **két nemterminális szimbólumot** **egy nemterminális** és **egy terminális** szimbólumra cserélnek, vagy **egy nemterminális szimbólumot egy terminális szimbólumra**.
   - **Geffert-normálformák:**
     - **Szabályok**: Speciális környezetfüggő nyelvtan normálformák.
-    - **Magyarázat**: Ezek a normálformák speciális környezetfüggő nyelvtanokat egyszerűsítenek, hogy megkönnyítsék a nyelvtan szerkezetének és viselkedésének elemzését.
+    - **speciális környezetfüggő** nyelvtanokat egyszerűsítenek
+    - megkönnyítik a nyelvtan **szerkezetének** és **viselkedésének elemzését**.
   
 #### Egyéb Normálformák
 - **Nulladik típushoz normálformák**: Speciális normálformák a 0. típusú nyelvekhez.
