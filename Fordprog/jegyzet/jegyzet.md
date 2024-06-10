@@ -132,18 +132,31 @@
 - **Cayley táblázat**: Véges csoportok műveleteinek ábrázolására szolgál.
 - **S(delta) függvény**: Az átmenetfüggvény speciális formája.
 
-### Algoritmusok és Lemma
+
+### Algoritmusok és Szintaxis
 
 #### CYK Algoritmus
-- **Környezetfüggetlen nyelvek elemzése**: Algoritmus a szavak felismerésére Chomsky normálformájú nyelvekben.
-- **Példa**: A szó "aabb" felismerése egy környezetfüggetlen nyelvtan segítségével.
+- A **Chomsky normálformájú nyelvekben, a szavak felismerésére használt algoritmus**.
+- **Példa**: A szó `"aabb"` felismerése egy **környezetfüggetlen** nyelvtan segítségével.
+- **dinamikus programozást** használ a szó **minden lehetséges szakaszának ellenőrzésére**, hogy megfelel-e a Chomsky normálformában definiált szabályoknak.
 
 #### Early Algoritmus
-- **Környezetfüggetlen nyelvek elemzése**: Nincs szükség Chomsky normálformára, általánosabb elemzési módszer.
+- **Környezetfüggetlen nyelvek elemzésére használjuk**, ahol **nincs szükség Chomsky normálformára**.
+- **Példa**: A szó `"aabb"` felismerése egy **általános környezetfüggetlen** nyelvtan segítségével.
+- egy rugalmasabb elemzési módszer, amely lehetővé teszi a nyelvtan **közvetlen elemzését anélkül, hogy először Chomsky normálformára kellene átalakítani**.
 
 #### Szintaxis Gráf
-- Az automata állapotainak és átmeneteinek ábrázolása gráfként.
-- **Lemma**: Bizonyítja, hogy egy adott nyelv szabályai szerint generálható.
+- Az automata **állapotainak** és **átmeneteinek ábrázolása gráfként**.
+- **Példa**: Egy **véges** automata állapotainak és az állapotok közötti átmenetek grafikus ábrázolása.
+- **vizuálisan jeleníti meg** az automata **működését**
+- **segíti** a nyelvtan és az automata közötti kapcsolat **megértését**.
+
+#### Lemma
+- **Bizonyítja**, hogy **egy adott nyelv** a szabályai szerint **generálható**.
+- **Példa**: A *Pumping lemma* bizonyítja, hogy **egy reguláris nyelv** esetén minden **elég** hosszú szó **felbontható három részre** úgy, hogy **a középső rész ismétlésével** **a szó továbbra is a nyelv része marad**.
+- **formális eszközként szolgál** a nyelv **tulajdonságainak igazolására**
+- segít az adott nyelv **kategorizálásában**.
+
 
 ### Fordítóprogramok
 
