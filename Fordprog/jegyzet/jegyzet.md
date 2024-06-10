@@ -12,6 +12,7 @@
 - **0. típus**: Mondatszerkezetű nyelvtanok – minden szabályra igaz, hogy bármelyik szimbólum helyettesíthető.
 - **1. típus**: Monoton és környezetfüggő nyelvek – a szabályok jobboldala hosszabb vagy egyenlő hosszúságú, mint a baloldala.
 - **2. típus**: Környezetfüggetlen nyelvek – szabályok alakja: `A -> u`, ahol `A` eleme `N`, `u` eleme `(T ∪ N)*`.
+  - `megjegyzés (T ∪ N)* = Az összes létező terminális és nem terminális jelek + üres szavak halmaza`
 - **3. típus**: Reguláris nyelvek – szabályok alakja: `A -> aB` vagy `A -> a` (jobblineáris) és `A -> Ba` vagy `A -> a` (ballineáris).
 #### Típusok
 - **0. típus**: Turing gép – minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
