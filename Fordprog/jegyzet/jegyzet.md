@@ -92,16 +92,26 @@
 
 
 ## Definíciók és Tételek!!!
-- **Üresszó lemma**: Minden környezetfüggetlen nyelv generálható környezetfüggő nyelvtannal is.
+- **Üresszó lemma** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Minden környezetfüggetlen nyelv generálható környezetfüggő nyelvtannal is.
 
-- **Erős normálforma** *DEFINÍCIÓ*: Két nyelvtan gyengén ekvivalens, ha csak az üres szóban térnek el.
-- **Greibach-féle normálforma** *DEFINÍCIÓ*: Egy környezet független nyelvtan Greibach-normálformában van, ha minden szabályára igaz, hogy `A -> ar` alakú, ahol `A eleme N`, `a eleme T`, `r eleme N*`.
+---
 
-- **Gyenge normálforma** *TÉTEL*:Minden reguláris nyelv generálhatü gyebge normálformájú reguláris nyelvtannal is.
-- **Erős normálforma** *TÉTEL* : Minden reguláris nyelvtanhoz van vele gyengén ekvivalens erps normálformájú reguláris nyelvtan is.
-- **Lineáris nyelvtanok** *TÉTEL*: Minden lineáris nyelv generálható gyenge normálformával is.
-- **Erős normálforma** *TÉTEL*: Minden lineáris nyelvtanhoz van vele gyengén ekvivalens erős normálforma is.
-- **Környezetfüggelten nyelvtanok** *TÉTEL*: Minden környezetfüggetlen nyelvtanhoz van vele gyengén ekvivalens Chomsky normálformájú nyelvtan is.
-- **Greibach-féle normálforma** *TÉTEL*: Minden környezetfüggetlen nyelvtanhoz van vele ekvivalens Greibach normál formájú nyelvtan.
-- **Környezetfüggő nyelvek normálformái** *TÉTEL*: Minden monoton nyelvtanhoz van vele ekvivalens Kuroda normál alakú nyelvtan is.
-- **2 fejű véges automaták** *TÉTEL*: A 2 fejű véges automaták éppen a lineáris nyelveket fogadják el.
+- ***TÉTEL*** | **Gyenge normálforma**  : &emsp; &nbsp; Minden reguláris nyelv generálható gyenge normálformájú reguláris nyelvtannal is.
+- ***TÉTEL*** | **Erős normálforma**  : &emsp; &emsp;&nbsp;&nbsp;&nbsp;&nbsp; Minden reguláris nyelvtanhoz van vele gyengén ekvivalens erős normálformájú reguláris nyelvtan is.
+- ***DEFINÍCIÓ*** | **Erős normálforma**  :  &emsp; Két nyelvtan gyengén ekvivalens, ha csak az üres szóban térnek el.
+
+---
+
+- ***TÉTEL*** | **Lineáris nyelvtanok** : &emsp;Minden lineáris nyelv generálható gyenge normálformával is.
+- ***TÉTEL*** | **Erős normálforma** : &emsp;&emsp;Minden lineáris nyelvtanhoz van vele gyengén ekvivalens erős normálforma is.
+
+---
+
+- ***TÉTEL*** | **Környezetfüggelten nyelvtanok** : &emsp;Minden környezetfüggetlen nyelvtanhoz van vele gyengén ekvivalens Chomsky normálformájú nyelvtan is.
+- ***TÉTEL*** | **Greibach-féle normálforma** : &emsp;&emsp;&emsp;&emsp;Minden környezetfüggetlen nyelvtanhoz van vele ekvivalens Greibach normál formájú nyelvtan.
+- ***DEFINÍCIÓ*** | **Greibach-féle normálforma** : &emsp;&nbsp;Egy környezetfüggetlen nyelvtan Greibach-normálformában van, ha minden szabályára igaz, hogy `A -> ar` alakú, ahol `A eleme N`, `a eleme T`, `r eleme N*`.
+
+---
+
+- ***TÉTEL*** | **Környezetfüggő nyelvek normálformái** : &emsp;Minden monoton nyelvtanhoz van vele ekvivalens Kuroda normál alakú nyelvtan is.
+- ***TÉTEL*** | **2 fejű véges automaták** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;A 2 fejű véges automaták éppen a lineáris nyelveket fogadják el.
