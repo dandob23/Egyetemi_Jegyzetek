@@ -16,6 +16,8 @@
 - **3. típus**: Reguláris nyelvek – szabályok alakja: `A -> aB` vagy `A -> a` (jobblineáris) és `A -> Ba` vagy `A -> a` (ballineáris).
 #### Típusok
 - **0. típus**: Turing gép – minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
+  - `megjegyzés: determinisztikus = minden állapotban egyértelműen meghatározott, hogy mi lesz a következő állapot a jelenlegi állapot és a bemeneti érték alapján.`
+  - `megjegyzés: nemdeterminista = egy adott állapot és bemenet esetén több lehetséges következő állapot is létezhet, és nem egyértelmű, hogy melyik lesz a következő állapot.`
 - **1. típus**: Lineárisan korlátozott automata – egy Turing gép, amelynek szalagja csak egy előre meghatározott hosszúságú lehet.
 - **2. típus**: Veremautomata – olyan automata, amely egy veremet használ, determinisztikus és nemdeterminista változata is van.
   - **Egyszer forduló veremautomata**: Kétfejű véges automata, amely csak egyszer mehet végig a veremen.
