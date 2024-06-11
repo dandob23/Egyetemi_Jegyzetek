@@ -216,9 +216,9 @@
 - **Példa**: Az `int x = 5; x = x + 1.5;` kódban a szemantikai elemző **hibát jelez**, mivel **egy int és egy float** típusú érték összeadása **nem megengedett**.
 
 ### Egyéb Témakörök
-- **Formula vezérlésű gép**: Hardverek és szoftverek kombinációja magas szintű nyelvek értelmezésére.
-- **Interpreter**: Program, amely egy magas szintű nyelv utasításait közvetlenül végrehajtja.
-- **Hazug paradoxon**: Logikai paradoxon, amely egy állítás önellentmondását fogalmazza meg.
+- **Formula vezérlésű gép**: Hardver útján értelmezi a magasszintű nyelvet.
+- **Interpreter**: Szoftver útján értelmezi a magasszintű nyelvet.
+- **Hazug paradoxon**: Nem lehet sem igaz, sem hamis.
 - **Halting-probléma**: Az a kérdés, hogy egy adott program megáll-e véges időn belül egy adott bemenetre.
 
 
