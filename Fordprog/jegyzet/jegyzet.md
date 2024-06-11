@@ -86,6 +86,9 @@
     - **Szabályok**: Az összes környezetfüggő nyelvtan átalakítható erre a formára.
     - **minden környezetfüggő nyelvtant** egy egységesített formára alakítsunk át
     - megkönnyíti a nyelvtanok **elemzését** és **feldolgozását**.
+    - Példa: 
+      - Eredeti szabály: `A -> BC`
+      - Kuroda normálformában: `AB -> CD`, `A -> a`
   - **Penttonen-féle normálforma:**
     - **Szabályok**: `AB -> AC`, `A -> a`.
     - **két nemterminális szimbólumot** **egy nemterminális** és **egy másik nemterminális** szimbólumra cserélnek, vagy **egy nemterminális szimbólumot egy terminális szimbólumra**.
@@ -93,6 +96,9 @@
     - **Szabályok**: Speciális környezetfüggő nyelvtan normálformák.
     - **speciális környezetfüggő** nyelvtanokat egyszerűsítenek
     - megkönnyítik a nyelvtan **szerkezetének** és **viselkedésének elemzését**.
+    - Példa: 
+      - Eredeti szabály: `A -> BCD`
+      - Geffert-normálformában: `AB -> AC`, `B -> b`
   
 
 ### Egyéb Normálformák
