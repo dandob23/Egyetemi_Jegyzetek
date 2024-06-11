@@ -150,7 +150,7 @@
 ### Algoritmusok működése
 #### CYK (Cocke-Younger-Kasami) Algoritmus
 -   A  **Chomsky normálformájú környezetfüggetlen nyelvekben, a szavak felismerésére használt algoritmus**.
--   **dinamikus programozást**  használ a szó  **minden lehetséges szakaszának ellenőrzésére**, hogy megfelel-e a Chomsky normálformában definiált szabályoknak.
+-   a szó  **minden lehetséges szakaszát ellenőrzi**, hogy megfelel-e a Chomsky normálformában definiált szabályoknak.
 - **Működés**:
   - **Tábla inicializálása**: **háromszög alakú táblázat**, ahol **a cellák jelölik a szótöredékeket**.
   - **Alap esetek kitöltése**: **a szó minden egyes betűjének azonosítása** a szabályok alapján, **első sor celláinak kitöltése**.
