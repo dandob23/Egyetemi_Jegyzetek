@@ -48,57 +48,68 @@
 - **3. típus**: Véges automaták (Determ, nemdeterm) – állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
 
 ### Normálformák
+#### Reguláris nyelvek
 
-- #### Reguláris nyelvek
-  - **Gyenge normálforma:**
-    - **Szabályok**: `A -> aB` vagy `A -> a`.
-    - minden szabály legfeljebb **egy nemterminális** és **egy terminális** szimbólumból állhat.
-    - ***TÉTEL*** | **Gyenge normálforma**  : &emsp; &nbsp; Minden reguláris nyelv generálható gyenge normálformájú reguláris nyelvtannal is.
-  - **Erős normálforma:**
-    - **Szabályok**: `A -> BC` vagy `A -> a`.
-    - minden szabály **vagy két nemterminális szimbólumra bontja a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
-    - ***TÉTEL*** | **Erős normálforma**  : &emsp; &emsp;&nbsp;&nbsp;&nbsp;&nbsp; Minden reguláris nyelvtanhoz van vele gyengén ekvivalens erős normálformájú reguláris nyelvtan is.
-    - ***DEFINÍCIÓ*** | **Erős normálforma**  :  &emsp; Két nyelvtan gyengén ekvivalens, ha csak az üres szóban térnek el.
-    - ***TÉTEL*** | **Erős normálforma** : &emsp;&emsp;Minden lineáris nyelvtanhoz van vele gyengén ekvivalens erős normálforma is.
-      
-- #### Lineáris nyelvek
-  - **Lineáris nyelvek:**
-    - **Szabályok**: `A -> uBv` vagy `A -> u`.
-    - **terminális szimbólumok közbeiktatása** : **egy terminális szimbólumokból álló sorozatra** és **egy másik nemterminális** szimbólumra bontsunk.
-    - ***TÉTEL*** | **Lineáris nyelvtanok** : &emsp;Minden lineáris nyelv generálható gyenge normálformával is.
-    - ***TÉTEL*** | **2 fejű véges automaták** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;A 2 fejű véges automaták éppen a lineáris nyelveket fogadják el.
+- **Gyenge normálforma:**
+  - **Szabályok**: `A -> aB` vagy `A -> a`.
+  - Minden szabály legfeljebb **egy nemterminális** és **egy terminális** szimbólumból állhat.
+  - ***TÉTEL*** | **Gyenge normálforma**  : Minden reguláris nyelv generálható gyenge normálformájú reguláris nyelvtannal is.
 
-- #### Környezetfüggetlen nyelvek
-  - ***TÉTEL*** | **Környezetfüggelten nyelvtanok** : &emsp;Minden környezetfüggetlen nyelvtanhoz van vele gyengén ekvivalens Chomsky normálformájú nyelvtan is.
-  - **Üresszó lemma** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Minden környezetfüggetlen nyelv generálható környezetfüggő nyelvtannal is.
-  - **Chomsky-féle normálforma:**
-    - **Szabályok**: `A -> BC` vagy `A -> a`.
-    - vagy **két nemterminális szimbólum** kombinációjává alakítja **a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
-  - **Greibach-féle normálforma:**
-    - **Szabályok**: `A -> aα`.
-    - **egy terminális szimbólummal kezdődnek**, amelyet **egy** *(esetleg üres)* **nemterminális szimbólumsorozat** követ.
-    - ***TÉTEL*** | **Greibach-féle normálforma** : &emsp;&emsp;&emsp;&emsp;Minden környezetfüggetlen nyelvtanhoz van vele ekvivalens Greibach normál formájú nyelvtan.
-    - ***DEFINÍCIÓ*** | **Greibach-féle normálforma** : &emsp;&nbsp;Egy környezetfüggetlen nyelvtan Greibach-normálformában van, ha minden szabályára igaz, hogy `A -> ar` alakú, ahol `A eleme N`, `a eleme T`, `r eleme N*`.
+- **Erős normálforma:**
+  - **Szabályok**: `A -> BC` vagy `A -> a`.
+  - Minden szabály **vagy két nemterminális szimbólumra bontja a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
+  - ***TÉTEL*** | **Erős normálforma**  : Minden reguláris nyelvtanhoz van vele gyengén ekvivalens erős normálformájú reguláris nyelvtan is.
+  - ***DEFINÍCIÓ*** | **Erős normálforma**  : Két nyelvtan gyengén ekvivalens, ha csak az üres szóban térnek el.
+  - ***TÉTEL*** | **Erős normálforma** : Minden lineáris nyelvtanhoz van vele gyengén ekvivalens erős normálforma is.
 
-- #### Környezetfüggő nyelvek
-  - ***TÉTEL*** | **Környezetfüggő nyelvek normálformái** : &emsp;Minden monoton nyelvtanhoz van vele ekvivalens Kuroda normál alakú nyelvtan is.
-  - **Kuroda normálforma:**
-    - **Szabályok**: Az összes környezetfüggő nyelvtan átalakítható erre a formára.
-    - **minden környezetfüggő nyelvtant** egy egységesített formára alakítsunk át
-    - megkönnyíti a nyelvtanok **elemzését** és **feldolgozását**.
-    - Példa: 
-      - Eredeti szabály: `A -> BC`
-      - Kuroda normálformában: `AB -> CD`, `A -> a`
-  - **Penttonen-féle normálforma:**
-    - **Szabályok**: `AB -> AC`, `A -> a`.
-    - **két nemterminális szimbólumot** **egy nemterminális** és **egy másik nemterminális** szimbólumra cserélnek, vagy **egy nemterminális szimbólumot egy terminális szimbólumra**.
-  - **Geffert-normálformák:**
-    - **Szabályok**: Speciális környezetfüggő nyelvtan normálformák.
-    - **speciális környezetfüggő** nyelvtanokat egyszerűsítenek
-    - megkönnyítik a nyelvtan **szerkezetének** és **viselkedésének elemzését**.
-    - Példa: 
-      - Eredeti szabály: `A -> BCD`
-      - Geffert-normálformában: `AB -> AC`, `B -> b`
+#### Lineáris nyelvek
+
+- **Lineáris nyelvek:**
+  - **Szabályok**: `A -> uBv` vagy `A -> u`.
+  - **Terminális szimbólumok közbeiktatása**: **Egy terminális szimbólumokból álló sorozatra** és **egy másik nemterminális** szimbólumra bontsunk.
+  - ***TÉTEL*** | **Lineáris nyelvtanok** : Minden lineáris nyelv generálható gyenge normálformával is.
+  - ***TÉTEL*** | **2 fejű véges automaták** : A 2 fejű véges automaták éppen a lineáris nyelveket fogadják el.
+
+#### Környezetfüggetlen nyelvek
+
+- ***TÉTEL*** | **Környezetfüggetlen nyelvtanok** : Minden környezetfüggetlen nyelvtanhoz van vele gyengén ekvivalens Chomsky normálformájú nyelvtan is.
+- **Üresszó lemma** : Minden környezetfüggetlen nyelv generálható környezetfüggő nyelvtannal is.
+- **Chomsky-féle normálforma:**
+  - **Szabályok**: `A -> BC` vagy `A -> a`.
+  - Vagy **két nemterminális szimbólum** kombinációjává alakítja **a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
+  - Példa: 
+    - Eredeti szabály: `A -> BCD`
+    - Chomsky-féle normálformában: `A -> BC`, `B -> a`
+- **Greibach-féle normálforma:**
+  - **Szabályok**: `A -> aα`.
+  - **Egy terminális szimbólummal kezdődnek**, amelyet **egy** *(esetleg üres)* **nemterminális szimbólumsorozat** követ.
+  - ***TÉTEL*** | **Greibach-féle normálforma** : Minden környezetfüggetlen nyelvtanhoz van vele ekvivalens Greibach normál formájú nyelvtan.
+  - ***DEFINÍCIÓ*** | **Greibach-féle normálforma** : Egy környezetfüggetlen nyelvtan Greibach-normálformában van, ha minden szabályára igaz, hogy `A -> ar` alakú, ahol `A eleme N`, `a eleme T`, `r eleme N*`.
+
+#### Környezetfüggő nyelvek
+
+- ***TÉTEL*** | **Környezetfüggő nyelvek normálformái** : Minden monoton nyelvtanhoz van vele ekvivalens Kuroda normál alakú nyelvtan is.
+- **Kuroda normálforma:**
+  - **Szabályok**: Az összes környezetfüggő nyelvtan átalakítható erre a formára.
+  - **Minden környezetfüggő nyelvtant** egy egységesített formára alakítsunk át
+  - Megkönnyíti a nyelvtanok **elemzését** és **feldolgozását**.
+  - Példa: 
+    - Eredeti szabály: `A -> BC`
+    - Kuroda normálformában: `AB -> CD`, `A -> a`
+- **Penttonen-féle normálforma:**
+  - **Szabályok**: `AB -> AC`, `A -> a`.
+  - **Két nemterminális szimbólumot** **egy nemterminális** és **egy másik nemterminális** szimbólumra cserélnek, vagy **egy nemterminális szimbólumot egy terminális szimbólumra**.
+  - Példa: 
+    - Eredeti szabály: `A -> BCD`
+    - Penttonen-féle normálformában: `AB -> AC`, `A -> a`
+- **Geffert-normálformák:**
+  - **Szabályok**: Speciális környezetfüggő nyelvtan normálformák.
+  - **Speciális környezetfüggő** nyelvtanokat egyszerűsítenek
+  - Megkönnyítik a nyelvtan **szerkezetének** és **viselkedésének elemzését**.
+  - Példa: 
+    - Eredeti szabály: `A -> BCD`
+    - Geffert-normálformában: `AB -> AC`, `B -> b`
+
   
 
 ### Egyéb Normálformák
