@@ -251,7 +251,7 @@
 - **Feladata**: 
   - **Kiszedi a kommenteket, és a felesleges szóközöket**.
   - A **lehető leghosszabb karaktersorozatokból** építi fel a szimbólumokat *(pl. "kiskutya" egy 8 betűs szimbólum = 1 egység / 1 jel)*.
-  - **Kulcsszavak felismerése** regex-szel vagy **kulcsszavakat tartalmazó táblázat** alapján.
+  - //**Kulcsszavak felismerése** regex-szel vagy **kulcsszavakat tartalmazó táblázat** alapján.
   - **Hibajelzéseket ad**, ha a bemenet nem felel meg a nyelv szabályainak.
 - **Példa**: A `"kiskutya"` szövegben az elemző felismeri a `"kiskutya"` szót, és tokenként adja meg.
 
