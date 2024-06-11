@@ -58,6 +58,7 @@
 - **Erős normálforma:**
   - **Szabályok**: `A -> BC` vagy `A -> a`.
   - Minden szabály **vagy két nemterminális szimbólumra bontja a bal oldali nemterminálist**, vagy **egy terminális** szimbólumra cseréli.
+  - Nincs láncszabály `A -> B` és nincs üresszó
   - ***TÉTEL*** | **Erős normálforma**  : Minden reguláris nyelvtanhoz van vele gyengén ekvivalens erős normálformájú reguláris nyelvtan is.
   - ***DEFINÍCIÓ*** | **Erős normálforma**  : Két nyelvtan gyengén ekvivalens, ha csak az üres szóban térnek el.
   - ***TÉTEL*** | **Erős normálforma** : Minden lineáris nyelvtanhoz van vele gyengén ekvivalens erős normálforma is.
@@ -67,6 +68,7 @@
 - **Lineáris nyelvek:**
   - **Szabályok**: `A -> uBv` vagy `A -> u`.
   - **Terminális szimbólumok közbeiktatása**: **Egy terminális szimbólumokból álló sorozatra** és **egy másik nemterminális** szimbólumra bontsunk.
+  - jobblineáris (reguláris) `C -> abcX` / ballineáris `X -> Bde`
   - ***TÉTEL*** | **Lineáris nyelvtanok** : Minden lineáris nyelv generálható gyenge normálformával is.
   - ***TÉTEL*** | **2 fejű véges automaták** : A 2 fejű véges automaták éppen a lineáris nyelveket fogadják el.
 
