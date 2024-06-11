@@ -88,6 +88,9 @@
 - megkönnyíti a nyelvtanok **feldolgozását és elemzését**.
   
 ### Reguláris kifejezések ekvivalenciái
+####Kleene-csillag
+- (r*): Lehetővé teszi egy kifejezés tetszőleges számú **ismétlését** *(iteráció)*.
+
 #### Asszociatív
 - `(a + b) + c = a + (b + c)`.
 - **a kifejezések csoportosítása nem befolyásolja az eredményt**. 
@@ -109,6 +112,11 @@
 - **Példa:** `ab^c`
 - nem tartalmaznak alternatívákat a reguláris kifejezésekben. 
 - Ezek a nyelvek **egyszerűbb struktúrával rendelkeznek**, mivel **nem használnak uniót**.
+  
+#### Konkatenáció
+- **Szabály**: Két reguláris kifejezés egymás után írása.
+- **Példa**: `ab` elfogadja a `c` és `d` kifejezéseket `cd` formában.
+- **két reguláris kifejezést egyetlen kifejezésként kezelünk**, ahol **az egyik** kifejezés **követi a másikat**.
 
 ---
 
