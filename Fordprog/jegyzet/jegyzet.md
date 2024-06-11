@@ -110,7 +110,7 @@
 - megkönnyíti a nyelvtanok **feldolgozását és elemzését**.
   
 ### Reguláris kifejezések ekvivalenciái
-####Kleene-csillag
+#### Kleene-csillag
 - (r*): Lehetővé teszi egy kifejezés tetszőleges számú **ismétlését** *(iteráció)*.
 
 #### Asszociatív
