@@ -7,7 +7,29 @@
 - **S**: Kezdő szimbólum – a nyelvtan kiindulási pontja, amiből a mondatok generálhatók.
 - **Zárt szóhalmaz**: Az összes szóból és az üres szóból álló halmaz.
 - **Üresszó lemma**: Az állítás, miszerint egy környezetfüggetlen nyelv csak akkor tartalmazza az üres szót, ha a kezdő szimbólum levezeti az üres szót.
-
+---
+### Chomsky Hierarchia és Automatatípusok
+#### 0. típus: Mondatszerkezetű nyelvtanok
+- **Nyelvtan**: Minden szabályra igaz, hogy bármelyik szimbólum helyettesíthető.
+- **Automata**: Turing-gép (Determinisztikus és nemdeterminista)
+  - **Magyarázat**: Minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
+#### 1. típus: Kontextusfüggő nyelvtanok
+- **Nyelvtan**: A szabályok jobboldala hosszabb vagy egyenlő hosszúságú, mint a baloldala.
+- **Automata**: Lineárisan korlátolt automata (Árnyékveremautomata)
+  - **Magyarázat**: Egy Turing-gép, amelynek szalagja csak egy előre meghatározott hosszúságú lehet.
+#### 2. típus: Környezetfüggetlen nyelvtanok
+- **Nyelvtan**: Szabályok alakja: `A -> u`, ahol `A` eleme `N`, `u` eleme `(T ∪ N)*`.
+- **Automata**: Veremautomata (Fraktálautomata, végtelenállapotú automata)
+  - **Magyarázat**: Olyan automata, amely egy veremet használ, determinisztikus és nemdeterminista változata is van.
+#### 2.5 típus: Lineáris nyelvtanok
+- **Nyelvtan**: Speciális eset a környezetfüggetlen nyelvtanok között.
+- **Automata**: Egyszer forduló veremautomata (Kétfejű véges automata)
+  - **Magyarázat**: Kétfejű véges automata, amely csak egyszer mehet végig a veremen.
+#### 3. típus: Reguláris nyelvtanok
+- **Nyelvtan**: Szabályok alakja: `A -> aB` vagy `A -> a` (jobblineáris) és `A -> Ba` vagy `A -> a` (ballineáris).
+- **Automata**: Véges automaták (Determinisztikus és nemdeterminista)
+  - **Magyarázat**: Állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
+---
 #### Chomsky Hierarchia
 - **0. típus**: Mondatszerkezetű nyelvtanok – minden szabályra igaz, hogy bármelyik szimbólum helyettesíthető.
 - **1. típus**: Monoton és környezetfüggő nyelvtanok – a szabályok jobboldala hosszabb vagy egyenlő hosszúságú, mint a baloldala.
