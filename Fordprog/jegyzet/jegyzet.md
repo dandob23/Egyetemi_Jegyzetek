@@ -64,7 +64,7 @@
 - #### Lineáris nyelvek
   - **Lineáris nyelvek:**
     - **Szabályok**: `A -> uBv` vagy `A -> u`.
-    - **terminális szimbólumok közbeiktatása** : **egy nemterminális** szimbólumot **egy terminális szimbólumokból álló sorozatra** és **egy másik nemterminális** szimbólumra bontsunk.
+    - **terminális szimbólumok közbeiktatása** : **egy terminális szimbólumokból álló sorozatra** és **egy másik nemterminális** szimbólumra bontsunk.
     - ***TÉTEL*** | **Lineáris nyelvtanok** : &emsp;Minden lineáris nyelv generálható gyenge normálformával is.
     - ***TÉTEL*** | **2 fejű véges automaták** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;A 2 fejű véges automaták éppen a lineáris nyelveket fogadják el.
 
