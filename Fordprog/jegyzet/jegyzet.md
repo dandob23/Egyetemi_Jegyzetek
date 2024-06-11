@@ -16,15 +16,14 @@
   - `megjegyzés (T ∪ N)* = Az összes létező terminális és nem terminális jelek + üres szavak halmaza`
 - **3. típus**: Reguláris nyeltanok – szabályok alakja: `A -> aB` vagy `A -> a` (jobblineáris) és `A -> Ba` vagy `A -> a` (ballineáris).
 #### Típusok
-- **0. típus**: Turing gép – minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
+- **0. típus**: Turing gép (Determ, nemdeterm) – minden számítható feladat megoldására képes, determinisztikus és nemdeterminista változata is van.
   - `megjegyzés: determinisztikus = minden állapotban egyértelműen meghatározott, hogy mi lesz a következő állapot a jelenlegi állapot és a bemeneti érték alapján.`
   - `megjegyzés: nemdeterminista = egy adott állapot és bemenet esetén több lehetséges következő állapot is létezhet, és nem egyértelmű, hogy melyik lesz a következő állapot.`
-- **1. típus**: Lineárisan korlátozott automata – egy Turing gép, amelynek szalagja csak egy előre meghatározott hosszúságú lehet.
-- **2. típus**: Veremautomata – olyan automata, amely egy veremet használ, determinisztikus és nemdeterminista változata is van.
-  - **Egyszer forduló veremautomata**: Kétfejű véges automata, amely csak egyszer mehet végig a veremen.
+- **1. típus**: Lineárisan korlátolt automata (Árnyékveremautomata) – egy Turing gép, amelynek szalagja csak egy előre meghatározott hosszúságú lehet.
+- **2. típus**: Veremautomata (Fraktálautomata, végtelenállapotú automata) – olyan automata, amely egy veremet használ, determinisztikus és nemdeterminista változata is van.
+  - **2.5 típus** Egyszer forduló veremautomata (2 fejű véges nemdeterm. automata) - Kétfejű véges automata, amely csak egyszer mehet végig a veremen.
   - `megjegyzés: verem = egy adatstruktúra, amely az elemeket LIFO (Last In, First Out - utolsóként be, elsőként ki) sorrendben kezeli, vagyis az utoljára betett elem kerül először kivételre. (Pl: szövegszerkesztő visszavonás funkció)`
-- **3. típus**: Véges automaták – állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
-  - **2 fejű véges automaták**: Olyan véges automaták, amelyek két olvasó fejjel rendelkeznek.
+- **3. típus**: Véges automaták (Determ, nemdeterm) – állapotok és átmenetek véges halmazával dolgoznak, determinisztikus és nemdeterminista változata is van.
 
 ### Normálformák
 
