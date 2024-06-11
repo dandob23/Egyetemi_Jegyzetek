@@ -152,20 +152,20 @@
 -   A  **Chomsky normálformájú környezetfüggetlen nyelvekben, a szavak felismerésére használt algoritmus**.
 -   a szó  **minden lehetséges szakaszát ellenőrzi**, hogy megfelel-e a Chomsky normálformában definiált szabályoknak.
 - **Működés**:
-  - **Tábla inicializálása**: **háromszög alakú táblázat**, ahol **a cellák jelölik a szótöredékeket**.
-  - **Alap esetek kitöltése**: **a szó minden egyes betűjének azonosítása** a szabályok alapján, **első sor celláinak kitöltése**.
-  - **Rekurzív kitöltés**: **táblázaton** való **végig haladás**, minden cellánál **a két alsó cellából generálható kombinációk megnézése** a nyelvtan szabályai alapján
-  - **Elfogadás ellenőrzése**: Ha **a kezdő szimbólum** a legfelső cellában **megtalálható**, a szó **elfogadható**.
+  - **háromszög alakú táblázat**, ahol maguk **a cellák jelölik a szótöredékeket**.
+  - **a szó minden egyes betűjét** a szabályok alapján leírjuk az **első sor celláiba**.
+  - **végig haladunk a táblázaton**, úgy, hogy **a két alsó cellából generálható kombinációt megnézzük** a nyelvtan szabályai alapján
+  - Ha **a kezdő szimbólum** a legfelső cellában **megtalálható**, a szó **elfogadható**.
 - **Példa**: Az `"aabb"` szó felismerésekor a táblázat kitöltése során az `S -> AB`, `A -> a`, és `B -> b` szabályokat használjuk.
 
 #### Early Algoritmus
 -  **Környezetfüggetlen nyelvek elemzésére használjuk**
 -  **Nincs szükség Chomsky normálformára átalakításra**.
 - **Működés**:
-  - **Kezdőállapot inicializálása**: **kezdő szimbólum hozzáadása a kezdő állapothoz**, **üres tábla létrehozása** a szóra
-  - **Szabályok alkalmazása**: a nyelvtan **szabályainak alkalmazása minden állapotban**, új **nemterminális szimbólumok generálása**
-  - **Predikció és visszalépés**: további **szabályok prediktálása** a nemterminális szimbólumok alapján, **szükség esetén visszalép** az előző állapotra
-  - **Elfogadás ellenőrzése**: a szó **elfogadható**, ha **a teljes szót bejárta**, a kezdő szimbólum **visszajut a kiinduló állapotba**
+  - **a kezdő szimbólumot hozzáadjuk a kezdő állapothoz**, a szóra létrehoznuk egy üres táblát
+  - új nemterminális szimbólumokat generálunk a nyelvtan szabályai alapján
+  - további **szabályokat prediktál a nemterminális szimbólumok alapján**, ha kell visszalép az előző állapotra
+  - a szó **elfogadható**, ha **az algoritmus bejárta a teljes szót**, a kezdő szimbólum pedig **visszajut a kiinduló állapotba**
 - **Példa**: Az `"aabb"` szó elemzésekor a szabályok közvetlen alkalmazásával és predikcióval vizsgálja, hogy a szó megfelel-e a nyelvtannak anélkül, hogy előzetesen Chomsky normálformára alakítaná.
 
 #### Szintaxis Gráf
