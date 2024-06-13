@@ -1,65 +1,88 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet a többszalagos Turing-gépről:
-
 ### Többszalagos Turing-gép
 
-#### Többszalagos Turing-gép definíciója
+**Formális definíció**:  
+\[ T = \langle k, \Sigma, Q, q_0, F, \delta \rangle \]
 
-- **Elemei:**
-  - \( k \): szalagok száma
-  - \(\Sigma\): szalagjelek (betűk) halmaza
-  - \( Q \): állapotok halmaza
-  - \( q_0 \): kezdőállapot
-  - \( F \): elfogadó állapotok halmaza
-  - \(\delta\): állapotátmenetfüggvény
+- \( k \): szalagok száma, \( k \geq 1 \)
+- \( \Sigma \): szalagjelek (betűk) halmaza, \( \triangleright, \sqcup \in \Sigma \)
+- \( Q \): állapotok halmaza, \( Q \ne \emptyset \)
+- \( q_0 \): kezdőállapot, \( q_0 \in Q \)
+- \( F \): elfogadó állapotok halmaza, \( F \subseteq Q \)
+- \( \delta \): (állapot)átmenetfüggvény
 
-#### Átmenetfüggvény (\(\delta\))
+**Átmenetfüggvény**:  
+Milyen paraméterekkel és milyen függvényértékkel?
 
-- **Paraméterek:**
-  - Aktuális állapot
-  - Aktuálisan olvasott \( k \) db. betű: \( a_1, a_2, ..., a_k \)
-- **Visszaadott értékek:**
-  - Következő állapot
-  - \( k \) db. betű, amit a szalagra írunk vissza: \( b_1, b_2, ..., b_k \)
-  - \( k \) db. fejmozgás irány: \( m_1, m_2, ..., m_k \)
+- 1 db. vezérlő, azaz 1 db. állapot
+- \( k \) db. szalag van, ezért:
+  - \( k \) db. betűt olvas: \( \sigma_1, \ldots, \sigma_k \)
+  - \( k \) db. betűt ír: \( \sigma_1', \ldots, \sigma_k' \)
+  - \( k \) db. mozgást végez: \( m_1, \ldots, m_k \)
 
-#### Konfigurációk
+\[ \delta(q, \sigma_1, \ldots, \sigma_k) = (q', \sigma_1', m_1, \ldots, \sigma_k', m_k) \]
 
-- **Egyszalagos Turing-gép esetén:**
-  - \( (q, \alpha a \beta) \), ahol \(\alpha\) és \(\beta\) a szalag bal és jobb oldala, \( a \) pedig az aktuálisan olvasott betű
-- **Többszalagos Turing-gép esetén:**
-  - \( (q, \alpha_1 a_1 \beta_1, \alpha_2 a_2 \beta_2, ..., \alpha_k a_k \beta_k) \)
+### Többszalagos Turing-gép használata
 
-#### Szalagok típusa
+\[ T = \langle k, \Sigma, Q, q_0, F, \delta \rangle \]
 
-- **Inputszalag:** Az input szó induláskor ide kerül
-- **Outputszalag:** Megálláskor az output szót innen olvassuk ki
-- **Munkaszalagok:** Átmeneti adatok tárolására szolgálnak a futtatás során
+- \( k \): szalagok száma, \( k \geq 1 \)
+- \( \Sigma \): szalagjelek (betűk) halmaza, \( \triangleright, \sqcup \in \Sigma \)
+- \( Q \): állapotok halmaza, \( Q \ne \emptyset \)
+- \( q_0 \): kezdőállapot, \( q_0 \in Q \)
+- \( F \): elfogadó állapotok halmaza, \( F \subseteq Q \)
+- \( \delta \): (állapot)átmenetfüggvény,
+  \[ \delta: Q \times \Sigma^k \rightarrow Q \times \Sigma^k \times \{ \leftarrow, -, \rightarrow \}^k \]
+  
+\[ \delta(q, \sigma_1, \ldots, \sigma_k) = (q', \sigma_1', m_1, \ldots, \sigma_k', m_k) \]
 
-#### Kezdő- és megállási konfigurációk
+**Feltétel**:  
+Ha \( \sigma_i = \triangleright \), akkor \( \sigma_i' = \triangleright \) és \( m_i = \rightarrow \).
 
-- **Kezdőkonfiguráció:**
-  - Az input az 1. szalagon, a többi szalag üres
-- **Megállási konfiguráció:**
-  - \( \delta(q, a_1, a_2, ..., a_k) \) nincs értelmezve
+### Konfigurációk
 
-#### Közvetlen rákövetkezés
+**Egyszalagos Turing-gép esetén**:  
+\[ (q, u, v) \]
+ahol \( q \in Q \) és \( u, v \in \Sigma^* \)
 
-- Ha \( \delta(q, a_1, a_2, ..., a_k) = (q', b_1, b_2, ..., b_k, m_1, m_2, ..., m_k) \), akkor:
-  - \( q \rightarrow q' \)
-  - \( a_i \rightarrow b_i \) minden \( i \)-re
-  - A fej \( m_i \) irányba mozdul el minden \( i \)-re
+**Többszalagos Turing-gép esetén**:  
+\[ (q, u_1, v_1, \ldots, u_k, v_k) \]
+ahol \( q \in Q \) és \( u_i, v_i \in \Sigma^* \)
 
-#### Elfogadás és elutasítás
+### Szalagok funkciói
 
-- **Output meghatározása:**
-  - Ha van olyan megállási konfiguráció, hogy \( q \in F \), akkor:
-    - Ha \( q \in F \), elutasítja az inputot
-    - Ha \( q \in F \), elfogadja az inputot és az output az 1. szalagon található
+1. szalag = inputszalag  
+Az input szó induláskor ide helyezzük.
 
-#### Örökölt fogalmak
+\( k \)-dik szalag = outputszalag  
+Megálláskor az output szót innen olvashatjuk ki.
 
-- **Időkorlát**
-- **Eldöntött nyelv**
-- **Felismert nyelv**
+**Többi szalag**: munkaszalagok  
+A futtatás során átmeneti adatok tárolására.
 
-Ez a jegyzet segíthet a többszalagos Turing-gépek működésének megértésében és a kapcsolódó fogalmak rendszerezésében.
+### Kezdő- és megállási konfigurációk
+
+**Kezdőkonfiguráció**:
+- Az \( x \) input az 1. szalagon
+- Többi szalag „üres”
+
+\[ (q_0, \triangleright, x, \triangleright, \epsilon, \ldots, \triangleright, \epsilon) \]
+
+**Megállási konfiguráció**:
+\[ (q, u_1 \sigma_1, v_1, \ldots, u_k \sigma_k, v_k) \]
+ahol \( \delta(q, \sigma_1, \ldots, \sigma_k) \) nincs értelmezve
+
+### Output meghatározása
+
+**Ha van olyan megállási konfiguráció**:  
+\[ (q, \triangleright u_1, v_1, \ldots, \triangleright u_k, v_k) \]
+hogy
+\[ (q_0, \triangleright, x, \triangleright, \epsilon, \ldots, \triangleright, \epsilon) \rightarrow^t (q, \triangleright u_1, v_1, \ldots, \triangleright u_k, v_k) \]
+
+- Ha \( q \notin F \), akkor \( T \) elutasítja \( x \)-et
+- Ha \( q \in F \), akkor \( T \) elfogadja \( x \)-et és az output \( u_k v_k \).
+
+### Örökölt fogalmak
+
+**Időkorlát**  
+**Eldöntött nyelv**  
+**Felismert nyelv**

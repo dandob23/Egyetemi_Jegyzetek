@@ -1,68 +1,98 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet az időbonyolultsági osztályokról:
-
 ### Időbonyolultsági osztályok
 
-#### Általános fogalmak
+A nyelveket (számítási problémákat) időbonyolultsági osztályokba soroljuk:
 
-- A nyelveket (számítási problémákat) időbonyolultsági osztályokba soroljuk.
-- **Kérdések:**
-  - Melyik nyelvet lehet gyorsan eldönteni?
-  - Melyik nyelv esetén esélytelen az eldöntés?
-- A nyelveket eldöntő Turing-gépek időkorlátja alapján osztályozzuk.
-- Alapul a többszalagos Turing-gépet vesszük, amely szimulálható egyszalagos Turing-géppel.
+- **Melyik nyelvet lehet gyorsan eldönteni?**
+- **Melyik nyelv esetén esélytelen az eldöntés?**
 
-#### Időbonyolultsági osztályok definíciói
+A nyelveket eldöntő Turing-gépek időkorlátja alapján.
 
-- **\(DTIME(t(n))\) osztály:**
-  - Ha van olyan \(t(n)\) időkorlátos (többszalagos) Turing-gép, amely eldönti \(L\)-t.
-- **\(P\) osztály:**
-  - Polinomiális időkorlátos Turing-géppel eldönthető nyelvek osztálya.
-- **\(EXPTIME\) osztály:**
-  - Exponenciális időkorlátos Turing-géppel eldönthető nyelvek osztálya.
+A többszalagos Turing-gépet vesszük alapul, mivel bebizonyítjuk, hogy bármely többszalagos Turing-gép "szimulálható" egyszalagossal.
 
-#### Szimuláció
+#### TIME(𝑓(𝑛)) osztály
 
-- Egy \(S\) Turing-gép szimulál egy \(T\) Turing-gépet, ha minden \(w\) input esetén:
-  - Ha \(T\) nem áll meg \(w\)-n, akkor \(S\) sem áll meg \(w\)-n.
-  - Ha \(T\) elutasítja \(w\)-t, akkor \(S\) is elutasítja \(w\)-t.
-  - Ha \(T\) elfogadja \(w\)-t és \(x\) kimenetet állít elő, akkor \(S\) is elfogadja \(w\)-t és \(x\) kimenetet állít elő.
+\[ L \in TIME(f(n)) \]
 
-#### Többszalagos Turing-gép szimulációja
+ha van olyan \( O(f(n)) \) időkorlátos (többszalagos) Turing-gép, mely eldönti \( L \)-t.
 
-- **Tétel:** Bármely \(t(n)\) időkorlátos \(k\)-szalagos Turing-gép szimulálható \(t^2(n)\) időkorlátos egyszalagos Turing-géppel.
+**Kérdés**: Van-e jogosultsági alapja az \( O \) jelölésnek?  
+**Válasz**: Igen! ("Lineáris felgyorsítás")
 
-#### Többszalagos Turing-gép szimulációjának lépései
+### Polinomiális időkorlátos Turing-géppel eldönthető nyelvek osztálya
 
-1. **Kódolás:**
-   - Minden \(k\) betűjére: speciális kódolás.
-   - Kódolás lépésszáma: \(O(n)\).
-2. **Egyetlen lépés szimulálása:**
-   - Balról jobbra haladva a betűk eltárolása, majd jobbról balra haladva a változtatások elvégzése.
-   - Lépésszám: \(O(n)\).
-3. **Dekódolás:**
-   - Minden betű dekódolása.
-   - Lépésszám: \(O(n)\).
-4. **Lépésszám összesítve:**
-   - Teljes lépésszám: \(O(t^2(n))\).
+\[ P = \bigcup_{k \geq 1} TIME(n^k) \]
 
-#### Lineáris felgyorsítás
+### Exponenciális időkorlátos Turing-géppel eldönthető nyelvek osztálya
 
-- **Tétel:** Legyen \(L\) eldönthető \(t(n)\) időkorlátos Turing-géppel. Bármely \(c > 0\) valós számra, \(L\) eldönthető \(\frac{t(n)}{c}\) időkorlátos Turing-géppel is.
-- Következmény: A multiplikatív és additív konstansok elhanyagolhatóak az időbonyolultságban.
+\[ EXPTIME = \bigcup_{k \geq 1} TIME(c^{n^k}) \]
 
-#### Lineáris felgyorsítás lépései
+### Szimuláció
 
-1. **Kódolás:**
-   - Balról jobbra haladva a betűk letárolása, majd jobbról balra haladva az 1. szalagra írás.
-   - Lépésszám: \(O(n)\).
-2. **Szimuláció:**
-   - \(k\) db. lépés szimulálása egyszerre: 6 lépésben.
-   - Szomszédos cellák beolvasása és hatás érvényesítése.
-   - Lépésszám: \(O(t(n)/c)\).
+Egy \( T' \) Turing-gép szimulál egy \( T \) Turing-gépet, ha minden \( x \) input esetén:
 
-#### Összefoglalás
+- Ha \( T \) nem áll meg \( x \)-en, akkor \( T' \) sem áll meg \( x \)-en.
+- Ha \( T \) elutasítja \( x \)-et, akkor \( T' \) is elutasítja \( x \)-et.
+- Ha \( T \) elfogadja \( x \)-et és az \( y \) kimenetet állítja elő, akkor \( T' \) is elfogadja \( x \)-et és az \( y \) kimenetet állítja elő.
 
-- Az időbonyolultsági osztályok segítségével a nyelvek eldönthetőségének hatékonyságát vizsgáljuk.
-- A többszalagos Turing-gép szimulálása és a lineáris felgyorsítás tételének megértése alapvető fontosságú az időbonyolultsági osztályok elemzéséhez.
+#### Tétel
 
-Ez a jegyzet segít áttekinteni az időbonyolultsági osztályokat és a hozzájuk kapcsolódó fogalmakat.
+Bármely \( f(n) \) időkorlátos \( T \) Turing-gép szimulálható \( O(f^2(n)) \) időkorlátos egyszalagos \( T' \) Turing-géppel.
+
+\[ T = \langle k, \Sigma, Q, q_0, F, \delta \rangle \]
+
+\[ T' = \langle \Sigma', Q', q_0, F, \delta' \rangle \]
+
+### Kódolás
+
+- \( x \) minden \( \sigma \) betűjére:  
+  \( \sigma \rightarrow (\sigma, \sqcup, \sqcup, \ldots, \sqcup, \sqcup) \)
+- Kezdőszimbólumra:  
+  \( \triangleright \rightarrow (\triangleright, \underscore, \triangleright, \underscore, \ldots, \triangleright, \underscore) \)
+
+**Kódolás lépésszáma**: \( O(|x|) \)
+
+### Turing-gép szimulációja
+
+**Egyetlen lépés szimulálása**:
+
+- Balról jobbra haladva a \(\underscore\) alatti betűk eltárolása.
+  **Lépésszám**: \( O(f(|x|)) \)
+- Jobbról balra haladva a \( (q, \sigma_1, \ldots, \sigma_k) \) állapot alapján a \(\delta\) által meghatározott változtatások elvégzése.
+  **Lépésszám**: \( O(f(|x|)) \)
+
+**T összes, azaz \( f(|x|) \) lépésének szimulálása**:
+  **Lépésszám**: \( O(f^2(|x|)) \)
+
+### Dekódolás
+
+- \( T' \) szalagjának minden \( (\sigma_1, h_1, \ldots, \sigma_k, h_k) \) betűjére:  
+  \( (\sigma_1, h_1, \ldots, \sigma_k, h_k) \rightarrow \sigma_k \)
+
+**Lépésszám**: \( O(f(|x|)) \)
+
+### Lépésszám összesítve
+
+\[ O(|x|) + O(f^2(|x|)) + O(f(|x|)) = O(f^2(|x|)) \]
+
+**Tfh.**: \( f(n) \geq n \)
+
+#### Tétel
+
+Legyen \( L \) eldönthető \( f(n) \) időkorlátos Turing-géppel.  
+Minden \( c > 0 \) valós számra: \( L \) eldönthető \( c \cdot f(n) + n + 2 \) időkorlátos Turing-géppel is.
+
+**Következmény**: A multiplikatív és additív konstansok elhanyagolhatóak az időbonyolultságban.
+
+### Példa
+
+Legyen adott (egy később meghatározandó) \( m \geq 1 \) csak \( c \)-től függő egész szám.
+
+**Tfh.**: \( f(n) \geq n \)
+
+**Lépésszám összesen**:
+
+\[ |x| + 2 + \lceil |x| / m \rceil + 6 \cdot \lceil f(|x|) / m \rceil \leq |x| + 2 + 7 \cdot \lceil f(|x|) / m \rceil \]
+
+Eredeti állításban: \( c \cdot f(|x|) + |x| + 2 \)
+
+\[ m := \lceil 7 / c \rceil \]

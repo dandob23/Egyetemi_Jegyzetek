@@ -1,55 +1,53 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet az egyéb bonyolultsági osztályokra teljes nyelvekről:
+### Példa 𝐍𝐋-teljes nyelvekre: Elérhetőség gráfokban
 
-### Egyéb bonyolultsági osztályokra teljes nyelvek
+**Kérdés:** Létezik-e út két adott csúcs között?
 
-#### Bonyolultsági osztályok
+- Nemdeterminisztikusan bejárjuk a gráfot az egyik csúcsból indulva.
+- Elég csak az aktuális csúcsot (annak sorszámát) tárolni.
+- A sorszámot 2-es, 3-as, … vagy 10-es, stb. számként ábrázoljuk.
+- Logaritmikus számkódolás: \(\log n\)
 
-#### Példa NL-teljes nyelvekre
+### Példa 𝐍𝐋-teljes nyelvekre: 2−𝑆𝐴𝑇
 
-- **Elérhetőség gráfokban:**
-  - Kérdés: Létezik-e út két adott csúcs között?
-  - Megoldás: Nemdeterminisztikusan bejárjuk a gráfot az egyik csúcsból indulva.
-  - Tárolás: Elég csak az aktuális csúcsot (annak sorszámát) tárolni.
-  - Logaritmikus számkódolás: \( O(\log n) \)
+**Kérdés:** A \((𝑙_1 \vee 𝑙_2)\) klózokból álló KNF kielégíthető-e?
 
-#### Példa P-teljes nyelvekre
+- Alacsonyabb bonyolultság, mint 3−𝑆𝐴𝑇 és 𝑆𝐴𝑇 esetén (𝐍𝐏-teljes).
 
-- **3-KNF kielégíthetőség:**
-  - Kérdés: \( k \) klózokból álló 3-KNF kielégíthető-e?
-  - Megoldás: Alacsonyabb bonyolultság mint NP és PSPACE esetén (P-teljes).
+### Példa 𝐏-teljes nyelvekre: Hálózat-kiértékelés
 
-- **Hálózat-kiértékelés:**
-  - Kérdés: Logikai áramkör outputja 0 vagy 1-e?
-  - Logikai kapuk: AND, OR, NOT, XOR
-  - Adott input bitek esetén.
+**Kérdés:** Logikai áramkör outputja 0 vagy 1-e?
 
-- **Lineáris programozás:**
-  - Optimalizációs probléma.
-  - Feltételek: Lineáris egyenlőtlenségek.
-  - Célfüggvény maximalizálása: \( c^T x \), ahol \( c \) és \( x \) vektorok.
-  - Ismert algoritmus: Szimplex módszer.
+- Logikai kapuk: pl. AND, OR, NOT, XOR.
+- Adott input bitek esetén.
 
-#### Példa PSPACE-teljes nyelvekre
+### Példa 𝐏-teljes nyelvekre: Lineáris programozás
 
-- **QBF (Kvantifikált Boole-formula):**
-  - Kérdés: \( \exists x_1 \forall x_2 \exists x_3 \ldots \varphi(x_1, x_2, x_3, \ldots) \)?
-  - Nagyobb bonyolultságú mint NP (PSPACE-teljes).
+**Optimalizációs probléma:**
 
-#### Példa EXPTIME-teljes nyelvekre
+- Feltételek, mint lineáris egyenlőtlenségek: \(𝐴𝐱≤𝐛\)
+- Célfüggvényt maximalizálni: \(\max: 𝐜^𝑇 𝐱\)
+- …ahol \(𝐱≥0\).
 
-- **Reversi/Othello:**
-  - Kérdés: Melyik lépés visz legközelebb a nyerés esélyéhez?
+**Ismert algoritmus:** szimplex módszer.
 
-- **Mahjong solitaire:**
-  - Kérdés: Megoldható-e az adott játékállás?
+### Példa 𝐏𝐒𝐏𝐀𝐂𝐄-teljes nyelvekre: 𝑄𝐵𝐅
 
-- **Sokoban:**
-  - Kérdés: Elérhető-e a célállapot?
+**Kérdés:** \(𝑆𝐴𝑇\) probléma kvantorokkal.
 
-- **Sakk:**
-  - Kérdés: Melyik lépés visz legközelebb a nyerés esélyéhez?
+\[
+∃𝑥_1∀𝑥_2 ((𝑥_1 \vee 𝑥_2 )∧(¬𝑥_1 \vee 𝑥_2 ))
+\]
 
-- **Go:**
-  - Japán szabályok szerint bizonyítottan EXPTIME-teljes.
+- Nagyobb bonyolultságú, mint a \(𝑆𝐴𝑇\) (𝐍𝐏-teljes).
 
-Ez a jegyzet segít áttekinteni az egyéb bonyolultsági osztályokra teljes nyelveket és azok példáit különböző problémák esetében.
+### Példa 𝐏𝐒𝐏𝐀𝐂𝐄-teljes nyelvekre
+
+- **Reversi/Othello**
+- **Mahjong solitaire**
+
+### Példa 𝐄𝐗𝐏𝐓𝐈𝐌𝐄-teljes nyelvekre
+
+- **Sakk**
+- **Go**
+
+---

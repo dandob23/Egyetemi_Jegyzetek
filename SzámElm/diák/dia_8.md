@@ -1,53 +1,80 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet a bonyolultsági osztályok összefüggéseiről:
+### Eldönthetetlen Problémák
 
-### Eldönthető nyelvek és bonyolultsági osztályok közötti összefüggések
+#### Van olyan probléma, mely algoritmussal nem megoldható?
 
-#### Eldönthetőség
+- **Azaz van olyan nyelv, mely Turing-géppel nem eldönthető?**
+  - Igen. (sajnos)
 
-- **Kérdés:** Van olyan probléma, amely algoritmussal nem megoldható?
-- Van olyan nyelv, amely Turing-géppel nem eldönthető?
-  - **Válasz:** Igen, van.
-- **Megállási probléma:**
-  - Univerzális Turing-gép kérdése:
-    - Van-e olyan Turing-gép, amely meg tudja mondani, hogy egy adott Turing-gép megáll-e egy adott inputon?
-    - **Válasz:** Nincs ilyen Turing-gép, ezért a megállási probléma eldönthetetlen.
+- **Van-e olyan 𝑈 Turing-gép, hogy:**
+  - ∀𝑇 Turing-gép és ∀𝑥 input esetén:
+    - 𝑈 megkapja a 𝑇 „programját” és az 𝑥 inputot, és megmondja, hogy 𝑇 megállna-e az 𝑥 inputon?
+  - Nincs ilyen Turing-gép, ezért a megállási probléma eldönthetetlen.
 
-#### Post megfeleltetési problémája
+### Post Megfeleltetési Problémája
 
-- Adott egy min. 2 elemű ábécé: \( \Sigma \)
-- Adott 2 véges sorozat \( \Sigma^* \) szavaiból: \( \alpha_1, \alpha_2, ..., \alpha_m \) és \( \beta_1, \beta_2, ..., \beta_n \)
-- **Kérdés:** Összefűzhetőek-e a két sorozat szavai úgy, hogy összeolvasva ugyanazt a szót kapjuk? Azaz van-e olyan \( i_1, i_2, ..., i_k \) index sorozat, hogy \( \alpha_{i_1}\alpha_{i_2}...\alpha_{i_k} = \beta_{j_1}\beta_{j_2}...\beta_{j_k} \)?
-  - **Válasz:** Ez a probléma eldönthetetlen.
+- **Adott egy min. 2 elemű ábécé:** 𝐴
+- **Adott 2 véges sorozat 𝐴 szavaiból:**
+  - 𝛼_1, 𝛼_2, …, 𝛼_𝑁 és 𝛽_1, 𝛽_2, …, 𝛽_𝑁
+- **Kérdés:** Összefűzhetőek a két sorozat szavai úgy (ismétlődésekkel), hogy összeolvasva ugyanazt a szót kapjuk?
+  - 𝛼_(𝑖_1), 𝛼_(𝑖_2), …, 𝛼_(𝑖_𝑘) = 𝛽_(𝑖_1), 𝛽_(𝑖_2), …, 𝛽_(𝑖_𝑘), ahol 1 ≤ 𝑖_𝑗 ≤ 𝑁
+  - Ez a probléma eldönthetetlen.
 
-#### Bonyolultsági osztályok összefüggései
+### Bonyolultsági Osztályok Összefüggései
 
-- Az eldönthető nyelveket idő- és tárbonyolultsági osztályokba soroltuk.
-- Egy Turing-gép \( t(n) \) lépésben max. \( t(n) \) szalagcellát használhat.
+#### Idő- és Tárbonyolultsági Osztályok
 
-#### NP és P relációja
+- **Az eldönthető nyelveket idő- és tárbonyolultsági osztályokba soroltuk.**
+  - 𝐓𝐈𝐌𝐄(𝑓(𝑛)) ⊆ 𝐍𝐓𝐈𝐌𝐄(𝑓(𝑛))
+  - 𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)) ⊆ 𝐍𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛))
 
-- Egy \( t(n) \) időkorlátos nemdeterminisztikus Turing-gépet szimuláljunk egy determinisztikus Turing-géppel.
-  - Számítási fa egy ágának végigszámolása: \( t(n) \) lépés, max. \( t(n) \) cella.
-  - Visszalép a fa gyökerébe, és ugyanazt a szalagot használja újra.
-  - Mindvégig \( t(n) \) cellát használ.
-- **Következmény:** \( NP \subseteq P \)
+- **Egy Turing-gép 𝑘 lépésben max. 𝑘 szalagcellát használ.**
+  - 𝐓𝐈𝐌𝐄(𝑓(𝑛)) ⊆ 𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛))
+  - 𝐍𝐓𝐈𝐌𝐄(𝑓(𝑛)) ⊆ 𝐍𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛))
 
-#### P és PSPACE relációja
+#### Szimuláció Nemdeterminisztikus Turing-géppel
 
-- Tár-idő tétel: \( P \subseteq PSPACE \)
+- **Egy 𝑂(𝑓(𝑛)) időkorlátos nemdeterminisztikus 𝑇 Turing-gépet szimuláljunk egy 𝑇’ determinisztikussal!**
+  - A 𝑇 számítási fájának egy ágát 𝑇’ végigszámolja: 𝑂(𝑓(𝑛)) lépés, max. 𝑂(𝑓(𝑛)) cella.
+  - Visszalép a fa gyökerébe.
+  - Másik ággal teszi ugyanezt.
+  - Közben ugyanazt a szalagot használja (újra).
+  - Mindvégig 𝑂(𝑓(𝑛)) cellát használ.
+  - 𝐍𝐓𝐈𝐌𝐄(𝑓(𝑛)) ⊆ 𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛))
 
-#### NP és EXPTIME relációja
+#### Tár-idő Tétel
 
-- Mivel \( P \subseteq EXPTIME \), ezért \( NP \subseteq EXPTIME \).
+- **Tétel:** 𝐍𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)) ⊆ 𝐓𝐈𝐌𝐄(𝑐^𝑓(𝑛))
 
-#### NSPACE és PSPACE relációja
+### Bonyolultsági Osztályok Definíciói
 
-- Minden \( s(n) \) tárkorlátos nemdeterminisztikus Turing-gép szimulálható \( O(s^2(n)) \) tárkorlátos determinisztikus Turing-géppel.
-  - **Következmény:** \( NSPACE(s(n)) \subseteq PSPACE(s(n)) \)
-  - \( NPSPACE = PSPACE \)
+- 𝐏 = ⋃_(𝑘≥1) 𝐓𝐈𝐌𝐄(𝑛^𝑘)
+- 𝐍𝐏 = ⋃_(𝑘≥1) 𝐍𝐓𝐈𝐌𝐄(𝑛^𝑘)
+- 𝐄𝐗𝐏𝐓𝐈𝐌𝐄 = ⋃_(𝑘≥1) 𝐓𝐈𝐌𝐄(𝑐^(𝑛^𝑘))
+- 𝐍𝐄𝐗𝐏𝐓𝐈𝐌𝐄 = ⋃_(𝑘≥1) 𝐍𝐓𝐈𝐌𝐄(𝑐^(𝑛^𝑘))
+- 𝐋 = 𝐒𝐏𝐀𝐂𝐄(log_𝑐⁡𝑛)
+- 𝐍𝐋 = 𝐍𝐒𝐏𝐀𝐂𝐄(log_𝑐⁡𝑛)
+- 𝐏𝐒𝐏𝐀𝐂𝐄 = ⋃_(𝑘≥1) 𝐒𝐏𝐀𝐂𝐄(𝑛^𝑘)
+- 𝐄𝐗𝐏𝐒𝐏𝐀𝐂𝐄 = ⋃_(𝑘≥1) 𝐒𝐏𝐀𝐂𝐄(𝑐^(𝑛^𝑘))
 
-#### Bonyolultsági osztályok „térképe”
+### Tartalmazási Viszonyok
 
-- Vizualizálás a különböző bonyolultsági osztályok relációiról és összefüggéseiről.
+- **Mivel 𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)) ⊆ 𝐍𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)):**
+  - 𝐋 ⊆ 𝐍𝐋
 
-Ez a jegyzet segít áttekinteni az eldönthetőség kérdését és a különböző bonyolultsági osztályok közötti összefüggéseket.
+- **Tár-idő tétel:** 𝐍𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)) ⊆ 𝐓𝐈𝐌𝐄(𝑐^𝑓(𝑛))
+  - 𝐍𝐋 ⊆ 𝐏
+
+- **Mivel 𝐓𝐈𝐌𝐄(𝑓(𝑛)) ⊆ 𝐍𝐓𝐈𝐌𝐄(𝑓(𝑛)):**
+  - 𝐏 ⊆ 𝐍𝐏
+
+- **Mivel 𝐍𝐓𝐈𝐌𝐄(𝑓(𝑛)) ⊆ 𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)):**
+  - 𝐍𝐏 ⊆ 𝐏𝐒𝐏𝐀𝐂𝐄
+
+- **Minden 𝑂(𝑓(𝑛)) tárkorlátos nemdeterminisztikus Turing-gép szimulálható 𝑂(𝑓^2 (𝑛)) tárkorlátos determinisztikus Turing-géppel.**
+  - Azaz: 𝐍𝐒𝐏𝐀𝐂𝐄(𝑓(𝑛)) ⊆ 𝐒𝐏𝐀𝐂𝐄(𝑓^2 (𝑛))
+  - Ezért: 𝐏𝐒𝐏𝐀𝐂𝐄 = 𝐍𝐏𝐒𝐏𝐀𝐂𝐄
+  - És 𝐄𝐗𝐏𝐒𝐏𝐀𝐂𝐄 = 𝐍𝐄𝐗𝐏𝐒𝐏𝐀𝐂𝐄 stb.
+
+#### Tár-idő Tétel Következményei
+
+- 𝐏𝐒𝐏𝐀𝐂𝐄 ⊆ 𝐄𝐗𝐏𝐓𝐈𝐌𝐄

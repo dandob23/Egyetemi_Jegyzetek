@@ -1,79 +1,129 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet az NP-teljes nyelvekről:
+### Példa 𝐍𝐏-teljes nyelvekre: Hamilton-kör probléma
 
-### NP-teljes nyelvek
+Van a gráfnak olyan köre, mely minden csúcsot pontosan egyszer érint?
 
-#### Példák NP-teljes nyelvekre
+---
 
-- **Hamilton-kör probléma:**
-  - Van a gráfnak olyan köre, amely minden csúcsot pontosan egyszer érint?
-- **Utazóügynök probléma:**
-  - Adottak városok és a városok közötti utakhoz rendelt költségek. Melyik a legolcsóbb körút, amely minden várost pontosan egyszer érint?
-  - Naív algoritmus időbonyolultsága: \(O(n!)\)
-  - Létezik determinisztikus algoritmus: \(O(2^n \cdot n^2)\)
-  - Létezik polinom időbonyolultságú determinisztikus algoritmus?
-- **Hátizsák probléma:**
-  - Adott kapacitású hátizsákba hogyan pakoljuk a lehető legnagyobb értékű cuccot?
+### Példa 𝐍𝐏-teljes nyelvekre: Utazóügynök probléma
 
-#### NP-teljes nyelvek bizonyítása
+Adottak városok, ill. költségek a városok közti utakhoz rendelve. Melyik a legolcsóbb körút, mely minden várost pontosan egyszer érint?
 
-- Találni kell egy NP-teljes nyelvet (pl. SAT).
-- Egy nyelv NP-teljessége belátható:
-  - NP-beliség: Tanú-tétel segítségével.
-  - Nehézség: Visszavezetés konstruálásával.
+#### Naív algoritmus időbonyolultsága
+- \(𝑂(n!)\)
 
-#### SAT - Az első NP-teljes nyelv
+#### Létezik ilyen determinisztikus algoritmus
+- \(𝑂(n^2 2^n)\)
 
-- **SAT:** A kielégíthető Boole-formulák nyelve.
-  - **Boole-formula építőelemei:**
-    - Ítéletváltozók: \(x_1, x_2, \ldots, x_n\)
-    - Logikai operátorok: negáció, konjunkció, diszjunkció
-  - **Példa:** \((x_1 \lor \neg x_2) \land (x_3 \lor x_4)\) kielégíthető?
+#### Létezik polinom időbonyolultságú determinisztikus algoritmus?
+- Egyelőre nem ismert.
 
-#### SAT nehézségének bizonyítása
+---
 
-- **NP-beliség:** Könnyű bizonyítani a Tanú-tétellel. A tanú a Boole-formula változóinak egy kiértékelése.
-- **NP-nehéz:** Nehéz bizonyítani. Bármely nemdeterminisztikus polinom időkorlátos Turing-gép működését felírhatjuk egy (hatalmas) Boole-formula alakjában.
+### Példa 𝐍𝐏-teljes nyelvekre: Hátizsák probléma
 
-#### Boole-formula és Turing-gép
+Adott kapacitású hátizsákba hogyan pakoljuk a lehető legnagyobb értékű cuccot?
 
-- Szükséges ítéletváltozók:
-  - \(B(i, j, a)\): Az \(i\) lépésben a \(j\) cellában \(a\) van.
-  - \(H(i, j)\): Az \(i\) lépésben a fej a \(j\) cellán áll.
-  - \(Q(i, q)\): Az \(i\) lépésben a gép \(q\) állapotban van.
-- Kezdeti állapotok:
-  - \(Q(0, q_0)\)
-  - \(H(0, 0)\)
-  - A szalag kezdeti tartalma, pl. 0100 input esetén.
-- Technikai megkötések:
-  - Minden pillanatban pontosan 1 állapotban vagyunk.
-  - Minden cellán minden pillanatban pontosan 1 betű van.
-  - A fej minden pillanatban pontosan 1 cellán áll.
-  - Azok a cellák, melyek fölött nincs fej, megtartják az értéküket.
-- Állapotátmenet-függvény leírása:
-  - Példa: ha \((q_1, a) \rightarrow (q_2, b, R)\), akkor \(Q(i, q_1) \land H(i, j) \land B(i, j, a) \rightarrow Q(i+1, q_2) \land B(i+1, j, b) \land H(i+1, j+1)\)
-- Elfogadással kapcsolatos megkötés:
-  - Az elfogadási állapot elérése kielégíti a teljes formulát, ha a Turing-gép elfogadja az inputját.
+---
 
-#### Konjunktív normálforma (KNF)
+### 𝐍𝐏-teljes Nyelv Találása
 
+#### Találni kell egy 𝐍𝐏-teljes nyelvet (pl. 𝑆𝐴𝑇).
+
+Egy 𝐿 nyelv 𝐍𝐏-teljessége belátható:
+- 𝐿∈𝐍𝐏 ???: Tanú-tétel segítségével
+- 𝑆𝐴𝑇≺𝐿 ???: Visszavezetés konstruálásával
+
+---
+
+### 𝑆𝐴𝑇: A kielégíthető Boole-formulák nyelve
+
+#### Boole-formula építőelemei:
+- Ítéletváltozók: \(𝑥_1,𝑥_2,\dots\)
+- Logikai operátorok: negáció, konjunkció, diszjunkció
+
+#### Példa formula
+- kielégíthető?
+\[
+(𝑥_1 \vee 𝑥_3) \wedge (\neg 𝑥_2 \vee (𝑥_3 \wedge \neg 𝑥_1) \vee \neg 𝑥_3)
+\]
+
+---
+
+### 𝑆𝐴𝑇∈𝐍𝐏
+- Könnyű bizonyítani a Tanú-tétellel.
+- A tanú a Boole-formula változóinak egy kiértékelése.
+
+### 𝑆𝐴𝑇 𝐍𝐏-nehéz
+- Nehéz bizonyítani.
+- Bármely nemdeterminisztikus, polinom időkorlátos Turing-gép működését felírhatjuk egy (hatalmas) Boole-formula alakjában.
+
+#### Szükséges ítéletváltozók:
+- \(𝐶_{𝑖,𝑗}^𝜎\): Az \(𝑖\). lépésben a \(𝑗\). cellában \(𝜎\) van.
+- \(𝐹_{𝑖,𝑗}\): Az \(𝑖\). lépésben a \(𝑗\). cellán áll a fej.
+- \(𝑄_𝑖^𝑞\): Az \(𝑖\). lépésben a \(𝑞\) állapotban van.
+- Minden \(𝜎 ∈ Σ, 𝑞 ∈ 𝑄\) és \(𝑖,𝑗 = 0, \dots, 𝑛^𝑑\) esetén.
+
+#### Turing-gép működésének leírása, pl.:
+- Kezdetben \(𝑞_0\) állapotban van: \(𝑄_0^{𝑞_0}\)
+- Kezdetben a fej a 0. pozícióban van: \(𝐹_{0,0}\)
+- A szalag kezdeti tartalma pl. 0100 input esetén:
+  \[
+  𝐶_{0,0}^{⊳} ∧ 𝐶_{0,1}^{0} ∧ 𝐶_{0,2}^{1} ∧ 𝐶_{0,3}^{0} ∧ 𝐶_{0,4}^{0} ∧ 𝐶_{0,5}^{⊔} ∧ \dots ∧ 𝐶_{0,𝑛^𝑑}^{⊔}
+  \]
+
+---
+
+### Konjunktív normálforma (KNF)
+
+\[
+(𝑥_1 \vee 𝑥_3) \wedge (\neg 𝑥_2 \vee 𝑥_3 \vee 𝑥_1 \vee \neg 𝑥_4) \wedge (\neg 𝑥_1 \vee 𝑥_4)
+\]
+
+### 3-KNF
+
+Minden klóz 3-elemű:
+\[
+(𝑥_1 \vee 𝑥_3 \vee 𝑥_3) \wedge (\neg 𝑥_2 \vee 𝑥_3 \vee \neg 𝑥_4) \wedge (\neg 𝑥_1 \vee 𝑥_4 \vee 𝑥_2)
+\]
+
+### 3−𝑆𝐴𝑇
+
+Kielégíthető 3-KNF-ben levő Boole-formulák nyelve.
 - Minden Boole-formula átírható 3-KNF-re.
-  - 3-KNF: Minden klóz 3-elemű.
-- **3-SAT:** Kielégíthető 3-KNF-ben levő Boole-formulák nyelve.
-  - Mivel minden Boole-formula átírható 3-KNF-re, a SAT visszavezethető 3-SAT-ra.
-  - Ezért 3-SAT egy NP-nehéz nyelv.
-  - Mivel 3-SAT NP-ben is van, ezért 3-SAT NP-teljes.
+- Ezért van a 𝑆𝐴𝑇-nak visszavezetése 3−𝑆𝐴𝑇-ra:
+  \[
+  𝑆𝐴𝑇 ≺ 3−𝑆𝐴𝑇
+  \]
+- Ezért 3−𝑆𝐴𝑇 egy 𝐍𝐏-nehéz nyelv.
+- Mivel 3−𝑆𝐴𝑇 ∈ 𝐍𝐏 is teljesül, így 3−𝑆𝐴𝑇 𝐍𝐏-teljes.
 
-#### További NP-teljes nyelvek
+---
 
-- **Hamilton-kört tartalmazó gráfok nyelve.**
-  - Korábban beláttuk, hogy NP-ben van.
-  - NP-nehéz is? Ha igen, akkor NP-teljes.
-  - Bármely 3-SAT Boole-formulához meg lehet adni egy G gráfot úgy, hogy a formula kielégíthető, ha és csak ha G Hamilton-kör tartalmaz.
-- **Egyéb példák:**
-  - Maximális klikk probléma gráfokban.
-  - Maximális független csúcshalmaz keresése gráfokban.
-  - Minimális/maximális feszítőfa keresése gráfokban.
-  - Sávszélesség maximalizálásának problémája.
-  - Számok faktorizációja (szorzótényezőkre bontása).
+### 3 színnel színezhető gráfok nyelve
 
-Ez a jegyzet segít áttekinteni az NP-teljes nyelvek fogalmát, példáit és azok bizonyítási módszereit.
+Korábban beláttuk, hogy 3−𝑆𝑍𝐼𝑁 ∈ 𝐍𝐏
+
+#### Vajon 𝐍𝐏-nehéz is?
+- Ha igen, akkor 3−𝑆𝑍𝐼𝑁 𝐍𝐏-teljes.
+- Bármely 𝜙 3−𝐾𝑁𝐹 Boole formulához meg lehet adni egy 𝐺 gráfot úgy, hogy:
+  \[
+  𝜙 ∈ 3−𝑆𝐴𝑇 \Leftrightarrow 𝐺 ∈ 3−𝑆𝑍𝐼𝑁
+  \]
+- Ezért:
+  \[
+  3−𝑆𝐴𝑇 ≺ 3−𝑆𝑍𝐼𝑁
+  \]
+
+---
+
+### További 𝐍𝐏-teljes nyelvek
+
+- Hamilton-kört tartalmazó gráfok nyelve
+- Utazóügynök-probléma
+- Maximális klikk probléma gráfokban
+- Maximális független csúcshalmaz keresése gráfokban
+- Minimális/maximális feszítőfa keresése gráfokban
+- Sávszélesség maximalizálásának problémája
+- Számok faktorizációja, azaz szorzótényezőkre bontása
+
+

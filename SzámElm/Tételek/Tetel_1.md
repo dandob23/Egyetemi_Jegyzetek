@@ -1,75 +1,155 @@
-### 1. Algoritmusok bonyolultságának mérése, bonyolultságok típusai. Bonyolultsági függvények, ordó jelölés. Keresési és rendezési algoritmusok, gráfalgoritmusok bonyolultsága.
+### Algoritmusok bonyolultságának mérése, bonyolultságok típusai. Bonyolultsági függvények, ordó jelölés. Keresési és rendezési algoritmusok, gráfalgoritmusok bonyolultsága.
 
-#### Algoritmusok bonyolultságának mérése
+#### 1. Algoritmusok bonyolultsága
 
-- **Időbonyolultság:** Az algoritmus futási idejének mértéke a bemeneti adatok méretének függvényében.
-  - Általában az algoritmus által végrehajtott alapvető műveletek számával mérjük.
-  - Különböző esetekre szokás mérni:
-    - Legjobb eset: A lehető legkedvezőbb futási idő.
-    - Legrosszabb eset: A lehető legrosszabb futási idő.
-    - Átlagos eset: Az átlagos futási idő a bemenetek valamilyen eloszlása esetén.
+**Időbonyolultság**: Az algoritmus végrehajtásához szükséges elemi lépések száma.  
+**Tárbonyolultság**: Az algoritmus memóriaigénye.
 
-- **Tárbonyolultság:** Az algoritmus által felhasznált memória mértéke a bemeneti adatok méretének függvényében.
+#### 2. Bonyolultságelmélet
 
-#### Bonyolultságok típusai
+- **Minden lehetséges inputra?**
+- **És ha végtelen sok input létezik?**
+- **Legrosszabb esetre** ("Worst-case complexity")
+- **Elemi lépés**: pl. összehasonlítás
+- \( n \) adatelemre = \( n \) hosszúságú inputra
 
-- **Konstans időbonyolultság (O(1)):** Az algoritmus futási ideje független a bemenet méretétől.
-- **Logaritmikus időbonyolultság (O(log n)):** Az algoritmus futási ideje logaritmikusan növekszik a bemenet méretével.
-- **Lineáris időbonyolultság (O(n)):** Az algoritmus futási ideje arányosan nő a bemenet méretével.
-- **Polinomiális időbonyolultság (O(n^k)):** Az algoritmus futási ideje a bemenet méretének valamilyen hatványával nő.
-- **Exponenciális időbonyolultság (O(2^n)):** Az algoritmus futási ideje exponenciálisan nő a bemenet méretével.
-- **Faktoriális időbonyolultság (O(n!)):** Az algoritmus futási ideje faktoriálisan nő a bemenet méretével.
+#### 3. Keresési algoritmusok időbonyolultsága
 
-#### Bonyolultsági függvények, ordó jelölés
+- **Lineáris keresés**:  
+  - Legrosszabb esetben: \( n \) összehasonlítás  
+  - Időbonyolultság: \( O(n) \)  
 
-- **Bonyolultsági függvény:** Az algoritmus futási idejét vagy tárigényét leíró matematikai függvény.
-- **Ordó jelölés (Big-O notation):** Az algoritmus futási idejének vagy tárigényének felső határát jelöli, a bemenet méretének függvényében.
-  - **Példák:**
-    - \( O(1) \): Konstans időbonyolultság.
-    - \( O(n) \): Lineáris időbonyolultság.
-    - \( O(n \log n) \): Lineáris-logaritmikus időbonyolultság.
-    - \( O(n^2) \): Négyzetes időbonyolultság.
-    - \( O(2^n) \): Exponenciális időbonyolultság.
+- **Bináris keresés**:  
+  - Legrosszabb esetben: \( \lceil \log_2 (n+1) \rceil \) összehasonlítás  
+  - Időbonyolultság: \( O(\log_2 (n)) \)  
 
-#### Keresési algoritmusok bonyolultsága
+#### 4. Ordó jelölés
 
-- **Lineáris keresés:** 
-  - Legrosszabb esetben \( O(n) \)
-  - Az algoritmus sorban ellenőrzi a bemenet összes elemét.
-- **Bináris keresés:** 
-  - Legrosszabb esetben \( O(\log n) \)
-  - Az algoritmus rendezetten keres a bemenet elemei között, mindig felezi a keresési tartományt.
+\( O(f) \): \( f \) függvény növekedésének mértékét jelöli  
 
-#### Rendezési algoritmusok bonyolultsága
+Adottak \( f \), \( g \): \( \mathbb{N} \mapsto \mathbb{N} \) függvények.  
+\( f(n) = O(g(n)) \), ha  
+\( \exists c > 0 \) és \( \exists n_0 > 0 \), hogy  
+\( \forall n \ge n_0 \) esetén \( f(n) \le c \cdot g(n) \)
 
-- **Buborék rendezés (Bubble Sort):**
-  - Időbonyolultság: \( O(n^2) \)
-  - Az algoritmus többször végigmegy a listán, és mindig kicseréli a szomszédos elemeket, ha azok rossz sorrendben vannak.
-- **Beszúrásos rendezés (Insertion Sort):**
-  - Időbonyolultság: \( O(n^2) \)
-  - Az algoritmus minden elemet a helyére tesz a már rendezett részlistában.
-- **Összefésüléses rendezés (Merge Sort):**
-  - Időbonyolultság: \( O(n \log n) \)
-  - Az algoritmus felosztja a listát kisebb részekre, majd azokat rendezi és összefésüli.
-- **Gyors rendezés (Quick Sort):**
-  - Átlagos időbonyolultság: \( O(n \log n) \)
-  - Legrosszabb esetben: \( O(n^2) \)
-  - Az algoritmus kiválaszt egy pivot elemet, és a listát kisebb és nagyobb elemekre osztja, majd rekurzívan rendezi azokat.
+#### 5. Bonyolultsági függvények típusai
 
-#### Gráfalgoritmusok bonyolultsága
+- **Logaritmikus**: \( O(\log_c(n)) \)  
+- **Lineáris**: \( O(n) \)  
+- **Polinomiális**: \( O(n^k) \)  
+- **Négyzetes**: \( O(n^2) \)  
+- **Köbös**: \( O(n^3) \)  
+- **Exponenciális**: \( O(c^n) \)  
+- **Faktoriális**: \( O(n!) \)  
+- **Dupla exponenciális**: \( O(c^{(d^n)}) \)
 
-- **Szélességi keresés (Breadth-First Search, BFS):**
-  - Időbonyolultság: \( O(V + E) \)
-  - Az algoritmus rétegszerűen bejárja a gráf csúcsait.
-- **Mélységi keresés (Depth-First Search, DFS):**
-  - Időbonyolultság: \( O(V + E) \)
-  - Az algoritmus mélységben bejárja a gráf csúcsait.
-- **Dijkstra algoritmus:**
-  - Időbonyolultság: \( O(V^2) \) (Prioritási sor nélkül)
-  - Prioritási sorral: \( O((V + E) \log V) \)
-  - Az algoritmus a legkisebb súlyú utat találja meg egy forráscsúcsból a többi csúcsba.
-- **Floyd-Warshall algoritmus:**
-  - Időbonyolultság: \( O(V^3) \)
-  - Az algoritmus a legrövidebb utat találja meg minden csúcs között a gráfban.
+#### 6. Rendezési algoritmusok időbonyolultsága
 
-Ezek az alapvető bonyolultsági típusok és algoritmusok a számításelmélet területén, amelyek segítenek megérteni az algoritmusok hatékonyságát és optimalizálását.
+**Probléma**: Rendezzük egy \( n \) elemű tömb elemeit (növekvő) sorrendbe!
+
+- **Elemi lépések**:
+  - Összehasonlítások
+  - Elemcserék
+
+**Vizsgált algoritmusok**:
+- **Buborék rendezés**
+  - Kód:
+    ```cpp
+    for (i = n-1; i > 0; i--){
+        for (j = 0; j < i; j++){
+            if (T[j+1] < T[j]){
+                swap(T[j+1], T[j]);
+            }
+        }
+    }
+    ```
+  - **Összehasonlítások száma**: minden esetben \( \frac{n \cdot (n-1)}{2} \)
+  - **Elemcserék száma**: legrosszabb esetben \( \frac{n \cdot (n-1)}{2} \)
+  - **Időbonyolultság**: \( O(n^2) \)
+
+- **Beszúrásos rendezés**
+  - Kód:
+    ```cpp
+    for (i = 1; i < n; i++){
+        x = T[i];
+        j = search_place(T, i-1, x);
+        shift_right(T, j, i-1);
+        T[j] = x;
+    }
+    ```
+  - **Lineáris kereséssel**:
+    - **Összehasonlítások száma**: legrosszabb esetben \( \frac{n \cdot (n-1)}{2} \)
+    - **Elemcserék száma**: legrosszabb esetben \( \frac{n \cdot (n-1)}{2} \)
+    - **Időbonyolultság**: \( O(n^2) \)
+  - **Bináris kereséssel**:
+    - **Összehasonlítások száma**: legrosszabb esetben \( n \cdot \lceil \log_2 n \rceil \)
+    - **Elemcserék száma**: legrosszabb esetben \( \frac{n \cdot (n-1)}{2} \)
+    - **Időbonyolultság**: \( O(n^2) \)
+
+- **Összefésüléses rendezés**
+  - Kód:
+    ```cpp
+    sort(T, imin, m) {
+        if (m == 1) return T;
+
+        A = sort(T, imin, m/2);
+        B = sort(T, m/2+1, m);
+
+        return merge(A, B);
+    }
+    ```
+  - **Összehasonlítások száma**: legrosszabb esetben \( n \cdot \lceil \log_2 n \rceil \)
+  - **Elemcserék száma**: legrosszabb esetben \( n \cdot \lceil \log_2 n \rceil \)
+  - **Időbonyolultság**: \( O(n \cdot \log_2 n) \)
+
+**Rendezési algoritmusok összefoglalása**:
+- Buborék rendezés: \( O(n^2) \)
+- Beszúrásos rendezés (lineáris és bináris kereséssel): \( O(n^2) \)
+- Összefésüléses rendezés: \( O(n \cdot \log_2 n) \)
+
+#### 7. Gráfok és gráfalgoritmusok
+
+**Definíció**: \( \langle V, E \rangle \)
+- \( V \): csúcsok (vertices) halmaza, \( V \ne \emptyset \)
+- \( E \): élek (edges) halmaza, \( E \subseteq V \times V \)
+
+**Élekhez költség**: \( c: E \mapsto \mathbb{N}^{(+)} \)
+- \( c(v, w) \), ahol \( (v, w) \in E \)
+
+**Út**: \( v_1, v_2, \ldots, v_k \in V \)
+- \( \forall i = 1, \ldots, k-1 \) esetén \( (v_i, v_{i+1}) \in E \)
+- **Költsége**: \( \sum_{i=1}^{k-1} c(v_i, v_{i+1}) \)
+
+**Elérhetőség problémája**
+- **Van-e út két adott csúcs között?**
+  - Mélységi keresés (DFS)
+  - Szélességi keresés (BFS)
+
+**Melyik a legolcsóbb út?**
+- Két adott csúcs között?
+- Egy adott csúcsból az összes többibe? (Dijkstra algoritmus)
+- Bármely két csúcs között? (Floyd-Warshall algoritmus)
+
+**Hamilton-kör probléma**
+- Több mint 100 éve tanulmányozzák
+- "Naív" algoritmus: csúcsok permutációja kör-e?
+- **Időbonyolultság**: \( O(n!) \)
+- **Van-e polinomiális algoritmus?**
+
+#### 8. Közlekedési lámpák és gráfszínezési probléma
+
+**Közlekedési lámpák konfliktuslehetőségei**:
+- Tiltott
+- Nem tiltott
+
+**Gráffal ábrázolás**:
+- Csúcsok: \( ac, ad, bc, bd, ec, ed \)
+- Élek: két lámpa konfliktusos kapcsolata
+
+**Gráfszínezési probléma**:
+- A csúcsokat beszínezzük
+- Ha két csúcs között él van, akkor azok színei különbözőek legyenek!
+- **Nem ismert polinomiális algoritmus!**
+
+Ez a vázlat tartalmazza az első tételhez szükséges információkat, és segít átlátni a bonyolultságok mérésének és a különböző algoritmusok idő- és tárbonyolultságának alapjait.
+

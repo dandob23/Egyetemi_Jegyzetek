@@ -1,57 +1,52 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet a teljességről:
+### Teljes Nyelvek Nyelvosztályokra Nézve
 
-### Teljesség
+#### Adott 𝐶 nyelvosztályra nézve teljes nyelvek
+- **Magukban hordozzák a 𝐶-be tartozó összes nyelv eldöntésének nehézségét.**
+- **Pontosabban be lehet „lőni” az adott nyelv eldöntésének bonyolultságát.**
+- **Segítségükkel könnyű bizonyítani, ha két osztály egybeesik.**
 
-#### Teljes nyelvek
+### Visszavezetés (Karp-redukció)
 
-- Adott nyelvosztályra nézve teljes nyelvek.
-- Magukban hordozzák az adott osztályba tartozó összes nyelv eldöntésének nehézségét.
-- Pontosabban be lehet „lőni” az adott nyelv eldöntésének bonyolultságát.
-- Segítségükkel könnyű bizonyítani, ha két osztály egybeesik.
+- **Az 𝐿_1 ⊆ 𝐼^∗ nyelv visszavezethető az 𝐿_2 ⊆ 𝐼^∗ nyelvre:**
+  - ∃𝑓: 𝐼^∗ ↦ 𝐼^∗ polinom időkorlátos determinisztikus Turing-géppel kiszámítható (szó)függvény, hogy:
+    - ∀𝑥 ∈ 𝐼^∗ szóra:
+      - 𝑥 ∈ 𝐿_1 ⇔ 𝑓(𝑥) ∈ 𝐿_2
+  - **Jelölés:** 𝐿_1 ≺ 𝐿_2
 
-#### Visszavezetés (Karp-redukció)
+- **Visszavezetés tranzitivitása:**
+  - ha 𝐿_1 ≺ 𝐿_2 és 𝐿_2 ≺ 𝐿_3, akkor 𝐿_1 ≺ 𝐿_3.
 
-- **Definíció:** Az \( L_1 \) nyelv visszavezethető az \( L_2 \) nyelvre:
-  - Létezik polinom időkorlátos determinisztikus Turing-géppel kiszámítható függvény \( f \), hogy minden \( x \) szóra:
-    - \( x \in L_1 \iff f(x) \in L_2 \)
-- **Jelölés:** \( L_1 \leq_p L_2 \)
-- **Tranzitivitás:** Ha \( L_1 \leq_p L_2 \) és \( L_2 \leq_p L_3 \), akkor \( L_1 \leq_p L_3 \).
+- **𝐏, 𝐍𝐏, 𝐏𝐒𝐏𝐀𝐂𝐄, 𝐄𝐗𝐏𝐓𝐈𝐌𝐄, 𝐍𝐄𝐗𝐏𝐓𝐈𝐌𝐄, 𝐄𝐗𝐏𝐒𝐏𝐀𝐂𝐄 zártak a visszavezetésre.**
+  - Pl. ha 𝐿_1 ≺ 𝐿_2 és 𝐿_2 ∈ 𝐍𝐏, akkor 𝐿_1 ∈ 𝐍𝐏.
 
-#### Tartalmazás = Felső korlát
+### Nyelvosztályok és Nehézségük
 
-- Legyen \( C \) egy nyelvosztály és \( L \) egy nyelv.
-- Ha \( L \in C \), akkor ez \( L \) eldöntésének bonyolultságára felső korlátot ad.
+- **Legyen 𝐶 egy nyelvosztály és 𝐿 egy nyelv.**
+  - Ha 𝐿 ∈ 𝐶, akkor ez 𝐿 eldöntésének bonyolultságára felső korlátot ad.
+  - Ha 𝐿 „magában hordja” az összes 𝐿′ ∈ 𝐶 eldöntésének bonyolultságát:
+    - Az 𝐿 nyelv 𝐶-nehéz, ha:
+      - ∀𝐿′ ∈ 𝐶 esetén 𝐿′ ≺ 𝐿.
+    - Ha 𝐿 𝐶-nehéz, akkor ez 𝐿 eldöntésének bonyolultságára alsó korlátot ad.
+    - Az 𝐿 nyelv 𝐶-teljes, ha 𝐿 ∈ 𝐶 és 𝐿 𝐶-nehéz.
+      - Eldöntésének bonyolultsága pontosan 𝐶.
 
-#### Nehézség = Alsó korlát
+### Több 𝐶-teljes Nyelv Keresése
 
-- Az \( L \) nyelv \( C \)-nehéz, ha:
-  - Minden \( L' \in C \) esetén \( L' \leq_p L \).
+- **Ha találunk egy 𝐶-teljes nyelvet, hogyan kereshetünk több 𝐶-teljes nyelvet?**
+  - Ha:
+    - 𝐿_1 𝐶-teljes → 𝐿_2 𝐶-nehéz → 𝐿_2 𝐶-teljes
+    - 𝐿_1 ≺ 𝐿_2 → 𝐿_2 𝐶-nehéz → 𝐿_2 𝐶-teljes
+    - 𝐿_2 ∈ 𝐶 → 𝐿_2 𝐶-teljes
 
-#### Teljesség = Pontos illeszkedés
+### Példa: 𝐍𝐏-teljes Nyelvek
 
-- Az \( L \) nyelv \( C \)-teljes, ha:
-  - \( L \in C \)
-  - \( L \) \( C \)-nehéz.
-- Eldöntésének bonyolultsága pontosan \( C \).
+- **Találni kell egy 𝐍𝐏-teljes nyelvet (pl. SAT).**
+  - Egy 𝐿 nyelv 𝐍𝐏-teljessége belátható:
+    - 𝐿 ∈ 𝐍𝐏 ???: Tanú-tétel segítségével
+    - 𝑆𝐴𝑇 ≺ 𝐿 ???: Visszavezetés konstruálásával
 
-#### Nehézség és teljesség „öröklődése”
+### Központi Kérdés a Számításelméletben
 
-- Ha találunk egy \( C \)-teljes nyelvet, hogyan kereshetünk több \( C \)-teljes nyelvet?
-  - Ha \( L_1 \) \( C \)-teljes és \( L_1 \leq_p L_2 \), akkor \( L_2 \) \( C \)-nehéz.
-  - Ha \( L_2 \) \( C \)-nehéz és \( L_2 \in C \), akkor \( L_2 \) \( C \)-teljes.
-
-#### \( NP \)-teljes nyelvek keresése
-
-- Találni kell egy \( NP \)-teljes nyelvet (pl. SAT).
-- Egy nyelv \( NP \)-teljessége belátható:
-  - **\( NP \)-beliség:** Tanú-tétel segítségével.
-  - **Nehézség:** Visszavezetés konstruálásával.
-
-#### \( NP \)-teljes nyelvek fontossága
-
-- Ha egy \( NP \)-teljes nyelvről sikerülne belátni, hogy \( P \)-ben van:
-  - \( P = NP \)
-  - Minden \( NP \)-beli nyelv polinom időben eldönthető.
+- **Ha egy 𝐍𝐏-teljes nyelvről sikerülne belátni, hogy 𝐏-ben van:**
+  - 𝐏 = 𝐍𝐏
   - Ez a számításelmélet központi kérdése!
-
-Ez a jegyzet segít áttekinteni a teljesség fogalmát és annak jelentőségét a számításelméletben, különös tekintettel az \( NP \)-teljes nyelvekre és azok összefüggéseire.

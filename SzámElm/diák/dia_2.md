@@ -1,111 +1,161 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet:
-
 ### Algoritmus modellek és Turing-gép
 
-#### Algoritmus-fogalom
+**Mi az az algoritmus?**  
+**Mik az elemi lépések?**  
+**Mi az idő- és tárbonyolultság?**
 
-- Mi az az algoritmus?
-- Mik az elemi lépések?
-- Mi az idő- és tárbonyolultság?
+### Algoritmus modellek
 
-#### Algoritmus modellek
+**Szükségünk van egy univerzális algoritmus modellre!**  
 
-- Turing-gép
-- Rekurzív függvények
-- Lambda-kalkulus
-- Markov algoritmus
+**Algoritmus modellek**:  
+- Turing-gép  
+- Rekurzív függvények  
+- Lambda-kalkulus  
+- Markov algoritmus  
+- stb.
 
-#### Alan Turing (1912-1954)
+### Turing-gép
 
-- II. világháború alatt: Enigma feltörése
-- 1945-től: Digitális számítógép – "Mark 1"
-- 1948-tól: Mesterséges intelligencia – Turing-teszt
-- 1952-től: hormonkezelés majd öngyilkosság
+**Rekurzív függvények – Kleene (1936)**  
+- Alapfüggvények + rekurzió  
+- Való életben: funkcionális programozási nyelvek (pl. LISP)  
 
-#### Algoritmikus problémák
+**Lambda-kalkulus – Church (1941)**  
+- Absztrakt függvények és azok alkalmazása  
+- Való életben: lambda kifejezések (pl. C#-ban)  
 
-- 1950-es évek lelkesedése
-- Church-Turing tézis: a Turing-gép képes minden kiszámítható függvényt kiszámítani
-- Church-Turing tétel: vannak Turing-géppel nem kiszámítható függvények
+**Markov algoritmus – Markov (1961)**  
+- Formális nyelvi megközelítés  
+- Inputon behelyettesítési szabályokat végzünk  
 
-#### Turing-gép
+**A fenti 4 algoritmus modell ekvivalens egymással.**  
+**Válasszuk a Turing-gépet!**
 
-- **2 fő alkatrész:**
-  - Vezérlő: Lehetséges belső állapotainak halmaza
-  - Szalag: Végtelen cellákból áll, író-olvasó fej aktuális pozíciója
+### Church-Turing tézis és tétel
 
-- **Turing-gép elemei:**
-  - \(\Sigma\): szalagjelek (betűk) halmaza
-  - \(Q\): állapotok halmaza
-  - \(q_0\): kezdőállapot
-  - \(F\): elfogadó állapotok halmaza
-  - \(\delta\): állapotátmenetfüggvény
+**1950-es évek lelkesedése**  
+**Minden problémára van megoldó algoritmus?**
 
-- **Átmenetfüggvény (\(\delta\)):**
-  - Bemenő paraméterei: aktuális állapot és aktuálisan olvasott betű
-  - Visszaadott értékei: következő állapot, cellára visszaírandó betű, fej mozgásának iránya
+**Church-Turing tézis**:  
+- A Turing-gép képes minden kiszámítható függvényt kiszámítani  
 
-#### Turing-gép definíciója
+**Church-Turing tétel**:  
+- Vannak Turing-géppel ki nem számítható függvények  
 
-- \(\Sigma\): szalagjelek (betűk) halmaza
-- \(Q\): állapotok halmaza
-- \(q_0\): kezdőállapot
-- \(F\): elfogadó állapotok halmaza
-- \(\delta\): állapotátmenetfüggvény
+### Turing-gép
 
-#### Turing-gép - Példa
+**Két fő alkatrész**:
+- **Vezérlő**:
+  - Egyetlen információ: aktuálisan melyik lehetséges állapotában van?
+  - Lehetséges belső állapotainak halmaza: \( Q \)
 
-- Van-e a megadott input szóban ‘x’ betű?
+- **Szalag**:
+  - Cellákból áll, végtelen
+  - Az író-olvasó fej aktuálisan az egyik cella felett áll
+  - Betűk (=szalagjelek) halmaza: \( \Sigma \)
+  - Van 2 kötelező speciális betű: \( \triangleright \), \( \sqcup \)
 
-#### Turing-gép - Konfiguráció
+### Turing-gép formális definíciója
 
-- **Szükséges leírás:**
-  - Milyen állapotban van a vezérlő?
-  - Milyen betűk vannak a szalagon?
-  - Melyik cellán áll az író-olvasó fej?
+**Definíció**:  
+\[ T = \langle \Sigma, Q, q_0, F, \delta \rangle \]
 
-#### Input és kezdőkonfiguráció
+- \( \Sigma \): szalagjelek (betűk) halmaza, \( \triangleright, \sqcup \in \Sigma \)
+- \( Q \): állapotok halmaza, \( Q \ne \emptyset \)
+- \( q_0 \): kezdőállapot, \( q_0 \in Q \)
+- \( F \): elfogadó állapotok halmaza, \( F \subseteq Q \)
+- \( \delta \): (állapot)átmenetfüggvény
 
-- Input: egy \(w\) szó speciális betűk nélkül
-- Kezdőkonfiguráció: kezdőállapotban, fej a kezdőbetűn, input jobbra indul, minden más cella üres
+**Átmenetfüggvény**:  
+- Aktuális állapot: \( q \in Q \)
+- Aktuálisan olvasott betű: \( \sigma \in \Sigma \)
 
-#### Megállási konfiguráció
+**Visszaadott értékek**:
+- Következő állapot: \( q' \in Q \)
+- A cellára visszaírandó betű: \( \sigma' \in \Sigma \)
+- Merre mozduljon a fej: \( m \in \{ \leftarrow, -, \rightarrow \} \)
 
-- Olyan konfiguráció, ahonnan a Turing-gép nem tud továbblépni (átmenetfüggvény nincs értelmezve az aktuális állapoton és az aktuálisan olvasott betűn)
+\[ \delta(q, \sigma) = (q', \sigma', m) \]
 
-#### Közvetlen rákövetkezés
+**Értelmezési tartomány és értékkészlet**:  
+\[ \delta: \Sigma \times Q \rightarrow \Sigma \times Q \times \{ \leftarrow, -, \rightarrow \} \]
 
-- Ha \(\delta(q, a) = (q', b, R)\), akkor a következő állapot \(q'\), a szalagra visszaírandó betű \(b\), és a fej jobbra lép.
+### Különleges szabályok
 
-#### Rákövetkezés
+**A \( \triangleright \) betűvel kapcsolatos feltételek**:  
+- Nem szabad átírni és mindig jobbra kell "pattannia".
 
-- Léteznek \(C_1, C_2, ..., C_k\) konfigurációk, hogy \(C_1 \rightarrow C_2 \rightarrow ... \rightarrow C_k\)
+### Példa Turing-gép konfigurációra
 
-#### Megállás és elfogadás/elutasítás
+**Feladat**: Van-e a megadott input szóban 'x' betű?  
+\[ \Sigma = \{a, b, c, \ldots, z, \triangleright, \sqcup \} \]  
+\[ Q = \{q_0, f\} \]  
+\[ F = \{f\} \]
 
-- Input: \(w\)
-- Ha van olyan megállási konfiguráció, hogy \(q \in F\), akkor \(M\) elfogadja \(w\)-t, különben elutasítja.
+### Turing-gép konfiguráció
 
-#### Időigény vs időkorlát
+**Szükséges leírás**:
+- Milyen állapotban van a vezérlője?
+- Milyen betűk vannak a szalagján? (összesen!)
+- Melyik cellán áll az író-olvasó fej?
 
-- Időigény: konkrét \(w\) inputon a megállásig megtett lépések száma (\(t(w)\))
-- Időkorlát: minden lehetséges inputra egy felső korlát az időigényre (függvény formájában: \(T(n)\), ahol \(n\) az input hossza)
+**Konfiguráció**:  
+\[ (q, u, v), \text{ ahol } q \in Q \text{ és } u, v \in \Sigma^* \]
 
-#### Számítási probléma = Nyelv
+### Input és kezdőkonfiguráció
 
-- Számítási problémák nyelvekként (szavak halmazai) reprezentálva
-- Turing-gép milyen eredményt ad az \(L\) nyelv \(w\) szavain mint inputokon?
+**Input**:  
+- Egy \( x \) szó, amiben nincsenek speciális betűk (\( \triangleright, \sqcup \)).
+\[ x \in (\Sigma \setminus \{ \triangleright, \sqcup \})^* \]
 
-#### Eldöntött / felismert nyelv
+**Kezdőkonfiguráció**:
+- Kezdőállapotban van a vezérlő
+- Az író-olvasó fej a kezdőbetűn (\( \triangleright \)) van
+- Az \( x \) input a kezdőbetűtől jobbra indul, és minden más cella üres
+\[ (q_0, \triangleright, x) \]
 
-- \(L\) nyelv eldöntése: minden \(w\) inputra elfogadja vagy elutasítja
-- \(L\) nyelv felismerése: minden \(w\) inputra elfogadja vagy nem áll meg
+### Megállási konfiguráció
 
-#### Rekurzív / rekurzíve felsorolható nyelvek
+**Olyan konfiguráció, ahonnan a Turing-gép nem tud továbblépni**:
+\[ (q, u\sigma, v), \text{ ahol } \delta(q, \sigma) \text{ nincs értelmezve} \]
 
-- Rekurzív nyelv (\(L\)): létezik Turing-gép, mely eldönti \(L\)-t
-- Rekurzíve felsorolható nyelv (\(L\)): létezik Turing-gép, mely felismeri \(L\)-t
-- Rekurzív nyelvek osztálya: \(REC\)
-- Rekurzíve felsorolható nyelvek osztálya: \(RE\)
+### Rákövetkezés
 
-Ez a jegyzet segíthet a számításelmélet témakörében a Turing-gépekkel kapcsolatos ismeretek rendszerezésében és megértésében.
+**Konfigurációból lépésben elérhető a konfiguráció**:
+\[ (q, u, v) \rightarrow (q', u', v') \]
+
+### Turing-gép megállásának vizsgálata
+
+**Megáll-e a Turing-gép?**  
+Adott \( x \) inputon a kezdőkonfigurációból megállási konfigurációba jutunk-e?  
+Ha nem, akkor \( x \)-en végtelen ciklusba kerülünk.
+
+**Elfogadás és elutasítás**:
+- Ha van olyan \( (q, \triangleright u, v) \) megállási konfiguráció, hogy
+\[ (q_0, \triangleright, x) \rightarrow (q, \triangleright u, v) \]
+
+  - Ha \( q \notin F \), akkor \( T \) elutasítja \( x \)-et
+  - Ha \( q \in F \), akkor \( T \) elfogadja \( x \)-et és az output \( uv \).
+
+### Időigény és időkorlát
+
+**Időigény**:  
+Egy konkrét \( x \) inputon a megállásig megtett lépések pontos száma (\( t \)).
+
+**Időkorlát**:  
+Minden lehetséges inputon egy felső korlát az időigényre.  
+Függvény formájában adjuk meg:
+\[ f(n), \text{ ahol } n \text{ az input hossza} \]
+
+**Számítási problémákat, mint nyelveket (azaz szavak halmazait) reprezentáljuk.**  
+A Turing-gép milyen eredményt ad az \( L \) nyelv \( x \in L \) szavain, mint inputokon?
+
+**Legyen \( L \subseteq (\Sigma \setminus \{ \triangleright, \sqcup \})^* \) nyelv.**  
+- \( T \) eldönti \( L \)-t, ha minden \( x \in (\Sigma \setminus \{ \triangleright, \sqcup \})^* \) inputra:
+  - ha \( x \in L \), akkor \( T \) elfogadja \( x \)-et
+  - ha \( x \notin L \), akkor \( T \) elutasítja \( x \)-et
+
+- \( T \) felismeri \( L \)-t, ha minden \( x \in (\Sigma \setminus \{ \triangleright, \sqcup \})^* \) inputra:
+  - ha \( x \in L \), akkor \( T \) elfogadja \( x \)-et
+  - ha \( x \notin L \), akkor \( T \) nem áll meg

@@ -1,50 +1,84 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet az NP osztályról:
+### NP-be Tartozás Bizonyítéka
 
-### NP osztály
+#### NP Osztályba Tartozó Nyelvek Példái
 
-#### Általános fogalmak
+Gráfelméleti nyelvek, számelméleti problémák, egyenletek megoldásai, utazóügynök probléma stb.
 
-- **NP osztály:** Gráfelméleti nyelvek, számelméleti problémák, egyenletek megoldásai, utazóügynök probléma stb.
-- Az NP-be tartozás bizonyítéka: A nyelvet eldöntő polinom időkorlátos nemdeterminisztikus Turing-gép.
-- Alternatív módszer: Egy egyszerűbb módszer, amely visszavezetést ad a determinisztikus eldöntésre.
+#### NP-be Tartozás Bizonyítéka
 
-#### Tanú alkalmazása
+A nyelvet eldöntő polinom időkorlátos nem-determinisztikus Turing-gép.
 
-- A nemdeterminisztikus eldöntési problémát kétfelé "hasítjuk":
-  - A tanú legyen polinom hosszúságú.
-  - A tanút alkalmazó számítás legyen polinom időbonyolultságú.
+Ehelyett: egy egyszerűbb módszer, mely visszavezetést ad a determinisztikus eldöntésre.
+Garantálni kell: a számítási fa polinom mélységű. Hogyan?
 
-#### NP-beli nyelvek: Hamilton-kört tartalmazó gráfok
+#### Tanú és Polinom Mélység
 
-- **Hamilton-kör:** Egy gráf köre Hamilton-kör, ha a gráf minden csúcsa pontosan egyszer szerepel.
-- **Nyelv:** Hamilton-körrel rendelkező gráfok nyelve.
-- **Tanú:** A gráf csúcsainak egy permutációja.
-- **Permutáció ellenőrzése:** Egymás utáni csúcsait él köti-e össze? (Polinom időkorlátos determinisztikus Turing-géppel eldönthető.)
+1. **A tanú legyen polinom hosszúságú!**
+   - Ez garantálja, hogy a szaggatott vonal feletti részfa polinom mélységű.
 
-#### Tanú-tétel összeállítása
+2. **A tanút alkalmazó számítás legyen polinom időbonyolultságú!**
+   - Ez garantálja, hogy a szaggatott vonal alatti minden egyes ág polinom hosszúságú.
 
-- **1. kritérium:** A tanú legyen polinom hosszúságú.
-  - \( t(n) \) egy polinomja.
-- **2. kritérium:** A tanút alkalmazó számítás legyen determinisztikus és polinom időbonyolultságú.
-  - Létezik olyan \( L \) nyelv, amely \( \{(x, y) | y \text{ tanú, hogy } M \text{ elfogadja } x\} \) szópárokból áll, és eldönthető determinisztikus polinom időkorlátos Turing-géppel.
+#### Példa: Hamilton-kör
 
-#### Tanú-tétel
+Egy gráf köre Hamilton-kör, ha azon a gráf minden csúcsa pontosan egyszer szerepel.
+Hamilton-körrel rendelkező gráfok nyelve: "HAM"
+"HAM" ∈ NP
 
-- **Tétel:** Legyen \( L \) egy nyelv.
-  - \( L \in NP \), ha létezik olyan polinom \( p \) és determinisztikus Turing-gép \( M \), hogy:
-    - \( x \in L \) esetén létezik olyan \( y \), hogy \( |y| \leq p(|x|) \) és \( M \) elfogadja \( (x, y) \)-t.
-    - \( x \notin L \) esetén minden \( y \)-ra \( M \) elutasítja \( (x, y) \)-t.
+1. **Tanú**: Egy \( x \) gráf tanúja a csúcsainak egy permutációja lesz.
+   - \( y \) permutáció hossza polinomiális \( x \)-hez képest, mivel \(|y| \leq |x|\).
 
-#### NP-beli nyelvek példái
+2. **Permutáció Ellenőrzése**:
+   - Egymás utáni csúcsait él köti-e össze?
+   - (Polinom időkorlátos determinisztikus Turing-géppel eldönthető)
 
-- **3 színnel színezhető gráfok:**
-  - **Nyelv:** Egy gráf csúcsai 3 színnel színezhetőek-e úgy, hogy minden éle két különböző színű csúcsot köt össze?
-  - **Tanú:** A gráf egy színezése.
-  - **Ellenőrzés:** Minden él különböző színű csúcsokat köt-e össze? (Polinom időkorlátos determinisztikus Turing-géppel eldönthető.)
+#### Tanú Kritériumai
 
-- **Egész faktorizáció:**
-  - **Probléma:** Adott egy \( N \) egész szám és egy \( k \) egész szám úgy, hogy \( k < N \). Vajon létezik olyan \( m \) szám, hogy \( k \cdot m = N \)?
-  - **Tanú:** Egy \( m \) egész szám.
-  - **Ellenőrzés:** \( m \) osztja-e \( N \)-t? (Polinom időkorlátos determinisztikus Turing-géppel eldönthető.)
+1. **Polinom Hosszúságú Tanú**:
+   - \(|y|\) az \(|x|\)-nek legyen polinomja!
+   - \(|y| \leq |x| \cdot c\)
+   - \(|y| \leq |x|^c\)
+   - \(|y| \leq c^{|x|}\)
 
-Ez a jegyzet segít áttekinteni az NP osztályba tartozó nyelveket és a hozzájuk kapcsolódó fogalmakat.
+2. **Determinista Polinom Időbonyolultságú Számítás**:
+   - Inputja: \( (x, y) \)
+   - Determinisztikus
+   - Polinom időbonyolultságú
+
+#### Tétel
+
+Legyen \( L \) egy nyelv.
+\[ L \in NP \]
+ha és csak ha
+\[ \exists c > 0 \text{ és } \exists L' \in P, \text{ hogy } \forall x \text{ szó esetén: } x \in L \iff \exists y \text{ szó, hogy } |y| \leq |x|^c \text{ és } (x, y) \in L' \]
+
+#### Példa: Gráf Színezése
+
+Egy gráf csúcsai \( k \geq 1 \) színnel színezhetőek-e úgy, hogy minden éle két különböző színű csúcsot köt össze?
+\( k \)-színnel színezhető gráfok nyelve: \( k\)-SZIN
+3-SZIN ∈ NP
+
+1. **Tanú**: Egy \( x \) gráf tanúja a gráf egy színezése lesz.
+   - Egy ilyen színezés leírható max. \( 2 \cdot |x| \) db. bináris számjeggyel, azaz \(|y| \leq 2 \cdot |x|\).
+
+2. **Színezés Ellenőrzése**:
+   - Minden él különböző színű csúcsokat köt-e össze?
+   - (Polinom időkorlátos determinisztikus Turing-géppel eldönthető)
+
+#### Példa: Egész Faktorizáció
+
+Kriptográfiai protokollok biztonságossága alapszik ezen a nehéz problémán.
+Pl. RSA: 232-jegyű számok egész faktorizációja.
+
+Adott egy \( x \) egész szám és egy másik \( m \) egész szám úgy, hogy \( 1 < m < x \).
+
+Vajon létezik olyan \( y \) szám, hogy \( 1 < y \leq m \) és \( y \) osztja \( x \)-et?
+
+1. **Tanú**: Egy \( x \) egész szám tanúja egy \( y \) egész szám lesz.
+   - Mivel \( 1 < m < x \) és \( 1 < y \leq m \), így \( y < x \).
+   - Ezért \(|y| \leq |x|\).
+
+2. **Ellenőrzés**:
+   - \( y \) osztja-e \( x \)-et?
+   - (Akár az általános iskolában tanult algoritmussal)
+   - (Polinom időkorlátos determinisztikus Turing-géppel eldönthető)

@@ -1,84 +1,82 @@
-Itt található a PowerPoint prezentáció alapján készült felsorolásos jegyzet a nemdeterminisztikus Turing-gépről:
+### Nem-determinisztikus Turing-gépek és bonyolultsági osztályok
 
-### Nemdeterminisztikus Turing-gép
+#### Nem-determinisztikus Turing-gép definíciója
 
-#### Általános fogalmak
+\[ T = \langle \Sigma, Q, q_0, F, \delta \rangle \]
+- \(\Sigma\): szalagjelek (betűk) halmaza, \(\triangleright, \sqcup \in \Sigma\)
+- \( Q \): állapotok halmaza, \( Q \neq \emptyset \)
+- \( q_0 \): kezdőállapot, \( q_0 \in Q \)
+- \( F \): elfogadó állapotok halmaza, \( F \subseteq Q \)
+- \(\delta\): (állapot)átmenetfüggvény, \(\delta: Q \times \Sigma \rightarrow P(Q \times \Sigma \times \{ \leftarrow, - , \rightarrow \})\)
 
-- Nemdeterminisztikus számítások alapfogalmai.
+\[ \delta(q, \sigma) = (q', \sigma', m) \]
+- Ha \(\sigma = \triangleright\), akkor \(\sigma' = \triangleright\) és \(m = \rightarrow\)
 
-#### Nemdeterminisztikus Turing-gép definíciója
+#### Input feldolgozása
 
-- \(\Sigma\): szalagjelek (betűk) halmaza
-- \( Q \): állapotok halmaza
-- \( q_0 \): kezdőállapot
-- \( F \): elfogadó állapotok halmaza
-- \(\delta\): (állapot)átmenetfüggvény
-  - \( \delta(q, a) = \{(q', b, m)\} \)
+Input: \( x \in (\Sigma \setminus \{\triangleright, \sqcup\})^* \)
 
-#### Konfiguráció
+- Ha van olyan ága a számítási fának, mely elfogadó konfigurációban végződik, akkor \( T \) elfogadja \( x \)-et.
+- Ha nincs ilyen ága, akkor \( T \) elutasítja \( x \)-et.
 
-- **Konfiguráció:** \( (q, \alpha a \beta) \), ahol \(\alpha\) és \(\beta\) a szalag bal és jobb oldala, \( a \) pedig az aktuálisan olvasott betű
-- **Megállási konfiguráció:** \( (q, \alpha a \beta) \), ahol \(\delta(q, a)\) nincs értelmezve vagy \( q \in F \)
+Ha van olyan \( (q, \triangleright u, v) \) megállási konfiguráció, hogy
+\[ (q_0, \triangleright, x) \overset{T^t}{\rightarrow} (q, \triangleright u, v) \]
 
-#### Közvetlen rákövetkezés
+- Ha \( q \notin F \), akkor \( T \) elutasítja \( x \)-et.
+- Ha \( q \in F \), akkor \( T \) elfogadja \( x \)-et és az output \( uv \).
 
-- Ha \( \delta(q, a) = (q', b, m) \), akkor a következő állapot \( q' \), a szalagra visszaírandó betű \( b \), és a fej mozgásának iránya \( m \)
+\( T \) időigénye az \( x \) inputon: \( t \)
 
-#### Rákövetkezés
-
-- Léteznek \(C_1, C_2, ..., C_k\) konfigurációk, hogy \( C_1 \rightarrow C_2 \rightarrow ... \rightarrow C_k \)
-
-#### Elfogadás és elutasítás
-
-- **Input:** \( w \)
-- Ha van olyan ága a számítási fának, amely elfogadó konfigurációban végződik, akkor elfogadja \( w \)-t.
-- Ha nincs ilyen ága, akkor elutasítja \( w \)-t.
+- Ha nincs ilyen konfiguráció, \( T \) elutasítja \( x \)-et.
 
 #### Időkorlát
 
-- \( M \) időkorlátos:
-  - Minden \( x \) input és minden \( t \) konfiguráció esetén, ha \( C_1 \rightarrow C_2 \rightarrow ... \rightarrow C_t \), akkor \( t \leq f(|x|) \).
+\( T \) \( f(n) \) időkorlátos:
+- Minden \( x \) input és
+- Minden \( (q, u, v) \) konfiguráció esetén
+\[ \text{ha } (q_0, \triangleright, x) \overset{T^t}{\rightarrow} (q, u, v), \text{ akkor } t \leq f(|x|). \]
 
-#### Eldöntött / Felismert nyelv
+#### Szimuláció
 
-- Legyen \( L \) nyelv.
-- \( M \) eldönti \( L \)-t, ha minden \( w \) inputra:
-  - Ha \( w \in L \), akkor \( M \) elfogadja \( w \)-t.
-  - Ha \( w \notin L \), akkor \( M \) elutasítja \( w \)-t.
-- \( M \) felismeri \( L \)-t, ha minden \( w \) inputra:
-  - Ha \( w \in L \), akkor \( M \) elfogadja \( w \)-t.
-  - Ha \( w \notin L \), akkor \( M \) nem áll meg.
+Tétel: Bármely \( f(n) \) időkorlátos nem-determinisztikus \( T \) Turing-gép szimulálható \( O(d^{f(n)}) \) időkorlátos determinisztikus Turing-géppel, ahol \( d > 1 \) a \( T \)-től függő konstans.
 
-#### Nemdeterminisztikus Turing-gép szimulációja
+- \( d \): egy csúcsból induló élek maximális száma
+- Számítási sorozat = 0,1, ..., d-1 intervallumba eső számok sorozata
 
-- **Tétel:** Bármely \( t(n) \) időkorlátos nemdeterminisztikus \( M \) Turing-gép szimulálható \( 2^{O(t(n))} \) időkorlátos determinisztikus Turing-géppel, ahol \( c \) a \( M \)-től függő konstans.
-- **Működés:**
-  - 1. szalag: változatlan input
-  - 2. szalag: \( t(n) \) számsor \( \{0,1\} \)
-  - 3. szalag: a \( M \) egyetlen szalagja
-  - \( S \) működése:
-    - 2. szalagra \( t \) kiírása.
-    - 3. szalagon \( M \) szimulálása determinisztikusan a 2. szalagon levő számsor alapján.
-    - Ha \( M \) elfogadja az inputot, akkor \( S \) is.
-    - Ha nem, akkor törli a 3. szalagot, növeli a 2. szalagon levő számot (k-alapú számrendszer).
+### Bonyolultsági osztályok
 
-#### Nemdeterminisztikus bonyolultsági osztályok
+#### NTIME(𝑓(𝑛)) osztály
 
-- **\( NTIME(t(n)) \) osztály:**
-  - Ha van olyan \( t(n) \) időkorlátos (nemdeterminisztikus) Turing-gép, amely eldönti \( L \)-t.
-- **\( NSPACE(s(n)) \) osztály:**
-  - Ha van olyan \( s(n) \) tárkorlátos (nemdeterminisztikus) Turing-gép, amely eldönti \( L \)-t.
-- **\( NP \) osztály:**
-  - Polinom időkorlátos nemdeterminisztikus Turing-géppel eldönthető nyelvek osztálya.
-- **\( NEXP \) osztály:**
-  - Exponenciális időkorlátos nemdeterminisztikus Turing-géppel eldönthető nyelvek osztálya.
-- **\( NL \) osztály:**
-  - Logaritmikus tárkorlátos nemdeterminisztikus Turing-géppel eldönthető nyelvek osztálya.
+\[ L \in NTIME(f(n)) \]
 
-#### Hiányzó nyelvosztályok
+Ha van olyan \( O(f(n)) \) időkorlátos (nem-determinisztikus) Turing-gép, mely eldönti \( L \)-t.
 
-- Miért nincs \( NP =? P \)?
-- Miért nincs \( NSPACE =? PSPACE \)?
-- Később fogjuk tanulni és bizonyítani, hogy miért nem.
+#### NSPACE(𝑓(𝑛)) osztály
 
-Ez a jegyzet segít áttekinteni a nemdeterminisztikus Turing-gépekkel és a hozzájuk kapcsolódó fogalmakkal kapcsolatos ismereteket.
+\[ L \in NSPACE(f(n)) \]
+
+Ha van olyan \( O(f(n)) \) tárkorlátos (nem-determinisztikus) Turing-gép, mely eldönti \( L \)-t.
+
+### NP osztály
+
+Polinom időkorlátos nem-determinisztikus Turing-géppel eldönthető nyelvek osztálya:
+\[ NP = \bigcup_{k \geq 1} NTIME(n^k) \]
+
+Gráfelméleti nyelvek, számelméleti problémák, egyenletek megoldásai, utazóügynök probléma stb.
+
+### NEXPTIME osztály
+
+Exponenciális időkorlátos nem-determinisztikus Turing-géppel eldönthető nyelvek osztálya:
+\[ NEXPTIME = \bigcup_{k \ge 1} NTIME(c^{n^k}) \]
+
+### NL osztály
+
+Logaritmikus tárkorlátos nem-determinisztikus Turing-géppel eldönthető nyelvek osztálya:
+\[ NL = NSPACE(\log_c n) \]
+
+### Hiányzó osztályok
+
+- Miért nincs \( NPSPACE \)?
+- Miért nincs \( NEXPSPACE \)?
+
+Később fogjuk tanulni és bizonyítani, hogy miért nem.
