@@ -134,3 +134,22 @@
 - **80/20 elv:** A fejlesztési folyamat során az idő 20%-ában valósul meg a végeredmény 80%-a .
 - **Tapadás (Cohesion):** Az osztály belső elemeinek együttműködési képessége .
 - **Kapcsoltság (Coupling):** Az osztályok közötti kapcsolatok erőssége .
+
+### Dupla hivatkozásfeloldás – Double Dispatch
+
+**Double Dispatch (Dupla hivatkozásfeloldás)**:
+- **Célja**: Meghatározza, melyik metódus fut le egy osztály hierarchiában a referencia és a paraméter típusának segítségével.
+- **Késő kötés (late binding)**: Meghatározza, hogy melyik osztály példány metódusa fut le.
+- **Metódus túlterhelés (overloading)**: Meghatározza, hogy melyik metódus változat fut le a paraméter típusától függően.
+- **Látogató minta alkalmazása**: Elfogad egy látogatót (`Visitor`) és meghívja a megfelelő `Visit` metódust:
+  - `void AcceptVisitor(Visitor v) { v.Visit(this); }`
+  - `void Visit(Fa f)`
+  - `void Visit(Levél f)`
+- **Előnyök**:
+  - Könnyen bővíthető új látogatókkal.
+  - Szétválasztja az adatszerkezetet és a feldolgozó algoritmusokat.
+- **Hátrányok**:
+  - Adatszerkezet változásakor az összes látogatót frissíteni kell.
+  - Növeli az osztályok számát és a kód komplexitását.
+
+Ez a rövid összefoglaló bemutatja a dupla hivatkozásfeloldás lényegét és alkalmazását a Látogató tervezési mintában.
