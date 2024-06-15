@@ -117,7 +117,7 @@ class Program
 }
 ```
 
-![strategia]()
+![strategia](https://github.com/dandob23/jegyzetek/blob/main/Progtech/UML/STRATEGY.png)
 
 ---
 ---
@@ -252,6 +252,6 @@ public class Program {
     }
 }
 ```
-![state]()
+![state](https://github.com/dandob23/jegyzetek/blob/main/Progtech/UML/STATE.png)
 
 ```
