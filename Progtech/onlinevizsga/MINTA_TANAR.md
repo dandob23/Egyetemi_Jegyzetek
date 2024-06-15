@@ -1,3 +1,5 @@
+## KÓD A JEGYZETBŐL https://docs.google.com/document/d/1dXe8DQ0f1QoQmKBr8kFVv1WBltCAKpmf/edit
+
 ### Egyke – Singleton
 
 **Singleton (Egyke)**:
