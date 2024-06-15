@@ -128,11 +128,11 @@ class Program
 - viselkedési tervezési minta
 - használat ha: több összefüggő változékony metódust akarunk kiemelni és azokat delegációval meghívni
 - Az objektum viselkedése függ az állapotától -> futás közben változtatja meg
-- Nagy feltételes ágak () -> Az aktuális állapottól függően a műveleteknek nagy feltételes ágai vannak
+- Nagy feltételes ágak (switch/if-else) -> Az aktuális állapottól függően a műveleteknek nagy feltételes ágai vannak
 - Előnyok:
     - Egységbe zárja az állapotfüggő viselkedést -> könnyű új állapotokat bevezetni
     - A kód könnyebben áttekinthetőbb, mivel nincsen annyi if-elseif-switchcase
-    - Az állapot objektumokat meg lehet osztani ()
+    - Az állapot objektumokat meg lehet osztani (újrafelhasználható)
 - Hátrányok: 
     - osztályok száma megnő
 
