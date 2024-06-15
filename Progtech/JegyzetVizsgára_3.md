@@ -56,6 +56,8 @@
 6. **DIP (Dependency Inversion Principle) - Absztrakciótól függj, ne függj konkrét osztályoktól**:
    - A magas szintű modulok ne függjenek alacsony szintű moduloktól, mindkettőnek absztrakcióktól kell függenie. Ezáltal a kód rugalmasabb és könnyebben tesztelhető lesz.
 
+
+
 #### Joel on Software inspirációk
 
 1. **Szivárgó absztrakciók**:
@@ -77,6 +79,7 @@
 
 4. **Eseményvezérelt programozás**:
    - Az események alapján történő vezérlés azt jelenti, hogy a rendszer bizonyos események bekövetkezésekor hajt végre műveleteket. Ez a megközelítés növeli a rendszer rugalmasságát és reagáló képességét.
+
 
 #### Objektumorientált tervezési minták
 
