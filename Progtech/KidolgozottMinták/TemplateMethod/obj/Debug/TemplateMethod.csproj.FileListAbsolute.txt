@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\bin\Debug\TemplateMethod.exe.config
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\bin\Debug\TemplateMethod.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\bin\Debug\TemplateMethod.pdb
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\obj\Debug\TemplateMethod.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\obj\Debug\TemplateMethod.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\obj\Debug\TemplateMethod.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\TemplateMethod\obj\Debug\TemplateMethod.pdb

@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\fa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:fa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\bfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:bfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\maxvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:maxvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\sumvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:sumvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\visitor\\lev\u00E9l.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56413A6C-7A04-42C4-A301-391A7A6EFE27}|Visitor.csproj|solutionrelative:lev\u00E9l.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaxVisitor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\MaxVisitor.cs",
+              "RelativeDocumentMoniker": "MaxVisitor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\MaxVisitor.cs",
+              "RelativeToolTip": "MaxVisitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:32:07.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SumVisitor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\SumVisitor.cs",
+              "RelativeDocumentMoniker": "SumVisitor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\SumVisitor.cs",
+              "RelativeToolTip": "SumVisitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:31:34.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Visitor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Visitor.cs",
+              "RelativeDocumentMoniker": "Visitor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Visitor.cs",
+              "RelativeToolTip": "Visitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:30:58.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lev\u00E9l.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Lev\u00E9l.cs",
+              "RelativeDocumentMoniker": "Lev\u00E9l.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Lev\u00E9l.cs",
+              "RelativeToolTip": "Lev\u00E9l.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:30:12.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fa.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Fa.cs",
+              "RelativeDocumentMoniker": "Fa.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Fa.cs",
+              "RelativeToolTip": "Fa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:29:14.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BFa.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\BFa.cs",
+              "RelativeDocumentMoniker": "BFa.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\BFa.cs",
+              "RelativeToolTip": "BFa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:28:40.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Visitor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:28:12.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\obj\Debug\Visitor.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\obj\Debug\Visitor.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\bin\Debug\Visitor.exe.config
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\bin\Debug\Visitor.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\bin\Debug\Visitor.pdb
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\obj\Debug\Visitor.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Visitor\obj\Debug\Visitor.pdb

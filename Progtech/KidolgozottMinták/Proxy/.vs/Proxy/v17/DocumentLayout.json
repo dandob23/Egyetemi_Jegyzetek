@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\proxy\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|solutionrelative:proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\proxy\\val\u00F3dit\u00E1rgy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|solutionrelative:val\u00F3dit\u00E1rgy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\proxy\\t\u00E1rgy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77734A7C-268E-43D1-89D9-037FC9F5AC29}|Proxy.csproj|solutionrelative:t\u00E1rgy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proxy.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\Proxy.cs",
+              "RelativeDocumentMoniker": "Proxy.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\Proxy.cs",
+              "RelativeToolTip": "Proxy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:15:50.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Val\u00F3diT\u00E1rgy.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\Val\u00F3diT\u00E1rgy.cs",
+              "RelativeDocumentMoniker": "Val\u00F3diT\u00E1rgy.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\Val\u00F3diT\u00E1rgy.cs",
+              "RelativeToolTip": "Val\u00F3diT\u00E1rgy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:14:56.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "T\u00E1rgy.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\T\u00E1rgy.cs",
+              "RelativeDocumentMoniker": "T\u00E1rgy.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\T\u00E1rgy.cs",
+              "RelativeToolTip": "T\u00E1rgy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:14:12.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Proxy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:13:25.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
