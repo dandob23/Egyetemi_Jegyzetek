@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\mercedesgyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:mercedesgyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\opelgyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:opelgyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\autogyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:autogyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\mercedesmotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:mercedesmotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\opelmotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:opelmotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\mercedesalvaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:mercedesalvaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\opelalvaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:opelalvaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\abstractfactory\\alvaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1B47AC-FA71-4F5C-A399-76C57F3E02F0}|AbstractFactory.csproj|solutionrelative:alvaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MercedesGyar.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\MercedesGyar.cs",
+              "RelativeDocumentMoniker": "MercedesGyar.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\MercedesGyar.cs",
+              "RelativeToolTip": "MercedesGyar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:08:02.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OpelGyar.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\OpelGyar.cs",
+              "RelativeDocumentMoniker": "OpelGyar.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\OpelGyar.cs",
+              "RelativeToolTip": "OpelGyar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:06:56.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoGyar.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\AutoGyar.cs",
+              "RelativeDocumentMoniker": "AutoGyar.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\AutoGyar.cs",
+              "RelativeToolTip": "AutoGyar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:06:13.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MercedesMotor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\MercedesMotor.cs",
+              "RelativeDocumentMoniker": "MercedesMotor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\MercedesMotor.cs",
+              "RelativeToolTip": "MercedesMotor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:05:57.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OpelMotor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\OpelMotor.cs",
+              "RelativeDocumentMoniker": "OpelMotor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\OpelMotor.cs",
+              "RelativeToolTip": "OpelMotor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:05:37.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Motor.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\Motor.cs",
+              "RelativeDocumentMoniker": "Motor.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\Motor.cs",
+              "RelativeToolTip": "Motor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:05:22.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MercedesAlvaz.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\MercedesAlvaz.cs",
+              "RelativeDocumentMoniker": "MercedesAlvaz.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\MercedesAlvaz.cs",
+              "RelativeToolTip": "MercedesAlvaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:05:07.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OpelAlvaz.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\OpelAlvaz.cs",
+              "RelativeDocumentMoniker": "OpelAlvaz.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\OpelAlvaz.cs",
+              "RelativeToolTip": "OpelAlvaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:04:45.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Alvaz.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\Alvaz.cs",
+              "RelativeDocumentMoniker": "Alvaz.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\Alvaz.cs",
+              "RelativeToolTip": "Alvaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:04:21.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\AbstractFactory\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:03:50.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

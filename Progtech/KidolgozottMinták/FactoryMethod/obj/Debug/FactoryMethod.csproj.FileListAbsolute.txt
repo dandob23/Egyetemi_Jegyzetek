@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\bin\Debug\FactoryMethod.exe.config
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\bin\Debug\FactoryMethod.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\bin\Debug\FactoryMethod.pdb
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\obj\Debug\FactoryMethod.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\obj\Debug\FactoryMethod.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\FactoryMethod\obj\Debug\FactoryMethod.pdb

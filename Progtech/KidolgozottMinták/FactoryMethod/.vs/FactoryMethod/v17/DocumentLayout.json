@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\b_minosites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:b_minosites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\a_minosites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:a_minosites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\minosites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:minosites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\konkretminositesgyar2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:konkretminositesgyar2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\konkretminositesgyar1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:konkretminositesgyar1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\factorymethod\\minositesgyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCAA72AC-EC3F-4C3A-A0CA-3427E0F47B08}|FactoryMethod.csproj|solutionrelative:minositesgyar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "B_Minosites.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\B_Minosites.cs",
+              "RelativeDocumentMoniker": "B_Minosites.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\B_Minosites.cs",
+              "RelativeToolTip": "B_Minosites.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:01:38.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "A_Minosites.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\A_Minosites.cs",
+              "RelativeDocumentMoniker": "A_Minosites.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\A_Minosites.cs",
+              "RelativeToolTip": "A_Minosites.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:01:00.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Minosites.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\Minosites.cs",
+              "RelativeDocumentMoniker": "Minosites.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\Minosites.cs",
+              "RelativeToolTip": "Minosites.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:00:32.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KonkretMinositesGyar2.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\KonkretMinositesGyar2.cs",
+              "RelativeDocumentMoniker": "KonkretMinositesGyar2.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\KonkretMinositesGyar2.cs",
+              "RelativeToolTip": "KonkretMinositesGyar2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:59:48.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KonkretMinositesGyar1.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\KonkretMinositesGyar1.cs",
+              "RelativeDocumentMoniker": "KonkretMinositesGyar1.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\KonkretMinositesGyar1.cs",
+              "RelativeToolTip": "KonkretMinositesGyar1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:58:57.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MinositesGyar.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\MinositesGyar.cs",
+              "RelativeDocumentMoniker": "MinositesGyar.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\MinositesGyar.cs",
+              "RelativeToolTip": "MinositesGyar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:58:14.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\FactoryMethod\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:57:52.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

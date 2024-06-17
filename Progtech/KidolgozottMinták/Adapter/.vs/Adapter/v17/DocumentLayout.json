@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\adapter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\adapter\\robot2ember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|solutionrelative:robot2ember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\adapter\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|solutionrelative:robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|c:\\users\\lenovo\\desktop\\jegyzetek\\progtech\\kidolgozottmint\u00E1k\\adapter\\ember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C429A22C-5292-4EB2-8F21-B353047BD872}|Adapter.csproj|solutionrelative:ember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Robot2Ember.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Robot2Ember.cs",
+              "RelativeDocumentMoniker": "Robot2Ember.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Robot2Ember.cs",
+              "RelativeToolTip": "Robot2Ember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:11:36.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Robot.cs",
+              "RelativeDocumentMoniker": "Robot.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Robot.cs",
+              "RelativeToolTip": "Robot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:11:17.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ember.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Ember.cs",
+              "RelativeDocumentMoniker": "Ember.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Ember.cs",
+              "RelativeToolTip": "Ember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:10:56.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\jegyzetek\\Progtech\\KidolgozottMint\u00E1k\\Adapter\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:10:26.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

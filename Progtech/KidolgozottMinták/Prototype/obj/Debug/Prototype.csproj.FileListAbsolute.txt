@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\bin\Debug\Prototype.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\bin\Debug\Prototype.pdb
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\obj\Debug\Prototype.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\obj\Debug\Prototype.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Prototype\obj\Debug\Prototype.pdb
