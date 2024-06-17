@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\bin\Debug\Singleton.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\bin\Debug\Singleton.pdb
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\obj\Debug\Singleton.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\obj\Debug\Singleton.exe
+C:\Users\Lenovo\Desktop\jegyzetek\Progtech\KidolgozottMinták\Singleton\obj\Debug\Singleton.pdb
