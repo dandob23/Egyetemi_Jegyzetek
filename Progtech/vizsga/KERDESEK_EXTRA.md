@@ -195,7 +195,7 @@ aggregáció és a kompozíció:
 - Kompozíció esetén a rész nem létezhet az egész nélkül. 
 
 átlátszó és átlátszatlan becsomagolás:
-- bjektum-összetétel típusai.
+- objektum-összetétel típusai.
 
 #### A GOF könyv 1. alapelve – GOF1
 - „Program to an interface, not an implementation”, azaz „Programozz felületre implementáció helyett”.
@@ -407,10 +407,7 @@ Ennek a példának megfelelő kódrészlet:
   	}
    }
 ```
-```csharp
-
 ----
-
 - Kompozíció (angolul: composition): A birtokolt példány csak az enyém, azt más nem is ismerheti. 
 	- Például a kutyának van farka, azt csak ő csóválhatja. 
 
