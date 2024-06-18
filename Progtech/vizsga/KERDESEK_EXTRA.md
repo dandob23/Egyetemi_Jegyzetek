@@ -515,6 +515,22 @@ class GömbDísz // nincs IS-A kapcsolat a KarácsonyFa osztállyal
 	- Erre szép példa az illesztő tervezési minta.
 
 
+#### Az objektum-összetétel és a csatoltság
+
+- Csatoltság szempontjából az öröklődés a legerősebb, majd jön a kompozíció és az aggregáció. 
+- Éppen ez az oka, hogy a GOF2 kimondja, hogy használjunk inkább objektum-összetételt öröklődés helyett, hiszen az kisebb csatoltságot eredményez és így rugalmasabb kódot kapunk. 
+	- Ugyanakkor ki kell emelni, hogy az ilyen kód nehezebben átlátható, ezért nem szabad túlzásba vinni az objektum-összetételt.
+
+- Ha egy osztálynak van olyan mezője, amely lehet null értékű, akkor az a mező általában nem objektum-összetételt valósít meg, hanem az objektum-összetételtől lazább kapcsolatot, a barátságot (angolul: dependency). 
+- A barátság egy átmeneti kapcsolat, gyakran nem is kell hozzá mező, elegendő annyi, hogy az objektum egy metódusában kap egy referenciát egy másik metódusra, kér tőle valamit és el is felejti.
+
+#### GOF2 a gyakorlatban
+
+- Egy másik ok, ami miatt nem váltunk ki minden öröklődést objektum-összetétellel, az az, hogy öröklődés nélkül nincs többalakúság (legalábbis erősen típusos nyelvek esetén). 
+- Jól tudjuk, hogy egy osztályhierarchia tetején lévő osztály példánya helyett bármelyik gyermekosztály példányát használhatjuk. 
+- Erre gyakran van szükségünk, hiszen így tudunk a változásokhoz könnyen alkalmazkodni. 
+	- Például van egy gyermekosztályunk, ami Windows speciális, egy másik Unix speciális, az egyik környezetben az egyiket, a másikban a másikat használjuk.
+
 
 
 
