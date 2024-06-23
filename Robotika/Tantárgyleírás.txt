@@ -1,0 +1,149 @@
+Tantárgy neve: Robotika Alapjai
+
+Kódja: NBT_PI172K2
+
+Kreditszáma: 2
+
+A tanóra típusa: ea. száma: 2
+
+Az értékelés módja: koll.
+
+A tantárgy tantervi helye: 1.félév
+
+Meghirdetés gyakorisága: évente
+
+Oktatás nyelv: magyar/angol
+
+Előtanulmányi feltételek: NBT_IM711K3
+
+Tantárgyleírás
+
+Oktatási cél:
+
+A kurzus célja alapvető ismeretek közvetítése, készségek fejlesztése, szemléletformálás az autonóm rendszerek elmélete területén. 
+Robotika története, a robotika napjainkban. 
+Robot hardver, érzékelés (szenzorok) és mozgás (aktuátorok), irányítástechnikai, mechatronikai alapfogalmak, az irányító rendszerek elemei, számítógéppel történő irányítás. 
+Szoftverarchitektúrák a robotikában, programozási nyelvek és környezetek.
+
+Kialakítandó / fejlesztendő kompetenciák:
+
+Kompetenciák:
+
+A hallgató ismeri a robotika tárgykörébe tartozó alapvető fogalmakat, eljárásokat.
+
+Az egész életen át tartó tanulást megalapozó kompetenciák fejlesztése
+
+Önművelés, elkötelezettség a szakmai fejlődésre
+
+Tudás:
+
+Ismeri és kommunikációja során aktív módon is alkalmazza a témával kapcsolatos szakkifejezéseket.
+
+Megfelelő szinten ismeri az itt használt alapvető hardverelemeket, (azok általános paramétereit, funkcióit, jelöléseit) és műszereket.
+
+Ismeri az alapvető hardver- és szoftverfejlesztés eszközeit, lehetőségeit.
+
+Attitűdök/nézetek:
+
+Nyitott a tananyag más tudományok, tantárgyak felőli megközelítésére
+
+Nyitott a szakma új eredményeire, elméleteire
+
+Elkötelezett a szakmai fejlődésre
+
+Probléma érzékeny, proaktív magatartást tanúsít a fejlesztés minden szakaszában.
+
+Képességek:
+
+Képes a szakterületre jellemző terminológia megértésére, szabatos használatára a szakmai kommunikáció során. 
+A hallgató az elméleti és módszertani ismereteinek felhasználásával, azok birtokában képes önálló ismeretek megszerzésére a megfelelő szakirodalom felhasználásával.
+
+Átlátja az ismeretanyag helyét, szerepét, kapcsolatait az informatika egészében.
+
+Képes konkrét problémák esetében az összefüggések felismerésére, a megoldáshoz vezető részproblémák elkülönítésére, adatmodell megtervezésére és a megoldás lépéseinek kidolgozására a kívánt szintnek megfelelően
+
+Az oktatás tartalma és tervezett ütemezése:
+
+A feldolgozandó témák a következők:
+
+Szervezési feladatok, követelmények, bevezetés
+A robotikához kapcsolódó alapvető ismeretek
+Elektronikai alapok – digitális elektronika
+Elektronikai mérések eszközei és módszerei
+Lehetséges vezérlők (LEGO, Arduino, Raspberry Pi)
+Az alkalmazott prototipizáló eszköz megismerése
+A fejlesztés szoftvereszköze
+Vezérlő szoftverek modellezése, modellek megadási módjai
+A hardverfejlesztés hardver- és szoftvereszközei
+A vezérlőszoftver fejlesztésének eszközei
+Szenzorok és aktuátorok
+Digitális KI- és BEmenetek használata – egyszerűbb vezérlési lehetőségek
+Analóg jelek kezelése
+Rendszerezés
+Előadás, forráselemzés, hallgatói kutatómunka
+
+ 
+
+Oktatásszervezés:
+
+Az órák a Neptun-rendszerben megjelölt helyen és időpontban lesznek megtartva, laptop használata az előadásokon engedélyezett.
+
+ 
+
+A kurzus teljesítésének a feltételei:
+
+megszerzett ismeretek értékelési módja: A gyakorlatok látogatásával kapcsolatban a Tanulmányi és vizsgaszabályzat rendelkezései az irányadóak. 
+A félév során két zárthelyi dolgozat írására kerül sor, majd a félév végén egy közös megegyezéssel kiválasztott projektfeladat megoldását kell bemutatni. 
+Az elégséges szint megszerzéséhez a 60% elérése szükséges. 
+Az érdemjegy végleges kialakításában szerepet játszik a félév során nyújtott egyéni teljesítmény és az órai aktivitás is.
+
+évközi tanulmányi követelmények: A gyakorlatokon való megjelenés feltételezi a korábbi előadásokhoz és gyakorlatokhoz tartozó ismeretek elsajátítását. 
+Ennek ellenőrzése minden gyakorlaton várható.
+
+szóbeli vizsga tételsora: A szóbeli vizsga témakörei megegyeznek a tartalomnál felsorolt témakörökkel. 
+(Írásbeli kollokvium esetében is ugyanezek a témák kerülnek számonkérésre.) 
+Az aktuális félévben előforduló esetleges eltéréseket külön egyeztetjük a hallgatókkal. 
+(Indokolt esetben a hallgató választása alapján, ha azt a hallgató helyzete indokolja, sor kerülhet szóbeli vagy írásbeli kollokviumra.)
+ 
+
+ 
+
+ 
+
+ 
+
+Kötelező irodalom:
+
+G. Geda: Robotika alapjai, Gyakorlati Oktatási Kézikönyve gyakorlatvezetők számára, Eger 2015
+ 
+
+Ajánlott irodalom:
+
+Massimo Banzi: Getting Started with Arduino, ISBN-10: 1449309879
+Matt Richardson, Shawn Wallace: Getting Started with Raspberry Pi (Make: Projects) ISBN-10: 1449344216
+Jeremy Blum: Exploring Arduino (Tools and Techniques for Engineering Wizardry), ISBN-10: 1118549368
+Andrew K. Dennis: Raspberry Pi Home Automation with Arduino, ISBN-10: 1849695865
+Simon Monk: Raspberry Pi Cookbook, ISBN-10: 1449365221
+ 
+
+ 
+
+A kurzus teljesítését segítő (kötelező / ajánlott) digitális tananyagok:
+
+http://www.tankonyvtar.hu/hu/tartalom/tamop412A/2010-0013_erzekelok_mukodtetok/adatok.html
+
+http://www.arduino.cc/
+
+ 
+
+Szakképzettség-felelős:Dr. Radványi Tibor (PhD)
+
+Tantárgy felelőse: Dr. Geda Gábor főiskolai docens (PhD)
+
+Tantárgy oktatásába bevont oktató: Gregus Tamás óraadó
+
+Az oktató fogadóórájának időpontja, helye és a bejelentkezés módja: Lásd: Matematikai és Informatikai Intézet hivatalos honlapja
+
+Az oktató által előnyben részesített elérhetőség: e-mail
+
+A csoportos online kommunikáció módja és helye: Neptun

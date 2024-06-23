@@ -1,0 +1,15 @@
+- Szervezési feladatok, követelmények, bevezetés
+- A robotikához kapcsolódó alapvető ismeretek
+- Elektronikai alapok – digitális elektronika
+- Elektronikai mérések eszközei és módszerei
+- Lehetséges vezérlők (LEGO, Arduino, Raspberry Pi)
+- Az alkalmazott prototipizáló eszköz megismerése
+- A fejlesztés szoftvereszköze
+- Vezérlő szoftverek modellezése, modellek megadási módjai
+- A hardverfejlesztés hardver- és szoftvereszközei
+- A vezérlőszoftver fejlesztésének eszközei
+- Szenzorok és aktuátorok
+- Digitális KI- és BEmenetek használata – egyszerűbb vezérlési lehetőségek
+- Analóg jelek kezelése
+- Rendszerezés
+- Előadás, forráselemzés, hallgatói kutatómunka
