@@ -1,4 +1,3 @@
-- Szervezési feladatok, követelmények, bevezetés
 - A robotikához kapcsolódó alapvető ismeretek
 - Elektronikai alapok – digitális elektronika
 - Elektronikai mérések eszközei és módszerei
@@ -12,4 +11,3 @@
 - Digitális KI- és BEmenetek használata – egyszerűbb vezérlési lehetőségek
 - Analóg jelek kezelése
 - Rendszerezés
-- Előadás, forráselemzés, hallgatói kutatómunka
