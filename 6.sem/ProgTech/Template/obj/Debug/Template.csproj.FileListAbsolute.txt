@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\Template\bin\Debug\Template.exe.config
+C:\Users\Lenovo\Desktop\Template\bin\Debug\Template.exe
+C:\Users\Lenovo\Desktop\Template\bin\Debug\Template.pdb
+C:\Users\Lenovo\Desktop\Template\obj\Debug\Template.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Template\obj\Debug\Template.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Template\obj\Debug\Template.exe
+C:\Users\Lenovo\Desktop\Template\obj\Debug\Template.pdb

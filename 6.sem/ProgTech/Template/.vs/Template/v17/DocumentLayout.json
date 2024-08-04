@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|c:\\users\\lenovo\\desktop\\template\\ital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|solutionrelative:ital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|c:\\users\\lenovo\\desktop\\template\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|c:\\users\\lenovo\\desktop\\template\\tea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|solutionrelative:tea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|c:\\users\\lenovo\\desktop\\template\\kave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBA8F12-8E64-4BE4-9879-0FE5501608A3}|Template.csproj|solutionrelative:kave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tea.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Template\\Tea.cs",
+              "RelativeDocumentMoniker": "Tea.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Template\\Tea.cs",
+              "RelativeToolTip": "Tea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:23:31.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kave.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Template\\Kave.cs",
+              "RelativeDocumentMoniker": "Kave.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Template\\Kave.cs",
+              "RelativeToolTip": "Kave.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:23:24.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ital.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Template\\Ital.cs",
+              "RelativeDocumentMoniker": "Ital.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Template\\Ital.cs",
+              "RelativeToolTip": "Ital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:23:17.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Template\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Template\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:22:42.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
