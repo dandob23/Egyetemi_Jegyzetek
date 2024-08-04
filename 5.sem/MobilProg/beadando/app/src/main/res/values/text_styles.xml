@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 3.feladat -->
+<resources>
+    <style name="RedItalicText">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

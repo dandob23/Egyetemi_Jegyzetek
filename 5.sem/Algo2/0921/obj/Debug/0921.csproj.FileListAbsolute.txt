@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\bin\Debug\0921.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\bin\Debug\0921.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\bin\Debug\0921.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\obj\Debug\0921.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\obj\Debug\0921.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\obj\Debug\0921.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\obj\Debug\0921.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2 gyak\0921\obj\Debug\0921.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\bin\Debug\0921.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\bin\Debug\0921.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\bin\Debug\0921.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\obj\Debug\0921.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\obj\Debug\0921.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\obj\Debug\0921.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\obj\Debug\0921.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\0921\obj\Debug\0921.pdb

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\BL7VQV\bin\Debug\net6.0\BL7VQV.exe
+C:\Users\Lenovo\Desktop\BL7VQV\bin\Debug\net6.0\BL7VQV.deps.json
+C:\Users\Lenovo\Desktop\BL7VQV\bin\Debug\net6.0\BL7VQV.runtimeconfig.json
+C:\Users\Lenovo\Desktop\BL7VQV\bin\Debug\net6.0\BL7VQV.dll
+C:\Users\Lenovo\Desktop\BL7VQV\bin\Debug\net6.0\BL7VQV.pdb
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.dll
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\refint\BL7VQV.dll
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.pdb
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\BL7VQV.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\net6.0\ref\BL7VQV.dll

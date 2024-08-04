@@ -1,0 +1,120 @@
+Tóth Nóra - NU70VQ
+
+1. feladat 
+Jelenítse meg a /etc könyvtár tartalomjegyzékét és írja ki a etc.txt fájlba!
+	ls /etc > etc.txt
+
+2. feladat
+Jelenítse meg az az elõzõ fájból az "up" kifejezést tartalmazó sorokat!
+	grep "up" etc.txt
+
+3. feladat
+Listázza ki az etc.txt fájlból a "p" betûvel kezdõdõ sorokat!
+	grep "^p" etc.txt
+
+4.feladat
+Hozza létre az alábbi könyvtár szerkezetet egyetlen paranccsal: hazi/feladatok/history
+	mkdir -p hazi/feladatok/history
+
+5. feladat 
+Mentse a home könvyvtárból history könyvtárba az alábbi szöveget egy fájlba: "Piros alma"
+ 	echo "Piros alma"> hazi/feladatok/history/alma
+
+6. Lépjen a history könyvtárba!
+	cd hazi/feladatok/history
+
+7. feladat
+Állíptsa meg az 5. feladatban létrehozott fájl típusát!
+	file alma
+
+8. feladat 
+Hozzon létre egy softlinket az elõzõ fájlra!
+	ln -s alma alma_link
+
+9. feladat
+Módosítsa a 'hazi' könyvtár jogosultságát az alábbiak szerint: tulajdonos írhatja, olvashatja, futathatja, csoport olvashatja, futtathatja, mások pedig ne férjenek hozzá!
+	chmod 750 hazi
+
+10. feladat
+Kérdezze le a saját felhasználói azonosítóját és csoporttagsági információit!
+	id	
+
+11. feladat
+Irassa ki milyen processzor van a gépben!
+	cat /proc/cpuinfo
+
+12. feladat
+Jelenítse meg az utolyó 10 bejelentkezést!
+	last -10
+
+13. feladat
+Jelenítse meg milyen ethernet kártya van a számítógépbe építve!
+	lspci | grep -i ether
+
+14. feladat
+Írassa ki a felhasználókat sorba rendezve!
+	cat /etc/passwd | sort
+
+15. feladat
+Írassa ki a "N" betûvel kezdõdõ felhasználókat!
+	cat etc/passwod | grep -i ^n
+
+16. feladat 
+Írassa ki a következõ hétfõ dátumát!
+	date -d "next monday"
+
+17. feladat
+Számolja meg hány "a" betûvel kezdõdõ sor van a etc.txt fájlban!
+	cat etc.txt | grep ^a | wc -l
+
+18. feladat
+Jelenítse meg hány karakter van az etc.txt fájlban!
+	cat etc.txt | wc -c
+
+19. feladat
+Jelenítse meg milyen processzek futtat a rendszerben!
+	ps axu | grep ^NU70VQ
+
+20. feladat
+Készítsen egy üres fájlt a home könyvtárba Proba néven!
+	touch Proba
+
+21. feladat
+Írassa ki ebbe a fájlba, hogy "Süt a nap"!
+	echo "Süt a nap" > Proba
+
+22. feladat
+ Írassa hozzá, hogy "De esik az esõ!"!
+	echo "De esik az esõ!" >>Proba
+
+23. feladat
+Törölje a Proba fájlt!
+	rm Proba
+
+24. feladat Törölje a gyakorlat könyvtárat!
+	rm -r gyakorlat
+
+25. feladat
+Hozza létre a konyvtar könyvtárat, és az esetleges hiábakat mentse ki egy fájlba!
+	mkdir konyvtar 2> konyvtar.err
+
+26. feladat
+Irassa ki a mai dátumot az alábbi formában (YY.mm.dd), és fûzze hozzá az etc.txt fájhoz!
+	date +%Y.%m.%d. >>etc.txt
+
+27. feladat
+Jelenítse meg az etc.txt fájlból azokat a sorokat amik .conf-ra végzõdnek!
+	cat etc.txt | grep .conf$
+
+28. feladat
+Az etc.txt fájlból törölje az összes 'a' betût!
+	cat etc.txt | tr -d 'a'
+
+29. feladat
+Jelenítse meg az etc.txt fájl azon sorait, amelyekben nincs 'o' betû!
+	cat etc.txt | grep -v 'o'
+
+30. feladat 
+Hány sorból és parancsból áll az elõzõ parancs kimenete?
+
+	cat etc.txt | grep -v 'o' | wc -l -c

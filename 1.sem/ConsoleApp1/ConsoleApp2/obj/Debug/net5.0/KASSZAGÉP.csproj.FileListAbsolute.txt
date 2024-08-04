@@ -1,0 +1,32 @@
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.exe
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.deps.json
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.runtimeconfig.json
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.runtimeconfig.dev.json
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\ref\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.pdb
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.AssemblyInfoInputs.cache
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.AssemblyInfo.cs
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\ref\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.pdb
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.genruntimeconfig.cache
+C:\Users\Dániel\Desktop\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.exe
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.deps.json
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.runtimeconfig.json
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.runtimeconfig.dev.json
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\ref\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\bin\Debug\net5.0\KASSZAGÉP.pdb
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.AssemblyInfoInputs.cache
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.AssemblyInfo.cs
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\ref\KASSZAGÉP.dll
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.pdb
+C:\Users\Dániel\Desktop\Random Sh1t\sulis\1.sem\ConsoleApp1\ConsoleApp2\obj\Debug\net5.0\KASSZAGÉP.genruntimeconfig.cache

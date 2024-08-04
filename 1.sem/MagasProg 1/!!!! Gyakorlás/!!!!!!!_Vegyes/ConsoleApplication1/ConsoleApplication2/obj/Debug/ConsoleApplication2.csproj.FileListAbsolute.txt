@@ -1,0 +1,9 @@
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\bin\Debug\veremautomatagrammatika.exe.config
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\bin\Debug\veremautomatagrammatika.exe
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\bin\Debug\veremautomatagrammatika.pdb
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.exe
+C:\Users\Lenovo\Desktop\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.pdb
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\bin\Debug\veremautomatagrammatika.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\bin\Debug\veremautomatagrammatika.exe
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\bin\Debug\veremautomatagrammatika.pdb
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.exe
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\3.sem\beadandok\fordprog\veremautomatagrammatika\obj\Debug\veremautomatagrammatika.pdb

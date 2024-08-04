@@ -1,0 +1,16 @@
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\gyak_2021_10_24.exe
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\gyak_2021_10_24.deps.json
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\gyak_2021_10_24.runtimeconfig.json
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\gyak_2021_10_24.runtimeconfig.dev.json
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\gyak_2021_10_24.dll
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\ref\gyak_2021_10_24.dll
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\bin\Debug\net5.0\gyak_2021_10_24.pdb
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.AssemblyInfoInputs.cache
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.AssemblyInfo.cs
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.dll
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\ref\gyak_2021_10_24.dll
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.pdb
+C:\Users\Dániel\Desktop\gyak\gyak_2021_10_24\obj\Debug\net5.0\gyak_2021_10_24.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+D:\KSanyi\EBay_server\EBay_server\bin\Debug\EBay_server.exe.config
+D:\KSanyi\EBay_server\EBay_server\bin\Debug\EBay_server.exe
+D:\KSanyi\EBay_server\EBay_server\bin\Debug\EBay_server.pdb
+D:\KSanyi\EBay_server\EBay_server\obj\Debug\EBay_server.csprojResolveAssemblyReference.cache
+D:\KSanyi\EBay_server\EBay_server\obj\Debug\EBay_server.exe
+D:\KSanyi\EBay_server\EBay_server\obj\Debug\EBay_server.pdb
+D:\SzucsNorbert\streamalapukomm\EBay_server\EBay_server\bin\Debug\EBay_server.exe.config
+D:\SzucsNorbert\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.exe
+D:\SzucsNorbert\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.pdb
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\bin\Debug\EBay_server.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\bin\Debug\EBay_server.exe
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\bin\Debug\EBay_server.pdb
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.exe
+C:\Users\Lenovo\Desktop\Egyetem\jegyzetek\sulis\Anyagok\3. Szemeszter\Szolgáltatás orientált programozás\streamalapukomm\EBay_server\EBay_server\obj\Debug\EBay_server.pdb

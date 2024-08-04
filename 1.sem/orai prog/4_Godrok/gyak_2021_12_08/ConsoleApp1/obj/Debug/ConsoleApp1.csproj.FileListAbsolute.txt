@@ -1,0 +1,8 @@
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\bin\Debug\filmek.csv
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Dániel\Desktop\4_Godrok\gyak_2021_12_08\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

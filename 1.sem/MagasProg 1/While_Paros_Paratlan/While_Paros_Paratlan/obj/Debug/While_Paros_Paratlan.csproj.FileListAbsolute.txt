@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan\While_Paros_Paratlan\bin\Debug\While_Paros_Paratlan.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan\While_Paros_Paratlan\bin\Debug\While_Paros_Paratlan.exe
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan\While_Paros_Paratlan\bin\Debug\While_Paros_Paratlan.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan\While_Paros_Paratlan\obj\Debug\While_Paros_Paratlan.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan\While_Paros_Paratlan\obj\Debug\While_Paros_Paratlan.exe
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan\While_Paros_Paratlan\obj\Debug\While_Paros_Paratlan.pdb

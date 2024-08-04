@@ -1,0 +1,34 @@
+Az összeállított jegyzetek a következők:
+
+**Tokenek:**
+- Legapróbb egységek a forráskódban.
+- Példák: kulcsszavak, operátorok, literálok, változónevek.
+
+**Nyelvtan ellenőrzése:**
+- A szintaktikai elemzés a forráskód szerkezetét vizsgálja.
+- Ellenőrzi, hogy a kód megfelel-e a nyelvtan szabályainak.
+- Példák: megfelelő műveletek ágyazása, helyes vezérlési szerkezetek használata.
+
+**Kód jelentése (szemantikai elemzés):**
+- Az általános elfogadott szabályoknak megfelelően értelmezi a kódot.
+- Ellenőrzi, hogy a kód helyesen viselkedik-e és helyes eredményeket ad-e futtatáskor.
+
+**Reguláris kifejezések:**
+- Szövegrészletek, metakarakterek, karakterosztályok kombinációi.
+- Elemi kifejezések: karakterek, metakarakterek, karakterosztályok.
+
+**Gyenge normálformák:**
+- Környezetfüggetlen nyelvtanok gyenge normálformája: Rugalmasabb korlátozásokat határoz meg a szabályokra.
+- Lineáris nyelvtanok erős normálformája: Szigorúbb szabályokat ír elő a nyelvtanoknak.
+
+**Automatatípusok példái:**
+- Determinisztikus véges automata (DFA): 'a' vagy 'b' nyelv elfogadása.
+- Nemdeterminisztikus véges automata (NFA): '0'-k és '1'-ek nyelvének elfogadása.
+- Determinisztikus veremautomata (DPDA): 'a'b'c' nyelv elfogadása.
+- Nemdeterminisztikus veremautomata (NPDA): 'a^n b^n' nyelv elfogadása.
+
+**Reguláris nyelvek:**
+- Reguláris kifejezésekkel vagy automatákkal leírható egyszerű nyelvek, pl. 'abc*' típusúak.
+
+**Környezetfüggetlen nyelvek:**
+- Környezetfüggetlen nyelvtanokkal leírhatók, pl. 'a^n b^n c^n' nyelvek, komplexebb nyelvi elemekkel.

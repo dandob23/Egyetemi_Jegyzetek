@@ -1,0 +1,14 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_2_3\Beugro_2_3\bin\Debug\Beugro_2_3.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_2_3\Beugro_2_3\bin\Debug\Beugro_2_3.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_2_3\Beugro_2_3\bin\Debug\Beugro_2_3.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_2_3\Beugro_2_3\obj\Debug\Beugro_2_3.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_2_3\Beugro_2_3\obj\Debug\Beugro_2_3.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2\Beugro_2_3\bin\Debug\Beugro_2_3.exe.config
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2\Beugro_2_3\obj\Debug\Beugro_2_3.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2\Beugro_2_3\obj\Debug\Beugro_2_3.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2_ket_tomb_kulonbsege\Beugro_2_3\bin\Debug\Beugro_2_3.exe.config
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2_ket_tomb_kulonbsege\Beugro_2_3\obj\Debug\Beugro_2_3.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2_ket_tomb_kulonbsege\Beugro_2_3\obj\Debug\Beugro_2_3.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2_ket_tomb_kulonbsege\Beugro_2_3\bin\Debug\Beugro_2_3.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2_ket_tomb_kulonbsege\Beugro_2_3\bin\Debug\Beugro_2_3.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_2_ket_tomb_kulonbsege\Beugro_2_3\obj\Debug\Beugro_2_3.csprojResolveAssemblyReference.cache

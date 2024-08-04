@@ -1,0 +1,16 @@
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\bin\Debug\filmek.csv
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\bin\Debug\proba.exe.config
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\bin\Debug\proba.exe
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\bin\Debug\proba.pdb
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\obj\Debug\proba.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\obj\Debug\proba.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\obj\Debug\proba.exe
+C:\Users\Dániel\Desktop\ConsoleApplication3\proba\obj\Debug\proba.pdb
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\bin\Debug\filmek.csv
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\bin\Debug\proba.exe.config
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\bin\Debug\proba.exe
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\bin\Debug\proba.pdb
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\obj\Debug\proba.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\obj\Debug\proba.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\obj\Debug\proba.exe
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\proba\obj\Debug\proba.pdb

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BL7VQV</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="grid_items">
+        <item>Elem 1</item>
+        <item>Elem 2</item>
+        <item>Elem 3</item>
+    </string-array>
+</resources>

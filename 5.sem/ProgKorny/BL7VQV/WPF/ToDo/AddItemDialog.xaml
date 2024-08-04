@@ -1,0 +1,25 @@
+﻿<Window x:Class="ToDo.AddItemDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hozzáadás" Height="330" Width="400"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="103*"/>
+            <ColumnDefinition Width="158*"/>
+            <ColumnDefinition Width="139*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TitleField" Margin="10,33,10,218" AutomationProperties.HelpText="Cím" Grid.ColumnSpan="3" TextChanged="TitleField_TextChanged"/>
+        <TextBox x:Name="CategoryField" Margin="10,94,10,161" AutomationProperties.HelpText="Kategória" Grid.ColumnSpan="3" TextChanged="CategoryField_TextChanged"/>
+        <DatePicker x:Name="DatePicker" Margin="10,156,66,94" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TimeField" Margin="97,156,10,94" AutomationProperties.HelpText="Idő (11:30)" Grid.ColumnSpan="2" Grid.Column="1" TextChanged="TimeField_TextChanged"/>
+        <Button Content="Mentés" Click="SaveButton_Click" Margin="10,250,31,10"/>
+        <Button Content="Alkalmaz" Click="ApplyButton_Click" Margin="63,250,27,10" Grid.Column="1"/>
+        <Button Content="Mégse" Click="CancelButton_Click" Margin="65,250,10,10" Grid.Column="2"/>
+        <Label Content="Cím" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kategória" HorizontalAlignment="Left" Margin="11,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Idő" HorizontalAlignment="Left" Margin="97,130,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Dátum" HorizontalAlignment="Left" Margin="13,130,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

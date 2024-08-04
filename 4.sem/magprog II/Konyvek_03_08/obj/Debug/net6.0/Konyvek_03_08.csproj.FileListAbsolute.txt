@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\bin\Debug\net6.0\Konyvek_03_08.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\bin\Debug\net6.0\Konyvek_03_08.deps.json
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\bin\Debug\net6.0\Konyvek_03_08.runtimeconfig.json
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\bin\Debug\net6.0\Konyvek_03_08.dll
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\bin\Debug\net6.0\Konyvek_03_08.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.dll
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\refint\Konyvek_03_08.dll
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\Konyvek_03_08.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\Solution1\Konyvek_03_08\obj\Debug\net6.0\ref\Konyvek_03_08.dll

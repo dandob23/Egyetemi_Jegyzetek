@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="209.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.multiwindow.main.SecondWindowController">
+   <children>
+      <CheckBox fx:id="checkbox" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <ChoiceBox fx:id="choiceBox" layoutX="13.0" layoutY="42.0" prefWidth="150.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="16.599999999999994" AnchorPane.topAnchor="42.0" />
+      <ComboBox fx:id="comboBox" layoutX="13.0" layoutY="78.0" prefWidth="150.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="16.599999999999994" AnchorPane.topAnchor="78.0" />
+      <RadioButton layoutX="14.0" layoutY="110.0" mnemonicParsing="false" selected="true" text="first" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="110.0">
+         <toggleGroup>
+            <ToggleGroup fx:id="myToggleGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="14.0" layoutY="129.0" mnemonicParsing="false" text="second" toggleGroup="$myToggleGroup" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="129.0" />
+      <RadioButton layoutX="14.0" layoutY="148.0" mnemonicParsing="false" text="third" toggleGroup="$myToggleGroup" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="148.0" />
+      <Slider fx:id="slider" layoutX="18.0" layoutY="177.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="177.0" />
+   </children>
+</AnchorPane>

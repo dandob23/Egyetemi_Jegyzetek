@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\bin\Debug\utso ora.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\bin\Debug\utso ora.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\bin\Debug\utso ora.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\obj\Debug\utso ora.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\obj\Debug\utso ora.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\obj\Debug\utso ora.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\obj\Debug\utso ora.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_29\11_29\utso ora\obj\Debug\utso ora.pdb

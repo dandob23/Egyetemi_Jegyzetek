@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\bin\Debug\probazh.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\bin\Debug\probazh.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\bin\Debug\probazh.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\obj\Debug\probazh.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\obj\Debug\probazh.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\obj\Debug\probazh.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\obj\Debug\probazh.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\1011\probazh\obj\Debug\probazh.pdb

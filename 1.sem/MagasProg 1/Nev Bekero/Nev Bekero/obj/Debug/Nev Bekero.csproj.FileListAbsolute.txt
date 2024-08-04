@@ -1,0 +1,5 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Nev Bekero\Nev Bekero\bin\Debug\Nev Bekero.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Nev Bekero\Nev Bekero\bin\Debug\Nev Bekero.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Nev Bekero\Nev Bekero\bin\Debug\Nev Bekero.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Nev Bekero\Nev Bekero\obj\Debug\Nev Bekero.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Nev Bekero\Nev Bekero\obj\Debug\Nev Bekero.pdb

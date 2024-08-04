@@ -1,0 +1,3 @@
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\BL7VQV.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\BL7VQV.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\BL7VQV\obj\Debug\BL7VQV.csproj.CoreCompileInputs.cache

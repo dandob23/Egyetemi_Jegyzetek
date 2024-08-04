@@ -1,0 +1,8 @@
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\bin\Debug\tavok.txt
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\bin\Debug\futar.exe.config
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\bin\Debug\futar.exe
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\bin\Debug\futar.pdb
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\obj\Debug\futar.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\obj\Debug\futar.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\obj\Debug\futar.exe
+C:\Users\Dániel\Desktop\4_Futar\futar\futar\obj\Debug\futar.pdb

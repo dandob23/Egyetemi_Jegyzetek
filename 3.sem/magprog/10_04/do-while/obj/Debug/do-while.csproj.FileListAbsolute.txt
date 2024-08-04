@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\bin\Debug\do-while.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\bin\Debug\do-while.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\bin\Debug\do-while.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\obj\Debug\do-while.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\obj\Debug\do-while.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\obj\Debug\do-while.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\obj\Debug\do-while.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do-while\obj\Debug\do-while.pdb

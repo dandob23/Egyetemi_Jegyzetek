@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\If szinek szamok\If szinek szamok\bin\Debug\If szinek szamok.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\If szinek szamok\If szinek szamok\obj\Debug\If szinek szamok.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\If szinek szamok\If szinek szamok\bin\Debug\If szinek szamok.exe
+c:\users\dbz\documents\visual studio 2015\Projects\If szinek szamok\If szinek szamok\bin\Debug\If szinek szamok.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\If szinek szamok\If szinek szamok\obj\Debug\If szinek szamok.exe
+c:\users\dbz\documents\visual studio 2015\Projects\If szinek szamok\If szinek szamok\obj\Debug\If szinek szamok.pdb

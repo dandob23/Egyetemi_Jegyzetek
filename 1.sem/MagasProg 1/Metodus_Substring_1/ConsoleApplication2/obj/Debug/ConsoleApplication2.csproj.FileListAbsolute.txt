@@ -1,0 +1,11 @@
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache

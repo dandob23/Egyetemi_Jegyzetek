@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
+\usepackage[magyar]{babel}
+	\usepackage{mathtools, amssymb, paralist}
+	\DeclareMathOperator{\ctg}{ctg}
+\begin{document}
+	Legyen $X$ egy halmaz. Az $\mathcal{A}\subset\mathcal{P}(X)$ halmazrendszert \emph{$\sigma$-algebrának} nevezzük, ha
+	\begin{compactenum}
+		\item $X\in\mathcal{A}$,
+		\item $\overline{A}=X\setminus A\in\mathcal{A}\quad\forall A\in\mathcal{A}$,
+		\item $\bigcup_{i=1}^{\infty}A_{i}\in\mathcal{A}$, ha $A_{i}\in\mathcal{A}\ (i\in\mathbb{N})$
+	\end{compactenum}
+	Ekkor az $(X, \mathcal{A})$ rendezett párt mérhető térnek, az $\mathcal{A}$ elemeit mérhető halmazoknak nevezzük.
+	
+	A $\mu\colon\mathcal{A}\to[0,\infty]$ függvényt mértéknek nevezzük az $(X,\mathcal{A})$ mérhető téren,
+	ha $\mu(\emptyset)=0$ és
+	\begin{equation*}
+		\mu\left(\bigcup_{i=1}^{\infty}A_{i}\right)=\sum_{i=1}^{\infty}\mu(A_{i})
+	\end{equation*}
+	
+	blablabla
+	
+	\begin{equation}\label{eq-add}
+		\mu\left(\bigcup_{i=1}^{\infty}A_{i}\right)=\sum_{i=1}^{\infty}\mu(A_{i})
+	\end{equation}
+	
+	 \Az{\eqref{eq-add}}
+	 
+	 \begin{equation*}
+	 	I_A\colon X\to\mathbb{R},\quad
+	 	I_A(x):=
+	 	\begin{cases}
+	 		1, & \text{ha } x\in\mathcal{A} \\
+	 		0, & \text{különben }
+	 	\end{cases}
+	 \end{equation*}
+	 
+	 \begin{align*}
+	 	\mu\left(\bigcup_{i=1}^{\infty}A_{i}\right) & = blablablablabla \\
+	 	 & = vmivmivmivmi
+	 \end{align*}
+	 
+	 \begin{equation*}
+	 	\ctg(x)=\frac{\cos(x)}{\sin(x)}
+	 \end{equation*}
+\end{document}

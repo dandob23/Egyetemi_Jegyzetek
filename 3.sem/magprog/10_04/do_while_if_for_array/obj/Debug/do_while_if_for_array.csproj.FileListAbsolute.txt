@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\bin\Debug\do_while_if_for_array.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\bin\Debug\do_while_if_for_array.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\bin\Debug\do_while_if_for_array.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\obj\Debug\do_while_if_for_array.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\obj\Debug\do_while_if_for_array.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\obj\Debug\do_while_if_for_array.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\obj\Debug\do_while_if_for_array.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\do_while_if_for_array\obj\Debug\do_while_if_for_array.pdb

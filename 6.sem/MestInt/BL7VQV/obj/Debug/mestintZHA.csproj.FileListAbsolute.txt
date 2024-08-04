@@ -1,0 +1,21 @@
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\bin\Debug\mestintZHA.exe.config
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\bin\Debug\mestintZHA.exe
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\bin\Debug\mestintZHA.pdb
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\obj\Debug\mestintZHA.csproj.AssemblyReference.cache
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\obj\Debug\mestintZHA.csproj.CoreCompileInputs.cache
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\obj\Debug\mestintZHA.exe
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\mestintZHA\obj\Debug\mestintZHA.pdb
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\bin\Debug\mestintZHA.exe.config
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\bin\Debug\mestintZHA.exe
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\bin\Debug\mestintZHA.pdb
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\obj\Debug\mestintZHA.csproj.AssemblyReference.cache
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\obj\Debug\mestintZHA.csproj.CoreCompileInputs.cache
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\obj\Debug\mestintZHA.exe
+C:\Users\tamas\OneDrive\Asztali gép\mestintzh\A\mestintZHA\obj\Debug\mestintZHA.pdb
+C:\Users\Lenovo\Desktop\mestintZHA\obj\Debug\mestintZHA.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\mestintZHA\obj\Debug\mestintZHA.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\mestintZHA\obj\Debug\mestintZHA.exe
+C:\Users\Lenovo\Desktop\mestintZHA\obj\Debug\mestintZHA.pdb
+C:\Users\Lenovo\Desktop\mestintZHA\bin\Debug\mestintZHA.exe.config
+C:\Users\Lenovo\Desktop\mestintZHA\bin\Debug\mestintZHA.exe
+C:\Users\Lenovo\Desktop\mestintZHA\bin\Debug\mestintZHA.pdb

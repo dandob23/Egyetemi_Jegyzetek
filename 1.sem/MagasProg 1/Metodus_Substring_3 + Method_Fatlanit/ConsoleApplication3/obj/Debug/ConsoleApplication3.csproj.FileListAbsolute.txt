@@ -1,0 +1,14 @@
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Dbz\Desktop\Megcsinálni\magasprog\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Metodus_Substring_3 + Method_Fatlanit\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Metodus_Substring_3 + Method_Fatlanit\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Metodus_Substring_3 + Method_Fatlanit\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

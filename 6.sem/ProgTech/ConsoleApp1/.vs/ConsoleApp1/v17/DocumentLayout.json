@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|c:\\users\\lenovo\\desktop\\consoleapp1\\j\u00F3lrep\u00FClstrat\u00E9gia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|solutionrelative:j\u00F3lrep\u00FClstrat\u00E9gia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|c:\\users\\lenovo\\desktop\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|c:\\users\\lenovo\\desktop\\consoleapp1\\kacsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|solutionrelative:kacsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|c:\\users\\lenovo\\desktop\\consoleapp1\\h\u00E1pogstrat\u00E9gia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0043A2B-C30A-4683-B0F0-39A02E7B43FF}|ConsoleApp1.csproj|solutionrelative:h\u00E1pogstrat\u00E9gia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "J\u00F3lRep\u00FClStrat\u00E9gia.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\J\u00F3lRep\u00FClStrat\u00E9gia.cs",
+              "RelativeDocumentMoniker": "J\u00F3lRep\u00FClStrat\u00E9gia.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\J\u00F3lRep\u00FClStrat\u00E9gia.cs",
+              "RelativeToolTip": "J\u00F3lRep\u00FClStrat\u00E9gia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:50:11.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "H\u00E1pogStrat\u00E9gia.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\H\u00E1pogStrat\u00E9gia.cs",
+              "RelativeDocumentMoniker": "H\u00E1pogStrat\u00E9gia.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\H\u00E1pogStrat\u00E9gia.cs*",
+              "RelativeToolTip": "H\u00E1pogStrat\u00E9gia.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:48:41.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kacsa.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\Kacsa.cs",
+              "RelativeDocumentMoniker": "Kacsa.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\Kacsa.cs",
+              "RelativeToolTip": "Kacsa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:47:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:47:22.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

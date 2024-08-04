@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\obj\Debug\ciklusok.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\obj\Debug\ciklusok.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\obj\Debug\ciklusok.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\ciklusok\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

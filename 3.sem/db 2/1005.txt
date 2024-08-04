@@ -1,0 +1,65 @@
+ctrl+shift+n    new worksheet
+
+begin
+
+for i in (select * from user_tab_cols) loop
+
+end loop;
+commit; 
+
+end;
+
+
+
+select 0.1 + 0.2 from dual;
+
+
+select * from log order by message desc;
+
+delete from log where id between 11 and 99;
+
+select 'a'||'b' from dual;
+
+declare
+    type log_rec is record(id number, log_ts timestamp, message varchar2(4000 char));
+    v_log log_rec;
+    v_str clob;
+    type varchar_tab is table of varchar2(4000 char);
+    v_tab varchar_tab;
+begin
+   -- for i in (select * from log order by id) loop
+   -- v_str:= v_str|| i.message;
+   -- end loop;
+   
+   -- select message into v_tab from log;
+   execute immediate 'select message from log' bulk collect into v_tab;
+   dbms_output.put_line(v_tab.first);
+   dbms_output.put_line(v_tab.last);
+   dbms_output.put_line(v_tab.count);
+end;
+/
+
+select count(*) from log;
+
+
+--házi:
+--olyan tabla aminek van 
+--egy id mezoje number 
+--meg egy word nevu mezoje varchar2(4) 
+--id sequence automatikusan primary key 
+-- 456976 ertek
+
+
+select * from hazi1005;
+
+create sequence hazi_seq order;
+create table hazi1005(id number default hazi_seq.nextval constraint hazi_pk primary key,
+word varchar2(4));
+
+select substr('ABCDE', 2,1) from dual;
+
+begin
+for i in hazi1005 
+
+end;
+

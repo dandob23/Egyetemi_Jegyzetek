@@ -1,0 +1,9 @@
+nem logisztikai regresszio
+
+kész példából ki lehet indulni
+
+milyen input
+milyen output
+milyen háló
+
+regresszio vagy osztályozás

@@ -1,0 +1,17 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_4\Tomb_4\bin\Debug\Tomb_4.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_4\Tomb_4\bin\Debug\Tomb_4.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_4\Tomb_4\bin\Debug\Tomb_4.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_4\Tomb_4\obj\Debug\Tomb_4.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_4\Tomb_4\obj\Debug\Tomb_4.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Tomb_4_Tiz_tomb_parosakat_kinullazza\Tomb_4\bin\Debug\Tomb_4.exe.config
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Tomb_4_Tiz_tomb_parosakat_kinullazza\Tomb_4\obj\Debug\Tomb_4.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Tomb_4_Tiz_tomb_parosakat_kinullazza\Tomb_4\obj\Debug\Tomb_4.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Tomb_4_Tiz_tomb_parosakat_kinullazza\Tomb_4\bin\Debug\Tomb_4.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Tomb_4_Tiz_tomb_parosakat_kinullazza\Tomb_4\bin\Debug\Tomb_4.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Tomb_4_Tiz_tomb_parosakat_kinullazza\Tomb_4\obj\Debug\Tomb_4.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_04_Tiz_tomb_parosakat_kinullazza\Tomb_4\bin\Debug\Tomb_4.exe.config
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_04_Tiz_tomb_parosakat_kinullazza\Tomb_4\obj\Debug\Tomb_4.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_04_Tiz_tomb_parosakat_kinullazza\Tomb_4\obj\Debug\Tomb_4.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_04_Tiz_tomb_parosakat_kinullazza\Tomb_4\bin\Debug\Tomb_4.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_04_Tiz_tomb_parosakat_kinullazza\Tomb_4\bin\Debug\Tomb_4.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_04_Tiz_tomb_parosakat_kinullazza\Tomb_4\obj\Debug\Tomb_4.csprojResolveAssemblyReference.cache

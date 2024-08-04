@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_miniumum_ertek\Gyakorlas_tomb_miniumum_ertek\bin\Debug\Gyakorlas_tomb_miniumum_ertek.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_miniumum_ertek\Gyakorlas_tomb_miniumum_ertek\bin\Debug\Gyakorlas_tomb_miniumum_ertek.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_miniumum_ertek\Gyakorlas_tomb_miniumum_ertek\bin\Debug\Gyakorlas_tomb_miniumum_ertek.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_miniumum_ertek\Gyakorlas_tomb_miniumum_ertek\obj\Debug\Gyakorlas_tomb_miniumum_ertek.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_miniumum_ertek\Gyakorlas_tomb_miniumum_ertek\obj\Debug\Gyakorlas_tomb_miniumum_ertek.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_miniumum_ertek\Gyakorlas_tomb_miniumum_ertek\obj\Debug\Gyakorlas_tomb_miniumum_ertek.pdb

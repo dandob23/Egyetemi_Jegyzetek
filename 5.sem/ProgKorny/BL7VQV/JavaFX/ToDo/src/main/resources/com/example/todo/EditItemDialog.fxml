@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.Controller.EditItemDialogController"
+      prefHeight="400.0" prefWidth="600.0">
+    <Label text="Elem szerkesztése" />
+
+    <ListView fx:id="itemListView" prefHeight="200" prefWidth="200">
+        <VBox.margin>
+            <Insets left="20" right="20" />
+        </VBox.margin>
+    </ListView>
+
+    <TextField fx:id="titleField" promptText="Cím">
+        <VBox.margin>
+            <Insets left="20" right="20" />
+        </VBox.margin>
+    </TextField>
+
+    <TextField fx:id="categoryField" promptText="Kategória">
+        <VBox.margin>
+            <Insets left="20" right="20" />
+        </VBox.margin>
+    </TextField>
+
+    <HBox alignment="CENTER" spacing="5">
+        <DatePicker fx:id="datePicker" promptText="Dátum">
+            <HBox.margin>
+                <Insets left="20" right="20" />
+            </HBox.margin>
+        </DatePicker>
+
+        <TextField fx:id="timeField" promptText="Idő (12:30)">
+            <VBox.margin>
+                <Insets left="20" right="20" />
+            </VBox.margin>
+        </TextField>
+    </HBox>
+
+    <Button id="editItemMentes" fx:id="saveButton" onAction="#saveItem" text="Mentés" />
+</VBox>

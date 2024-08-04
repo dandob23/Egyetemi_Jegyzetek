@@ -1,0 +1,18 @@
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Dbz\Google Drive\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Dbz\Google Drive\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Dbz\Google Drive\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Dbz\Google Drive\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Dbz\Google Drive\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Dbz\Google Drive\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\2_ZH\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\2_ZH\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\2_ZH\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\2_ZH\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\2_ZH\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\2_ZH\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

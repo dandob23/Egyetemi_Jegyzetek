@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\SOP_0927\_0927\bin\Debug\_0927.exe.config
+C:\Users\user\Desktop\SOP_0927\_0927\bin\Debug\_0927.exe
+C:\Users\user\Desktop\SOP_0927\_0927\bin\Debug\_0927.pdb
+C:\Users\user\Desktop\SOP_0927\_0927\obj\Debug\_0927.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SOP_0927\_0927\obj\Debug\_0927.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SOP_0927\_0927\obj\Debug\_0927.exe
+C:\Users\user\Desktop\SOP_0927\_0927\obj\Debug\_0927.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\bin\Debug\_0927.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\bin\Debug\_0927.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\bin\Debug\_0927.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\obj\Debug\_0927.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\obj\Debug\_0927.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\obj\Debug\_0927.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\obj\Debug\_0927.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0927\_0927\obj\Debug\_0927.pdb

@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\bin\Debug\10.04.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\bin\Debug\10.04.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\bin\Debug\10.04.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\obj\Debug\10.04.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\obj\Debug\10.04.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\obj\Debug\10.04.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\obj\Debug\10.04.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_04\10.04\obj\Debug\10.04.pdb

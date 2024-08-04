@@ -1,0 +1,7 @@
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\bin\Debug\ZH_A.exe.config
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\bin\Debug\ZH_A.exe
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\bin\Debug\ZH_A.pdb
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\obj\Debug\ZH_A.csprojResolveAssemblyReference.cache
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\obj\Debug\ZH_A.csproj.CoreCompileInputs.cache
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\obj\Debug\ZH_A.exe
+D:\Jegyzetek\Algo2 gyak\ZH_A\ZH_A\ZH_A\obj\Debug\ZH_A.pdb

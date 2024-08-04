@@ -1,0 +1,3 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\fordprog\lex_elemz\10_24\Lexikalis elemzes\obj\Debug\Lexikalis elemzes.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\fordprog\lex_elemz\10_24\Lexikalis elemzes\obj\Debug\Lexikalis elemzes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\fordprog\lex_elemz\10_24\Lexikalis elemzes\obj\Debug\Lexikalis elemzes.csproj.CoreCompileInputs.cache

@@ -1,0 +1,29 @@
+header 
+  {
+    font-size: 35px;
+    background: rgb(160, 189, 122);
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+
+body{
+    background-color: rgb(160, 189, 122);
+
+}
+th{
+   
+    color:black;
+    font-size: 24px;
+    background-color: wheat;
+
+}
+td{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}

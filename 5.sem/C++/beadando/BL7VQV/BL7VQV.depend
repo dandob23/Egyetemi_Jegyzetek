@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1705608159 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	"Szemelygepkocsi.hpp"
+	"Busz.hpp"
+	"Teherauto.hpp"
+	"Munkagep.hpp"
+	"Autoberloceg.hpp"
+	"JarmuMuveletek.hpp"
+
+1705087532 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\jarmu.cpp
+	"Jarmu.hpp"
+	<iostream>
+
+1702232150 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\busz.cpp
+	"Busz.hpp"
+	<iostream>
+
+1702209648 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\busz.hpp
+	"Jarmu.hpp"
+	<iostream>
+	<string>
+
+1705087575 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\jarmu.hpp
+	<algorithm>
+	<iostream>
+	<string>
+
+1702232164 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\szemelygepkocsi.cpp
+	"Szemelygepkocsi.hpp"
+	<iostream>
+
+1702209556 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\szemelygepkocsi.hpp
+	"Jarmu.hpp"
+	<iostream>
+	<string>
+
+1702232122 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\teherauto.cpp
+	"Teherauto.hpp"
+	<iostream>
+
+1702209641 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\teherauto.hpp
+	"Jarmu.hpp"
+	<iostream>
+	<string>
+
+1705608266 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\autoberloceg.cpp
+	"Autoberloceg.hpp"
+
+1705607712 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\autoberloceg.hpp
+	"Jarmu.hpp"
+	<iostream>
+	<string>
+	<vector>
+
+1702209655 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\munkagep.hpp
+	"Jarmu.hpp"
+	<iostream>
+	<string>
+
+1702232166 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\munkagep.cpp
+	"Munkagep.hpp"
+	<iostream>
+
+1702229430 source:c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\jarmumuveletek.cpp
+	"JarmuMuveletek.hpp"
+	"Autoberloceg.hpp"
+	<iostream>
+
+1702212813 c:\users\lenovo\desktop\egyetem\orai\c++\beadando\bl7vqv\jarmumuveletek.hpp
+	<iostream>
+

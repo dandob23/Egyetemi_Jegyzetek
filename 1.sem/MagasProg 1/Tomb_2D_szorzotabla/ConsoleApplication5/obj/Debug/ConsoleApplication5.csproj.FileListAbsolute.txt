@@ -1,0 +1,14 @@
+F:\yyyyyyyyyy\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+F:\yyyyyyyyyy\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+F:\yyyyyyyyyy\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+F:\yyyyyyyyyy\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+F:\yyyyyyyyyy\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

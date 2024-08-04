@@ -1,0 +1,3 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\03_29\Orkok\obj\Debug\Orkok.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\03_29\Orkok\obj\Debug\Orkok.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog II\03_29\Orkok\obj\Debug\Orkok.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\mesinek\mesinek\bin\Debug\mesinek.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\mesinek\mesinek\bin\Debug\mesinek.exe
+c:\users\dbz\documents\visual studio 2015\Projects\mesinek\mesinek\bin\Debug\mesinek.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\mesinek\mesinek\obj\Debug\mesinek.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\mesinek\mesinek\obj\Debug\mesinek.exe
+c:\users\dbz\documents\visual studio 2015\Projects\mesinek\mesinek\obj\Debug\mesinek.pdb

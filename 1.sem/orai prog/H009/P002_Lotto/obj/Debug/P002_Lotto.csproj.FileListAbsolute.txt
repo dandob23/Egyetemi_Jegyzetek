@@ -1,0 +1,7 @@
+C:\Users\Balla\source\repos\H009\P002_Lotto\bin\Debug\P002_Lotto.exe.config
+C:\Users\Balla\source\repos\H009\P002_Lotto\bin\Debug\P002_Lotto.exe
+C:\Users\Balla\source\repos\H009\P002_Lotto\bin\Debug\P002_Lotto.pdb
+C:\Users\Balla\source\repos\H009\P002_Lotto\obj\Debug\P002_Lotto.csproj.AssemblyReference.cache
+C:\Users\Balla\source\repos\H009\P002_Lotto\obj\Debug\P002_Lotto.csproj.CoreCompileInputs.cache
+C:\Users\Balla\source\repos\H009\P002_Lotto\obj\Debug\P002_Lotto.exe
+C:\Users\Balla\source\repos\H009\P002_Lotto\obj\Debug\P002_Lotto.pdb

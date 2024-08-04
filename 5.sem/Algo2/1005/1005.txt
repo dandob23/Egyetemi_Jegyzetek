@@ -1,0 +1,21 @@
+legnagyobb közös osztó
+
+LegnKozOszto(a,b)
+1.lépés: kérjük be az a és b értékét
+
+
+1) lnko(a,b) = lnko (b,-a)
+lnko (a,b) = 	a ha b = 0
+		lnko (b, a-b) ha b!=0
+
+
+2) euklideszi algoritmus 
+lnko(a,b)=	a ha b=0
+		lnko(b, a mod b) ha b != 0
+
+3) lnko (a,b)= 	a ha b=0
+(a>=b)
+		ha a és b páros -> 2lnko(a/2, b/2)
+		ha b páratlan és a páros -> lnko(a/2, b)
+		ha a páratlan és b páros -> lnko(a, b/2)
+		ha a és b páratlan -> lnko(b, (a-b)/2)

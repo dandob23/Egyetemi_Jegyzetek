@@ -1,0 +1,15 @@
+F:\Suli\Magasprog Gyak\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.exe.config
+F:\Suli\Magasprog Gyak\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.exe
+F:\Suli\Magasprog Gyak\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.pdb
+F:\Suli\Magasprog Gyak\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.csprojResolveAssemblyReference.cache
+F:\Suli\Magasprog Gyak\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.exe
+F:\Suli\Magasprog Gyak\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.pdb
+C:\Users\Dbz\Desktop\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.exe.config
+C:\Users\Dbz\Desktop\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.exe
+C:\Users\Dbz\Desktop\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.pdb
+C:\Users\Dbz\Desktop\Magasprog\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.exe.config
+C:\Users\Dbz\Desktop\Magasprog\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.exe
+C:\Users\Dbz\Desktop\Magasprog\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.pdb
+C:\Users\Dbz\Desktop\Magasprog\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.exe
+C:\Users\Dbz\Desktop\Magasprog\prog_gyak_20\prog_gyak_20\bin\Debug\prog_gyak_20.pdb
+C:\Users\Dbz\Desktop\Magasprog\prog_gyak_20\prog_gyak_20\obj\Debug\prog_gyak_20.csprojResolveAssemblyReference.cache

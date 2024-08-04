@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_kezzel\Gyakorlas_tomb_feltoltes_kezzel\bin\Debug\Gyakorlas_tomb_feltoltes_kezzel.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_kezzel\Gyakorlas_tomb_feltoltes_kezzel\bin\Debug\Gyakorlas_tomb_feltoltes_kezzel.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_kezzel\Gyakorlas_tomb_feltoltes_kezzel\bin\Debug\Gyakorlas_tomb_feltoltes_kezzel.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_kezzel\Gyakorlas_tomb_feltoltes_kezzel\obj\Debug\Gyakorlas_tomb_feltoltes_kezzel.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_kezzel\Gyakorlas_tomb_feltoltes_kezzel\obj\Debug\Gyakorlas_tomb_feltoltes_kezzel.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_kezzel\Gyakorlas_tomb_feltoltes_kezzel\obj\Debug\Gyakorlas_tomb_feltoltes_kezzel.pdb

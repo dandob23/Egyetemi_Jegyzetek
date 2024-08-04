@@ -1,0 +1,120 @@
+ZH
+1. ssh  v. virtuális gép
+2. pwd, cd, ls(-l, -la)
+3. passwd, /etc/passwd
+4. touch, echo(írás fájlba is), cat, mkdir
+5. cp, mv(meg átnevezni is), rm(-r)
+6. alapvető átirányítások(kimenete(> - felülír,>> - hozzáfűz), hibacsatorna(2>,2>>))
+	- pipe jel
+7. Szűrők
+	- grep
+	- cut -d <x> -f <y>  - visszaadja az x elválasztóktól az y.-adik mezőt
+	- tail -<x> - utolsó x-et jelenítse meg
+	- head -<x> - első x-et jelenítse meg
+8. Jogosultságsi rendszer
+	- chmod
+		- számokkal (pl chmod 666....)
+		- kapcsolókkal (pl chmod +x.... +w +r stb)
+	- chown
+	- chgrp
+9. Csomagkezelés: apt
+	- apt-get install
+	- repozitóriumok
+		- add-apt-repository
+		- apt-get update 		<-(repository után kell hogy lássa az apt-get)
+10. Archiválás
+	- tar (.tar)   <- nem tömörít, csak csomagol
+	- gzip (.gz)   <- tömörít, nem csomagol
+	- Együtt használják .tar.gz
+
+
+
+ls				Kilistázza a helyen lévő fájlokat.
+ls -l 			Kilistázza a fájlokat részletesebben, illetve a rejtetett fájlokat(ezeket a nevük előtt lévő pont jelöli)
+cd				Elmegy egy adott helyre(csak beljebb vagy adott meghajtón)
+P:				Elmegy egy adott helyre(bármelyik meghajtón, PATH)
+touch			Létrehoz/módosít egy fájlt.(touch hello.txt - létrehoz egy hello.txt fájlt az adott tartományban.)
+mkdir			Létrehoz egy mappát
+CP				COPY - Másol egy fájlt.
+MV				MOVE - Mozgat egy fájlt vagy mappát.
+RM				REMOVE - Töröl egy fájlt.
+RMDIR			Remove Directory - Töröl egy könyvtárat.
+PASSWD			Jelszóváltás.
+--help			Parancs után beírva segítséget nyújt az adott parancsba.
+man <parancs>	Hasonló a --help hez
+
+
+Szűrők:
+|  <-- Pipe jel - parancsok összefűzése
+^  <-- "Kalap" ezzel kell kezdődnie
+
+
+^s - S el kezdődik
+s$ - S el végződik
+
+extra regex:
+*  <-- bárhányszor előfordulhat az elem.
+?  <-- 0 vagy 1 előfordulás
++  <-- 1 vagy több előfordulás
+[] <-- összefoglaló tartomány
+.  <-- csak 1x szerepel
+-  <-- Tagadás
+
+Példa szűrőre
+^[a-z]  <-- kis betűvel kell kezdődnie
+^[a-zA-Z] <-- kis vagy nagy betűvel kezdődhet.
+^[a-zA-Z]* <-- Betűvel kezdődik, de bárhánnyal.
+^[a-zA-Z]*$ <-- Olyan sort keres ami csak betűkből áll.
+
+cat /etc/passwd   <- kilistázza a felhasználókat
+
+1. Feladat: Listázza ki az "s"-el kezdődő felhasználókat
+
+Megoldás: | grep szűrés
+
+cat /etc/passwd | grep s  <-- Kiírja az összes sort ami tartalmaz "s"-t
+
+cat /etc/passwd | grep -v <-- Kiírja az összes sort amiben nincs "v"
+
+cat /etc/passwd | cut -d : -f 1 <-- Kiírja az összes felhasználót.
+
+cat /etc/passwd | grep ^s | cut -d : -f 1 <-- Megkapjuk a felhasználóneveket amik "s" -el kezdődnek
+
+cat /etc/passwd | grep ^s | cut -d : -f 1 | sort <-- Megkapjuk a felhasználóneveket amik "s" -el kezdődnek, ABC sorrendben
+
+
+wc(wordcount):
+-c karaktere
+-w szavak
+-l sorok
+
+
+tail -5:
+megjeleníti egy fájl utolsó 5 sorát.
+
+
+cd/dev
+
+cd ~ <-- kimegy a gyökérbe 
+
+
+/dev/null  <-- fekete lyuk, ide érdemes átirányítani hibaüzeneteket ha nem vagyunk rá kíváncsiak.
+
+
+dd if=/dev/zero of=zero.txt bs=1024 count=5
+
+dd if=/dev/cdrom of=test.iso bs=1024
+
+//Root jog kell ezekhez
+sudo apt-get install <csomagnév> <- telepítés
+sudo apt-get purge <csomagnév>   <- törlés
+sudo add-apt-repository ppa://...
+
+tar -zcvf <név>.tar.gz <elérési út> 		 <- Tömörít (z=gzip-el tömörít, c=becsomagol, x=kicsomagol, f=fájlnevet adhat meg, v=verbose)
+tar -zxvf <név>.tar.gz -C <hova csomagolja ki>  <- Kicsomagol(ha nem írjuk hova, akkor ugyan oda rak egy mappát ami az állomány neve és abba csomagolja ki.)
+
+//nem kell
+gzip 	<állomány>
+gunzip  <állomány>
+
+tar -zcfv comp.tar.gz ./*  <- Minden elemet ami az aktuális mappában van csomagol és tömörít egy comp.tar.gz állományba

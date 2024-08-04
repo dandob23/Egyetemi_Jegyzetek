@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\bin\Debug\konstruktorok.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\bin\Debug\konstruktorok.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\bin\Debug\konstruktorok.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\obj\Debug\konstruktorok.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\obj\Debug\konstruktorok.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\obj\Debug\konstruktorok.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\obj\Debug\konstruktorok.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\11_08\11_08\konstruktorok\obj\Debug\konstruktorok.pdb

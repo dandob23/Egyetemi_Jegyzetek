@@ -1,0 +1,4 @@
+Java intelliJ Spring boot Thymeleaf, Spring web
+Autók feladat:
+rendszám, gyártó, típus, lóerő kell
+CRUD műveletekre képes legyen

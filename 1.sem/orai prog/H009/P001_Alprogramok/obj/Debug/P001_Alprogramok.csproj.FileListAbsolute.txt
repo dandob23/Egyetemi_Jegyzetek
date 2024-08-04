@@ -1,0 +1,7 @@
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\bin\Debug\P001_Alprogramok.exe.config
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\bin\Debug\P001_Alprogramok.exe
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\bin\Debug\P001_Alprogramok.pdb
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\obj\Debug\P001_Alprogramok.csproj.AssemblyReference.cache
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\obj\Debug\P001_Alprogramok.csproj.CoreCompileInputs.cache
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\obj\Debug\P001_Alprogramok.exe
+C:\Users\Balla\source\repos\H009\P001_Alprogramok\obj\Debug\P001_Alprogramok.pdb

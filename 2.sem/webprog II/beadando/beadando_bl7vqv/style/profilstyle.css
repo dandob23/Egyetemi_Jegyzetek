@@ -1,0 +1,105 @@
+
+body 
+{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+nav 
+{
+  background: #333;
+  padding: 7px 0;
+  width: 100%;
+}
+
+nav ul 
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
+
+
+
+
+nav ul li 
+{
+  color:rgb(0, 0, 0);
+  margin-left:30px;
+}
+
+nav ul li a 
+{
+  font-size: 25px;
+  text-align: center;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+nav.nav-sticky 
+{
+  position: -webkit-sticky;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+  position: sticky; top: 0px;
+}
+
+header 
+{
+  font-size: 35px;
+  background: rgb(160, 189, 122);
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  display: flex;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+ 
+  min-height: 70px;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: darkolivegreen;
+  font-size: 20px;
+  background: #333;
+  padding: 7px 0;
+  width: 100%;
+  margin:auto;
+  border:#333;
+
+}
+
+h2{
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;}
+
+h4{
+  padding-top: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+
+
+th{
+   
+    color:black;
+    font-size: 24px;
+    background-color: wheat;
+
+}
+td{
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}

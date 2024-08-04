@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
+\usepackage[magyar]{babel}
+\usepackage{listingsutf8, xcolor, lmodern, caption}
+\renewcommand{\lstlistingname}{kód}
+\lstdefinestyle{user1}{
+	inputencoding=utf8/latin2,
+	language=Delphi,
+	basicstyle=\footnotesize\ttfamily,
+	columns=fullflexible
+	numbers=left,
+	breaklines,
+	xleftmargin=2cm,
+	xrightmargin=2cm,
+	postbreak =\hbox{$\color{red}\hookrightarrow$\ }
+	backgroundcolor=\color{gray!30},
+	frame=tlbr,
+	keywordstyle=\bfseries\color{blue},
+	commentstyle=\itshape\color{teal},
+	morekeywords={Windows, Graphics}
+	
+\begin{document}
+	vmi vmi \verb| \emph{kiemelendő szöveg}|
+	
+	\verb*| \emph{kiemelendő szöveg}|
+	
+	\begin{verbatim}
+		többsoros
+		    verbatim szöveg
+	\end{verbatim}
+	\begin{verbatim*}
+		többsoros
+		    verbatim szöveg
+	\end{verbatim*}
+	
+	\lstinputlisting[caption={Egy Delphi kód}, label=kod-delphi, style=user1]{prog.pas}	
+	
+\end{document}

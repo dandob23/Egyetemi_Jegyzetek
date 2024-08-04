@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1700468073 source:c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\main.cpp
+	<iostream>
+	"menu.hpp"
+
+1699860598 source:c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\property.cpp
+
+1699864428 source:c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\address.cpp
+	"address.hpp"
+	<iostream>
+
+1700466219 c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\address.hpp
+	<string>
+	<iostream>
+
+1699864282 source:c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\house.cpp
+	"house.hpp"
+
+1699862259 c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\house.hpp
+	"address.hpp"
+	"property.hpp"
+
+1700467466 c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\property.hpp
+	<string>
+	"address.hpp"
+
+1699862952 source:c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\flat.cpp
+	"flat.hpp"
+
+1699864292 c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\flat.hpp
+	"address.hpp"
+	"property.hpp"
+
+1701073815 c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\menu.hpp
+	"property.hpp"
+	<vector>
+
+1700467981 source:c:\users\lenovo\desktop\egyetem\orai\c++\1106\1106\menu.cpp
+	"menu.hpp"
+	<iostream>
+

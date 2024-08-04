@@ -1,0 +1,42 @@
+1) n! meghatározása
+
+1.lehetőség(iteratív)
+	1. Bekérjük nEN
+	2.s <- 1
+	3.for i <- to n
+	4.    s <- s * i
+	5.kiírjuk s-el
+_____________________________________________________________________________________________________________________
+2.lehetőség:
+	1.bekérjük nEN
+	2.irunk egy faktoriális(n) -> egész
+-----
+faktoriális(n)
+if n= 1 s= 1
+	else s= n* faktoriális(n-1)
+RETURN(s)
+_____________________________________________________________________________________________________________________
+3.lehetőség:
+ 
+fakt(n,mEN)
+ha n=m akkor s=n
+	egyébként k = [(n+m)/2]
+		s=fakt(n,k)*fakt(k+1,m)
+RETURN(s)
+-----
+_____________________________________________________________________________________________________________________
+
+2) összegzés
+
+S= szumma( i=1 tart az n felé) i
+szumma(n)
+
+1.lehetőség(iteratív)
+	1. Bekérjük n-et
+	2.s <- 0
+	3.for i <- to n
+	4.    s <- s + i
+	5.kiírjuk s-el
+
+2.lehetőség(rekurziv)
+

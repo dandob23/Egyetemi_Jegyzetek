@@ -1,0 +1,30 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
+\usepackage[magyar]{babel}
+
+
+\begin{document}
+	
+	\begin{table}[ht!]
+		\centering
+	\begin{tabular}{|r|r|r|r|r|}
+		\multicolumn{1}{c}{}&\multicolumn{4}{c}{év}\\
+		\cline{2-5}
+		\multicolumn{1}{c}{}&
+		\multicolumn{1}{c}{\emph{2008}}&	
+		\multicolumn{1}{c}{\emph{2009}}&
+		\multicolumn{1}{c}{\emph{2010}}&
+		\multicolumn{1}{c}{\emph{2011}}\\
+		\hline
+		\multicolumn{1}{|1|}{\emph{jövedelem (Ft)}}& 994\,000 & 1\,231\,500 & 1\,525\,410 & 2\,321\,600\\
+		\multicolumn{1}{|1|}{\emph{járulék (Ft)}}& 994\,000 & 1\,231\,500 & 1\,525\,410 & 2\,321\,600\\
+		\hline
+	\end{tabular}
+	\caption{A jövedelem és a járulékok kimutatása}
+	\label{tablazat-jovedelem}
+	\end{table}
+	\Az{\ref{tablazat-jovedelem}}. ~táblázat\footnote{text} természetesen kitalált értéket tartalmaz, csak a gyakorlás kedvéért kellenek.
+	
+	
+\end{document}

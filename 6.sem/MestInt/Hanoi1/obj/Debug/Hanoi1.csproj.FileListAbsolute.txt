@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\bin\Debug\Hanoi1.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\bin\Debug\Hanoi1.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\bin\Debug\Hanoi1.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\obj\Debug\Hanoi1.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\obj\Debug\Hanoi1.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\obj\Debug\Hanoi1.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\Hanoi1\obj\Debug\Hanoi1.pdb

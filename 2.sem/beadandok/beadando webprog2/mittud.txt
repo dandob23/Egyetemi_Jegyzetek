@@ -1,0 +1,33 @@
+PLANTUTORIAL
+    
+
+mit tud:
+
+    -regisztráció(a nélkül nem lehet belépni) -> adatbázisba mentés
+     reg-nél felhasználónév(varchar(50)), email(varchar(100)),
+      vezeteknev(varchar(20)), keresztnev(varchar(20)), password(varchar(500)), Date(date)
+      + hozzájárulás a feltételekhez
+    -alatta ha van fiókunk, a login.php-ra lehet menni
+    -profilképet egy másik adatbázisba fel lehet tölteni, amit majd hozzáad az img mappához
+
+    -login (felhasználónévet és jelszót kér)
+     ha nincs fiókunk, alatta a register.php ra lehet menni
+
+    - fiókok (felh : 123    jelszó: 123)
+             (felh : AdamAdmin  jelszó: admin)
+
+    -belépés után a főoldalra visz minket -> amit feltöltünk adatot növényről, megjelenik itt
+     + az adatoknál is
+
+    -meg lehet tekinteni a db-be feltöltött adatokat (növények adatai (adatok.php))
+
+    -új növényt lehet hozzáadni (name(varchar(40)), place(varchar(40)),	color(varchar(10)),
+    minheat(int(3)), maxheat(int(3)), leiras (varchar(500))
+    + képet lehet a növényhez feltölteni az adatbázisba
+
+    -profil megtekintes, amivel éppen be vagyunk jelentkezve, azokkal az adatokkal
+     amikkel regisztráltunk
+
+
+
+    

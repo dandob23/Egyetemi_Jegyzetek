@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "gyak_2021_10_24/1.0.0": {
+        "runtime": {
+          "gyak_2021_10_24.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "gyak_2021_10_24/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

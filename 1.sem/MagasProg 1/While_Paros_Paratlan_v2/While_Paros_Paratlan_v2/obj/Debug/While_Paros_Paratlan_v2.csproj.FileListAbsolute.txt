@@ -1,0 +1,5 @@
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan_v2\While_Paros_Paratlan_v2\bin\Debug\While_Paros_Paratlan_v2.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan_v2\While_Paros_Paratlan_v2\bin\Debug\While_Paros_Paratlan_v2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan_v2\While_Paros_Paratlan_v2\bin\Debug\While_Paros_Paratlan_v2.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan_v2\While_Paros_Paratlan_v2\obj\Debug\While_Paros_Paratlan_v2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\While_Paros_Paratlan_v2\While_Paros_Paratlan_v2\obj\Debug\While_Paros_Paratlan_v2.pdb

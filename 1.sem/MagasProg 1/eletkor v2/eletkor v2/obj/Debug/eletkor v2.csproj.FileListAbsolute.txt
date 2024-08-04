@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\eletkor v2\eletkor v2\bin\Debug\eletkor v2.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\eletkor v2\eletkor v2\bin\Debug\eletkor v2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\eletkor v2\eletkor v2\bin\Debug\eletkor v2.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\eletkor v2\eletkor v2\obj\Debug\eletkor v2.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\eletkor v2\eletkor v2\obj\Debug\eletkor v2.exe
+c:\users\dbz\documents\visual studio 2015\Projects\eletkor v2\eletkor v2\obj\Debug\eletkor v2.pdb

@@ -1,0 +1,18 @@
+D:\dbz\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\dbz\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+D:\dbz\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\dbz\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\dbz\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\dbz\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Primek_1-721\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Primek_1-721\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Primek_1-721\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Primek_1-721_for\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Primek_1-721_for\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Primek_1-721_for\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_3\Beugro_3\bin\Debug\Beugro_3.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_3\Beugro_3\bin\Debug\Beugro_3.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_3\Beugro_3\bin\Debug\Beugro_3.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_3\Beugro_3\obj\Debug\Beugro_3.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_3\Beugro_3\obj\Debug\Beugro_3.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Beugro_3\Beugro_3\obj\Debug\Beugro_3.pdb

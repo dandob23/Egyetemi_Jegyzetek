@@ -1,0 +1,15 @@
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\12.28.3.exe
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\12.28.3.deps.json
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\12.28.3.runtimeconfig.json
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\12.28.3.runtimeconfig.dev.json
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\12.28.3.dll
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\ref\12.28.3.dll
+C:\Users\Dániel\Desktop\gyak\12.28.3\bin\Debug\net5.0\12.28.3.pdb
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.AssemblyInfoInputs.cache
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.AssemblyInfo.cs
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.dll
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\ref\12.28.3.dll
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.pdb
+C:\Users\Dániel\Desktop\gyak\12.28.3\obj\Debug\net5.0\12.28.3.genruntimeconfig.cache

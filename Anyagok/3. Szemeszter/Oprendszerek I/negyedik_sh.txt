@@ -1,0 +1,34 @@
+#!/bin/bash
+#paraméterszám elleönrzés:
+if [ $# -lt 2 ]
+then 
+	echo "használat: $0 <sorok_szama> <fajl_nev>"
+	exit
+fi
+
+function fajlminta
+{
+	#Kiíratjuk a fájl elejét
+	echo "----$2 Eleje"
+	head -$1 $2
+	#Kiíratjuk a fájl végét
+	echo "----$2 Vége"
+	tail -n -$1 $2
+	echo "-----Kész------"
+}
+
+#elmentem az első paramétert az n-ben
+n=$1
+#mident balra húz ($2ből $1 lesz, stb)
+shift 
+#ciklus
+for f in $*
+do
+	#valóban fájlra mutat-e
+	if [ -f $f ]
+	then		fajlminta $n $f
+	else
+		echo $f "nem reg. fajl - kihagyva"
+	fi
+done
+

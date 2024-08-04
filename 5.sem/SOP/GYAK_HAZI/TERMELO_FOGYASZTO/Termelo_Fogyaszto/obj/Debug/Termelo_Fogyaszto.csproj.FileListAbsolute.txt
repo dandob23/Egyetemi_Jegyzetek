@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\bin\Debug\Termelo_Fogyaszto.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\bin\Debug\Termelo_Fogyaszto.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\bin\Debug\Termelo_Fogyaszto.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\obj\Debug\Termelo_Fogyaszto.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\obj\Debug\Termelo_Fogyaszto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\obj\Debug\Termelo_Fogyaszto.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\obj\Debug\Termelo_Fogyaszto.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\GYAK_HAZI\TERMELO_FOGYASZTO\Termelo_Fogyaszto\obj\Debug\Termelo_Fogyaszto.pdb

@@ -1,0 +1,35 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
+\usepackage[magyar]{babel}
+\usepackage{graphicx, url}
+\footnotestyle{rule=fourth}
+
+\begin{document}
+	\Aref{fig-lion}.~ábrán látható oroszlánt \textsc{Duane Bibby} -- neves amerikai grafikus --
+	tervezte. A kép innen letölthető:
+	\begin{center}
+		\url{https://tomacstibor.uni-eszterhazy.hu/tananyagok/lion.pdf}
+	\end{center}
+	Ez az 5\,cm széles kép ma már a \LaTeX, pontosabban a \LaTeXe\ szimbólumává
+	is vált
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=5cm]{lion}
+		\caption{A \TeX\ szimbóluma}
+		\label{fig-lion}
+	\end{figure}	
+	
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=5cm,angle=90,origin=c]{lion}%
+		\includegraphics[width=5cm,angle=-90,origin=c]{lion}
+		\caption{A \TeX\ szimbólum elforgatva}
+		\label{fig-lion-forgatva}
+	\end{figure}
+	
+	\Apageref{fig-lion-forgatva}.~oldalon látható \ref{fig-lion-forgatva}.~ábrát úgy kaptuk, hogy \aref{fig-lion}.~ábrát 90 illetve $-90$
+	fokkal elforgattuk a középpontja körül.\footnote{Az oldalon található hivatkozásokat automatikus kereszthivatkozásként illesszük a
+		dokumentumba!}
+	
+\end{document}

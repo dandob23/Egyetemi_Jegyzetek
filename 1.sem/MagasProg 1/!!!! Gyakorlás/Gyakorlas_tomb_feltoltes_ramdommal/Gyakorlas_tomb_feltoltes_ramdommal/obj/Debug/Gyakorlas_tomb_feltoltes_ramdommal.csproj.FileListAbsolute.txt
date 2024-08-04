@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_ramdommal\Gyakorlas_tomb_feltoltes_ramdommal\bin\Debug\Gyakorlas_tomb_feltoltes_ramdommal.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_ramdommal\Gyakorlas_tomb_feltoltes_ramdommal\bin\Debug\Gyakorlas_tomb_feltoltes_ramdommal.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_ramdommal\Gyakorlas_tomb_feltoltes_ramdommal\bin\Debug\Gyakorlas_tomb_feltoltes_ramdommal.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_ramdommal\Gyakorlas_tomb_feltoltes_ramdommal\obj\Debug\Gyakorlas_tomb_feltoltes_ramdommal.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_ramdommal\Gyakorlas_tomb_feltoltes_ramdommal\obj\Debug\Gyakorlas_tomb_feltoltes_ramdommal.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Gyakorlas_tomb_feltoltes_ramdommal\Gyakorlas_tomb_feltoltes_ramdommal\obj\Debug\Gyakorlas_tomb_feltoltes_ramdommal.pdb

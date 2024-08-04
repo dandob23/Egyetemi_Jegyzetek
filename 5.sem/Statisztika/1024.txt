@@ -1,0 +1,74 @@
+    Grafikus illeszkedésvizsgálat
+
+1. Grafikus exponencialitásvizsgálat
+Azt szeretnénk belátni, hogy a vizsgált minta exponenciális eloszlású.
+
+------|---|----|----|----|-----
+    x1    x2   x3       xn
+
+kˇn: xˇi-nél kisebb mintaelemek száma
+n: mintaelemek száma
+
+mintaterv.txt-ből
+
+
+=Min(A:A)
+=Max(A:A)
+
+
+0,1
+=C1+0,19  --> C11-ig
+
+
+=ln(1-Darabteli(A:A;"<"&C1)/Darab(A:A))  --> D11-ig
+
+
+abrazolas(c,d oszlop)
+beeszuras
+pontok
+
+trendvonal:
+(elem kivalasztasa -> trendvonal)
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+
+mintaterv.txt-ből
+
+
+=MIN(A:A)
+=MAX(A:A)
+
+
+2,5
+=C1+0,55  --> C11-ig
+
+
+=NORM.S.INVERZ(Darabteli(A:A;"<"&C1)/Darab(A:A))  --> D11-ig
+
+
+abrazolas(c,d oszlop)
+beeszuras
+pontok
+
+trendvonal:
+(elem kivalasztasa -> trendvonal)
+
+...
+A kapott pontok kb egy egyenesre esnek ezért a minta nagy valószinűséggel norm eloszlású...
+...
+
+
+meredekség ->
+=MEREDEKSÉG(D1:D11;C1:C11)
+
+y-tengelymetszet ->
+=METSZ(D1:D11;C1:C11)
+
+szigma becslése ->
+=1/MEREDEKSÉG
+
+m becslése ->
+=-METSZ/MEREDEKSÉG

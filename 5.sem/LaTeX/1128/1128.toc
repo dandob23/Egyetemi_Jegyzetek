@@ -1,0 +1,2 @@
+\select@language {magyar} \beamer@sectionintoc {1}{Szakasz címe}{2}{0}{1}
+\select@language {magyar} \beamer@subsectionintoc {1}{1}{Alszakasz címe}{2}{0}{1}

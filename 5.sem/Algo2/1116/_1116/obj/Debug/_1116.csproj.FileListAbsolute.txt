@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\bin\Debug\_1116.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\bin\Debug\_1116.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\bin\Debug\_1116.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\obj\Debug\_1116.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\obj\Debug\_1116.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\obj\Debug\_1116.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\obj\Debug\_1116.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\Algo2\1116\_1116\obj\Debug\_1116.pdb

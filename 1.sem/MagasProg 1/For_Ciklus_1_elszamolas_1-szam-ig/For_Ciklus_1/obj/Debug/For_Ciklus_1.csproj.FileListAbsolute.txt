@@ -1,0 +1,12 @@
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_1\For_Ciklus_1\bin\Debug\For_Ciklus_1.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_1\For_Ciklus_1\bin\Debug\For_Ciklus_1.exe
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_1\For_Ciklus_1\bin\Debug\For_Ciklus_1.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_1\For_Ciklus_1\obj\Debug\For_Ciklus_1.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_1\For_Ciklus_1\obj\Debug\For_Ciklus_1.exe
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_1\For_Ciklus_1\obj\Debug\For_Ciklus_1.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\For_Ciklus_1_elszamolas_1-szam-ig\For_Ciklus_1\bin\Debug\For_Ciklus_1.exe.config
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\For_Ciklus_1_elszamolas_1-szam-ig\For_Ciklus_1\obj\Debug\For_Ciklus_1.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\For_Ciklus_1_elszamolas_1-szam-ig\For_Ciklus_1\obj\Debug\For_Ciklus_1.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\For_Ciklus_1_elszamolas_1-szam-ig\For_Ciklus_1\bin\Debug\For_Ciklus_1.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\For_Ciklus_1_elszamolas_1-szam-ig\For_Ciklus_1\obj\Debug\For_Ciklus_1.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\For_Ciklus_1_elszamolas_1-szam-ig\For_Ciklus_1\obj\Debug\For_Ciklus_1.pdb

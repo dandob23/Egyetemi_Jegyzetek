@@ -1,0 +1,24 @@
+F:\yyyyyyyyyy\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+F:\yyyyyyyyyy\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+F:\yyyyyyyyyy\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+F:\yyyyyyyyyy\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+F:\yyyyyyyyyy\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+F:\yyyyyyyyyy\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_randommal_feltoltve\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache

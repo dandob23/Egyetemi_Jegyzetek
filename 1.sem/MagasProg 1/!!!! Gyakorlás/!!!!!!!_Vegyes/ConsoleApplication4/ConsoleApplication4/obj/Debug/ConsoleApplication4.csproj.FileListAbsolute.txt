@@ -1,0 +1,12 @@
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+c:\users\dbz\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\!!!!!!!_Vegyes\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\!!!!!!!_Vegyes\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\!!!!!!!_Vegyes\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\!!!!!!!_Vegyes\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\!!!!!!!_Vegyes\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\!!!! Gyakorlás\!!!!!!!_Vegyes\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache

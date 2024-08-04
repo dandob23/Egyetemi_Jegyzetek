@@ -1,0 +1,18 @@
+F:\yyyyyyyyyy\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+F:\yyyyyyyyyy\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+F:\yyyyyyyyyy\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+F:\yyyyyyyyyy\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+F:\yyyyyyyyyy\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+F:\yyyyyyyyyy\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Users\Dbz\Desktop\Suliiiiiiiiiii\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla_muveletekkel\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla_muveletekkel\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla_muveletekkel\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla_muveletekkel\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla_muveletekkel\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb_2D_szorzotabla_muveletekkel\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache

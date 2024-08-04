@@ -1,0 +1,13 @@
+ProgTech házi (04.01re)
+
+-latex Bibliography (Bibtex)
+-Builderrel megírni C#ban
+
++1 házi
+dekorátor (egyetemes rendszer)
+-oktato (nev, neptun, orakdb) tanársegéd (14 óra), adjunktus (12), docens (10), tanár (8)
+-tantárgyfelelős (List<tárgy> ..., Döntés (Tárgy, döntés))
+-szakfelelős (List<szak> ..., Döntés (Szak, döntés))
+-tanszékvezető (List<tanszék> ..., Döntés (Tanszék, döntés))
+-intézetigazgató (List<intézet> ..., Döntés (Intézet, döntés))
+-dékán (List<dékán> ..., Döntés (Dékán, döntés))

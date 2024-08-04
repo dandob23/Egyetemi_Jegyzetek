@@ -1,0 +1,18 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb\Tomb\bin\Debug\Tomb.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb\Tomb\bin\Debug\Tomb.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb\Tomb\bin\Debug\Tomb.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb\Tomb\obj\Debug\Tomb.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb\Tomb\obj\Debug\Tomb.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb\Tomb\bin\Debug\Tomb.exe.config
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb\Tomb\bin\Debug\Tomb.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb\Tomb\bin\Debug\Tomb.pdb
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.pdb
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\bin\Debug\Tomb.exe.config
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\bin\Debug\Tomb.exe
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\bin\Debug\Tomb.pdb
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.exe
+C:\Users\Dániel\Desktop\MagasProg 1\Tomb\Tomb\obj\Debug\Tomb.pdb

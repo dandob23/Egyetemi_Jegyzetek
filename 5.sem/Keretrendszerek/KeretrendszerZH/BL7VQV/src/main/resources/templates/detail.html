@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+</head>
+<body>
+<h2>Car Details</h2>
+<dl>
+    <dt>Rendszám:</dt>
+    <dd th:text="${car.licensePlate}"></dd>
+    <dt>Gyártó:</dt>
+    <dd th:text="${car.manufacturer}"></dd>
+    <dt>Típus:</dt>
+    <dd th:text="${car.model}"></dd>
+    <dt>Lóerő:</dt>
+    <dd th:text="${car.horsepower}"></dd>
+</dl>
+<a href="/cars">Vissza a listához</a>
+</body>
+</html>

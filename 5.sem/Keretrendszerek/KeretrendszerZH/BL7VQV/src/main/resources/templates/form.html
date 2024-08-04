@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Form</title>
+</head>
+<body>
+<h2>Car Form</h2>
+<form th:object="${car}" th:action="@{/cars/new}" method="post">
+    <label>Rendszám: <input type="text" th:field="*{licensePlate}" /></label><br/>
+    <label>Gyártó: <input type="text" th:field="*{manufacturer}" /></label><br/>
+    <label>Típus: <input type="text" th:field="*{model}" /></label><br/>
+    <label>Lóerő: <input type="number" th:field="*{horsepower}" /></label><br/>
+    <input type="submit" value="Mentés" />
+</form>
+<a href="/cars">Vissza a listához</a>
+</body>
+</html>

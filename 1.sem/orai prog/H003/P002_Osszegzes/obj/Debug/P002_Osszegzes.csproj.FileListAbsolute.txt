@@ -1,0 +1,6 @@
+C:\Users\Balla\source\repos\H003\P002_Osszegzes\bin\Debug\P002_Osszegzes.exe.config
+C:\Users\Balla\source\repos\H003\P002_Osszegzes\bin\Debug\P002_Osszegzes.exe
+C:\Users\Balla\source\repos\H003\P002_Osszegzes\bin\Debug\P002_Osszegzes.pdb
+C:\Users\Balla\source\repos\H003\P002_Osszegzes\obj\Debug\P002_Osszegzes.csproj.CoreCompileInputs.cache
+C:\Users\Balla\source\repos\H003\P002_Osszegzes\obj\Debug\P002_Osszegzes.exe
+C:\Users\Balla\source\repos\H003\P002_Osszegzes\obj\Debug\P002_Osszegzes.pdb

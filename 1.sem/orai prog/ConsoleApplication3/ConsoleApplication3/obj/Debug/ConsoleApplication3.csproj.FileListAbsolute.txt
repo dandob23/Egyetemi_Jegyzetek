@@ -1,0 +1,15 @@
+D:\Balla\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+D:\Balla\ConsoleApplication3\ConsoleApplication3\bin\Debug\filmek.csv
+D:\Balla\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+D:\Balla\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+D:\Balla\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+D:\Balla\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+D:\Balla\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\bin\Debug\filmek.csv
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\Dániel\Desktop\Random Shit\sulis\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

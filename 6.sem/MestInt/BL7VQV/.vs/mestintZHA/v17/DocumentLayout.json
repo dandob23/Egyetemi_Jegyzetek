@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|c:\\users\\tamas\\onedrive\\asztali g\u00E9p\\mestintzh\\a\\mestintzha\\solvers\\depthfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|solutionrelative:solvers\\depthfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\staterepresentations\\knightstour\\knightstourstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|solutionrelative:staterepresentations\\knightstour\\knightstourstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\staterepresentations\\knightstour\\knightstouroperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|solutionrelative:staterepresentations\\knightstour\\knightstouroperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\staterepresentations\\knightstour\\knightstouroperatorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D579CC62-DEE1-45E9-AE5F-CB9F613D74BD}|mestintZHA.csproj|solutionrelative:staterepresentations\\knightstour\\knightstouroperatorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:35:35.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KnightsTourOperatorGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\StateRepresentations\\KnightsTour\\KnightsTourOperatorGenerator.cs",
+              "RelativeDocumentMoniker": "StateRepresentations\\KnightsTour\\KnightsTourOperatorGenerator.cs",
+              "ToolTip": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\StateRepresentations\\KnightsTour\\KnightsTourOperatorGenerator.cs",
+              "RelativeToolTip": "StateRepresentations\\KnightsTour\\KnightsTourOperatorGenerator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:32:38.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KnightsTourOperator.cs",
+              "DocumentMoniker": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\StateRepresentations\\KnightsTour\\KnightsTourOperator.cs",
+              "RelativeDocumentMoniker": "StateRepresentations\\KnightsTour\\KnightsTourOperator.cs",
+              "ToolTip": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\StateRepresentations\\KnightsTour\\KnightsTourOperator.cs",
+              "RelativeToolTip": "StateRepresentations\\KnightsTour\\KnightsTourOperator.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:32:08.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KnightsTourState.cs",
+              "DocumentMoniker": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\StateRepresentations\\KnightsTour\\KnightsTourState.cs",
+              "RelativeDocumentMoniker": "StateRepresentations\\KnightsTour\\KnightsTourState.cs",
+              "ToolTip": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\StateRepresentations\\KnightsTour\\KnightsTourState.cs",
+              "RelativeToolTip": "StateRepresentations\\KnightsTour\\KnightsTourState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:31:25.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepthFirst.cs",
+              "DocumentMoniker": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\Solvers\\DepthFirst.cs",
+              "RelativeDocumentMoniker": "Solvers\\DepthFirst.cs",
+              "ToolTip": "C:\\Users\\tamas\\OneDrive\\Asztali g\u00E9p\\mestintzh\\A\\mestintZHA\\Solvers\\DepthFirst.cs",
+              "RelativeToolTip": "Solvers\\DepthFirst.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:29:05.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

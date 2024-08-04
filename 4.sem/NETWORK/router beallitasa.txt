@@ -1,0 +1,28 @@
+router beállítása:
+
+no
+enable
+conf terminal
+hostname R1
+enable secret 1234
+
+interf fastEthernet 0/0
+ip address [GW KÓD] 255.255.255.0
+no shutdown
+description bal_oldal
+exit
+
+interf fastEthernet 1/0
+ip address [GW KÓD] 255.255.255.0
+no shutdown
+description jobb_oldal
+exit
+
+router RIP
+network [NW KÓD]
+network [NW KÓD]
+exit
+exit
+sh running-config
+
+copy running-config startup-config

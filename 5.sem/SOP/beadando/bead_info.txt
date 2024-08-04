@@ -1,0 +1,23 @@
+Beadandó követelmények:
+
+- WinForm/WPF
+
+- PHP RestAPI
+
+- A végpontok elérése a következő legyen: "localhost/beadando/<neptun_kód>/.."
+
+- Az adatbázis neve a saját neptun kódod legyen
+
+- 3 adatbázis tábla kapcsoló táblákat nem számolva (egyik az a felhasználók 1-2 mezővel kiegészítve)
+
+- Nagyvonalú hibakezelés + feedback (pl. nem érhető el a szerver)
+
+- Inputvalidáció
+
+- Jogosultság kezelés
+
+- Adatfrissítés
+
+- CRUD
+
+- Nem sablon téma, amely megkövetel legalább egy olyan végpontot, ami harmadik értéket ad vissza ( pl. a paraméter és az adatbázisból olvasott adatra egy származtatott értéket ad vissza )

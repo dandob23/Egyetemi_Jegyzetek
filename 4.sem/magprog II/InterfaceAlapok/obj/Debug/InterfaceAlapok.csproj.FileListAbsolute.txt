@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\InterfaceAlapok\bin\Debug\InterfaceAlapok.exe.config
+C:\Users\Lenovo\Desktop\InterfaceAlapok\bin\Debug\InterfaceAlapok.exe
+C:\Users\Lenovo\Desktop\InterfaceAlapok\bin\Debug\InterfaceAlapok.pdb
+C:\Users\Lenovo\Desktop\InterfaceAlapok\obj\Debug\InterfaceAlapok.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\InterfaceAlapok\obj\Debug\InterfaceAlapok.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\InterfaceAlapok\obj\Debug\InterfaceAlapok.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\InterfaceAlapok\obj\Debug\InterfaceAlapok.exe
+C:\Users\Lenovo\Desktop\InterfaceAlapok\obj\Debug\InterfaceAlapok.pdb

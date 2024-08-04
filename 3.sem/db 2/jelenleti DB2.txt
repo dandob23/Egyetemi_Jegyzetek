@@ -1,0 +1,1 @@
+insert into rbann.jelenlet(hallgato_kod) values ('x');

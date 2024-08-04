@@ -1,0 +1,12 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Bool\Bool\bin\Debug\Bool.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Bool\Bool\bin\Debug\Bool.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Bool\Bool\bin\Debug\Bool.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Bool\Bool\obj\Debug\Bool.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Bool\Bool\obj\Debug\Bool.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Bool\Bool\obj\Debug\Bool.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Bool\Bool\bin\Debug\Bool.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Bool\Bool\obj\Debug\Bool.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Bool\Bool\obj\Debug\Bool.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Bool\Bool\bin\Debug\Bool.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Bool\Bool\bin\Debug\Bool.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Bool\Bool\obj\Debug\Bool.csprojResolveAssemblyReference.cache

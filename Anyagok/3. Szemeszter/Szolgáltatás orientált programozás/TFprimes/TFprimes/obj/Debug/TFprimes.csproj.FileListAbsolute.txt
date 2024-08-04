@@ -1,0 +1,6 @@
+D:\SzucsNorbert\TFprimes\TFprimes\bin\Debug\TFprimes.exe.config
+D:\SzucsNorbert\TFprimes\TFprimes\bin\Debug\TFprimes.exe
+D:\SzucsNorbert\TFprimes\TFprimes\bin\Debug\TFprimes.pdb
+D:\SzucsNorbert\TFprimes\TFprimes\obj\Debug\TFprimes.csprojResolveAssemblyReference.cache
+D:\SzucsNorbert\TFprimes\TFprimes\obj\Debug\TFprimes.exe
+D:\SzucsNorbert\TFprimes\TFprimes\obj\Debug\TFprimes.pdb

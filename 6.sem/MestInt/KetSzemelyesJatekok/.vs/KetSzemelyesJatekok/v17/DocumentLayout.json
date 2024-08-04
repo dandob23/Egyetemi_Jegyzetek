@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\staterepresentation\\tictactoe\\tictactoestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:staterepresentation\\tictactoe\\tictactoestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\mestint\\ketszemelyesjatekok\\solvers\\heuristicsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:solvers\\heuristicsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\mestint\\ketszemelyesjatekok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\staterepresentation\\tictactoe\\tictactoeplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:staterepresentation\\tictactoe\\tictactoeplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\solvers\\trialanderror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:solvers\\trialanderror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\staterepresentation\\tictactoe\\tictactoeoperatorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:staterepresentation\\tictactoe\\tictactoeoperatorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\staterepresentation\\tictactoe\\tictactoeoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:staterepresentation\\tictactoe\\tictactoeoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\interfaces\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:interfaces\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\interfaces\\solver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:interfaces\\solver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\interfaces\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:interfaces\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\interfaces\\operatorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:interfaces\\operatorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\interfaces\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:interfaces\\operator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\interfaces\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710440F-C8A4-4BAB-A6ED-208B356ECCF9}|KetSzemelyesJatekok.csproj|solutionrelative:interfaces\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeuristicSolver.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Solvers\\HeuristicSolver.cs",
+              "RelativeDocumentMoniker": "Solvers\\HeuristicSolver.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Solvers\\HeuristicSolver.cs",
+              "RelativeToolTip": "Solvers\\HeuristicSolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T12:17:58.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicTacToePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToePlayer.cs",
+              "RelativeDocumentMoniker": "StateRepresentation\\TicTacToe\\TicTacToePlayer.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToePlayer.cs",
+              "RelativeToolTip": "StateRepresentation\\TicTacToe\\TicTacToePlayer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA4wD8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:57:11.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrialAndError.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Solvers\\TrialAndError.cs",
+              "RelativeDocumentMoniker": "Solvers\\TrialAndError.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Solvers\\TrialAndError.cs",
+              "RelativeToolTip": "Solvers\\TrialAndError.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwDYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:50:34.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicTacToeOperatorGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToeOperatorGenerator.cs",
+              "RelativeDocumentMoniker": "StateRepresentation\\TicTacToe\\TicTacToeOperatorGenerator.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToeOperatorGenerator.cs",
+              "RelativeToolTip": "StateRepresentation\\TicTacToe\\TicTacToeOperatorGenerator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:47:56.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicTacToeOperator.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToeOperator.cs",
+              "RelativeDocumentMoniker": "StateRepresentation\\TicTacToe\\TicTacToeOperator.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToeOperator.cs",
+              "RelativeToolTip": "StateRepresentation\\TicTacToe\\TicTacToeOperator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:40:11.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicTacToeState.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToeState.cs",
+              "RelativeDocumentMoniker": "StateRepresentation\\TicTacToe\\TicTacToeState.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\StateRepresentation\\TicTacToe\\TicTacToeState.cs",
+              "RelativeToolTip": "StateRepresentation\\TicTacToe\\TicTacToeState.cs",
+              "ViewState": "AQIAABsBAAAAAAAAAAAowD0BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:10:19.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Solver.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Solver.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Solver.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Solver.cs",
+              "RelativeToolTip": "Interfaces\\Solver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:04:55.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Node.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Node.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Node.cs",
+              "RelativeToolTip": "Interfaces\\Node.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwDYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:56:10.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OperatorGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\OperatorGenerator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\OperatorGenerator.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\OperatorGenerator.cs",
+              "RelativeToolTip": "Interfaces\\OperatorGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:55:19.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Operator.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Operator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Operator.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Operator.cs",
+              "RelativeToolTip": "Interfaces\\Operator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:53:07.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\State.cs",
+              "RelativeDocumentMoniker": "Interfaces\\State.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\State.cs",
+              "RelativeToolTip": "Interfaces\\State.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:49:59.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Status.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Status.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Interfaces\\Status.cs",
+              "RelativeToolTip": "Interfaces\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:49:21.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\MestInt\\KetSzemelyesJatekok\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:48:58.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

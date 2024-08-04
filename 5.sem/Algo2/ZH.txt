@@ -1,0 +1,1113 @@
+==================================================================================================================
+==================================================================================================================
+==================================================================================================================
+
+//zh -> rekurziv sorozatok(vmilyen formula, az alapján egy rekurziv sorozat(irasd ki az x elemet/elso tizet))+fibonacci jellegu
+            //legnagyobb kozos oszto(matematikai) faktorialis stb stb
+            //képlet/formula/pseudo kod, azt leprogramozni
+            //listak sor verem
+
+==================================================================================================================
+==================================================================================================================
+==================================================================================================================
+
+1) n! meghatározása
+
+1.lehetőség(iteratív)
+	1. Bekérjük nEN
+	2.s <- 1
+	3.for i <- to n
+	4.    s <- s * i
+	5.kiírjuk s-el
+
+
+public static int NFaktElsoLehetoseg()
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("\tElső lehetőség\n");
+            Console.Write("\tAdja meg az n-et: ");
+            int n = int.Parse(Console.ReadLine());
+            int s = 1;
+            if (n < 0)
+            {
+                Console.WriteLine("\tCsak pozitív szám lehet az n!");
+            }
+            else
+            {
+                for (int i = 1; i <= n; i++)
+                {
+                    s *= i;
+                }
+
+                Console.WriteLine($"\t{n}! = {s}");
+            }
+            return s;
+        }
+
+_____________________________________________________________________________________________________________________
+2.lehetőség:
+	1.bekérjük nEN
+	2.irunk egy faktoriális(n) -> egész
+-----
+faktoriális(n)
+if n= 1 s= 1
+	else s= n* faktoriális(n-1)
+RETURN(s)
+
+
+public static int NFaktMasodikLehetoseg()
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("\tMásodik lehetőség\n");
+            Console.Write("\tAdja meg az n-et: ");
+            int n = int.Parse(Console.ReadLine());
+            int result = Faktorialis(n);
+
+            if (n < 0)
+            {
+                Console.WriteLine("\tCsak pozitív szám lehet az n!");
+            }
+            else
+            {
+
+                Console.WriteLine($"\t{n}! = {result}");
+                Console.WriteLine("-----------------------------------------");
+            }
+            return result;
+        }
+        public static int Faktorialis(int n)
+        {
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return n * Faktorialis(n - 1);
+            }
+        }
+
+
+
+_____________________________________________________________________________________________________________________
+3.lehetőség:
+ 
+fakt(n,mEN)
+ha n=m akkor s=n
+	egyébként k = [(n+m)/2]
+		s=fakt(n,k)*fakt(k+1,m)
+RETURN(s)
+-----
+
+
+public static int NFaktHarmadikLehetoseg(int n, int m)
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("\tHarmadik lehetőség\n");
+
+            int result = Fakt(n, m);
+            int s;
+            int k;
+            if (n == m)
+            {
+                s = n;
+            }
+            else
+            {
+                k = (n + m) / 2;
+                s = Fakt(n, k) * Fakt(k + 1, m);
+            }
+            Console.WriteLine($"\t{n}! = {result}");
+            return s;
+        }
+        public static int Fakt(int n, int m)
+        {
+            if (n == m)
+            {
+                return n;
+            }
+            else
+            {
+                int k = (n + m) / 2;
+                return Fakt(n, k) * Fakt(k + 1, m);
+            }
+        }
+
+
+_____________________________________________________________________________________________________________________
+
+2) összegzés
+
+S= szumma( i=1 tart az n felé) i
+szumma(n)
+
+1.lehetőség(iteratív)
+	1. Bekérjük n-et
+	2.s <- 0
+	3.for i <- to n
+	4.    s <- s + i
+	5.kiírjuk s-el
+
+
+public static int OsszElsoLehetoseg()
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("\tElső lehetőség\n");
+            Console.Write("\tAdja meg az n-et: ");
+            int n = int.Parse(Console.ReadLine());
+            int s = 0;
+            if (n < 0)
+            {
+                Console.WriteLine("\tCsak pozitív szám lehet az n!");
+            }
+            else
+            {
+                for (int i = 1; i <= n; i++)
+                {
+                    s += i;
+                }
+
+                Console.WriteLine($"\tSzámok összegezve = {s}");
+            }
+            return s;
+        }
+
+
+_____________________________________________________________________________________________________________________
+
+2.lehetőség(rekurziv)
+
+
+ public static int OsszMasodikLehetoseg()
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("\tMásodik lehetőség\n");
+            Console.Write("\tAdja meg az n-et: ");
+            int n = int.Parse(Console.ReadLine());
+            int result = Osszegzes(n);
+
+            if (n < 0)
+            {
+                Console.WriteLine("\tCsak pozitív szám lehet az n!");
+            }
+            else
+            {
+
+                Console.WriteLine($"\tSzámok összegezve = {result}");
+                Console.WriteLine("-----------------------------------------");
+            }
+            return result;
+        }
+
+        public static int Osszegzes(int n)
+        {
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return n + Osszegzes(n - 1);
+            }
+        }
+_____________________________________________________________________________________________________________________
+
+3. lehetőség
+
+public static int OsszHarmadikLehetoseg()
+        {
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("\tHarmadik lehetőség\n");
+            Console.Write("\tAdja meg az n-et: ");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.Write("\tAdja meg az m-et: ");
+            int m = int.Parse(Console.ReadLine());
+
+            int s = 0;
+            if (n < 0)
+            {
+                Console.WriteLine("\tCsak pozitív szám lehet az n!");
+            }
+            else
+            {
+                for (int i = m; i <= n; i++)
+                {
+                    s += i;
+                }
+
+                Console.WriteLine($"\tSzámok összegezve = {s}");
+            }
+            return s;
+        }
+
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+Rekurzív sorozatok:
+1)  aˇ1 = 1
+    aˇn = ( (aˇ(n-1)^2) + 3*aˇ(n-1) )/5   (n>=2)  --> irassuk ki a sorozat első 10 számát
+
+        sorozat(n:int)
+            ha n=1 akkor S <- 1
+                egyébként S <- (( (sorozat)*n-1)^2 + 3*sorozat(n-1))/5
+            RETURN (S)
+
+        for i = 1..10:
+            sorozat(i)
+
+
+static double RekurzivEgy(int n)
+        {
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                double nminusz1 = RekurzivEgy(n - 1);
+                return ((nminusz1 * nminusz1) + (3 * nminusz1)) / 5;
+            }
+        }       
+
+_____________________________________________________________________________________________________________________
+2)  aˇ1 = 2
+    aˇ2 = 5
+    aˇn = (6*(aˇ(n-1))^2 + 4*aˇ(n-1)*aˇ(n-2))/aˇn-1       (n>=3)
+
+        sorozat(n:int)
+            ha n = 1 : S <- 2
+            ha n = 2 : S <- 5
+            egyébként
+                S <- (...) | (...)
+
+
+static double RekurzivKetto(int n)
+        {
+            if (n == 1)
+            {
+                return 2;
+            }
+            if (n == 2)
+            {
+                return 5;
+            }
+            else
+            {
+                double nminusz1 = RekurzivKetto(n - 1);
+                double nminusz2 = RekurzivKetto(n - 2);
+
+                return (6 * (nminusz1 * nminusz1) + (4 * nminusz1) * nminusz2) / nminusz1;
+            }
+        }
+_____________________________________________________________________________________________________________________
+3)  aˇ1 = 1
+    aˇn = GYÖK(4*aˇn-1 + 3)     (n>=2)
+            Math.Sqrt(4*a(n-1) + 3)
+
+static double RekurzivHarom(int n)
+        {
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                double nminusz1 = RekurzivHarom(n - 1);
+
+                return Math.Sqrt(4 * nminusz1 + 3);
+            }
+        }
+_____________________________________________________________________________________________________________________
+Fibonacci-sorozat:
+    f0 = 1
+    f1 = 1
+    fn = fˇ(n-1) + fˇ(n-2)      (n>=2)    -->20at
+
+static int Fibonacci(int n)
+        {
+            if (n == 0)
+            {
+                return 1;
+            }
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                int nminusz1 = Fibonacci(n - 1);
+                int nminusz2 = Fibonacci(n - 2);
+                return (nminusz1 + nminusz2);
+            }
+        }
+___________________________________________________________
+
+[ 1/GYÖK5 * ((1 + GYÖK5)/2)^n ]     n= 0,...,10
+math.floor
+
+
+ /*
+        static double Fibonacci2(int n)
+        {
+            if (n == 0)
+            {
+                return 1;
+            }
+            if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                double gyok5 = Math.Sqrt(5);
+                double nplusz1 = Fibonacci2(n + 1);
+                return Math.Round
+                    (1/gyok5 * ((1+gyok5)/2)*nplusz1);
+            }
+        }
+        */
+
+
+___________________________________________________________
+    f0 = C1
+    f1 = C2
+    fn = d1 * fˇ(n-1) + d2 * fˇ(n-2)
+
+        C1,C2,d1,d2 E N bekérjük
+            |
+        Fib(n,C1,C2,d1,d2)
+                .
+                .
+                .
+
+static double Fibonacci3(int n, int C1, int C2, int d1, int d2)
+        {
+            if (n == 0)
+            {
+                return C1;
+            }
+            if (n == 1)
+            {
+                return C2;
+            }
+            else
+            {
+
+                return (d1 * (n - 1)) + (d2 * (n - 2));
+            }
+        }
+
+
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+
+legnagyobb közös osztó
+
+LegnKozOszto(a,b)
+1.lépés: kérjük be az a és b értékét
+
+
+1) lnko(a,b) = lnko (b,-a)
+lnko (a,b) = 	a ha b = 0
+		lnko (b, a-b) ha b!=0
+
+
+static int LegnKozOszto(int a, int b)
+    {
+        if (a < 0)
+        {
+            a = -a;
+        }
+        while (b != 0)
+        {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+
+
+_____________________________________________________________________________________________________________________
+2) euklideszi algoritmus 
+lnko(a,b)=	a ha b=0
+		lnko(b, a mod b) ha b != 0
+
+
+static int EuklLegnKozOszto(int a, int b)
+    {
+        if (b == 0)
+        {
+            return a;
+        }
+        else
+        {
+            int temp = a % b;
+            return EuklLegnKozOszto(b, temp);
+        }
+    }
+
+_____________________________________________________________________________________________________________________
+3) lnko (a,b)= 	a ha b=0
+(a>=b)
+		ha a és b páros -> 2lnko(a/2, b/2)
+		ha b páratlan és a páros -> lnko(a/2, b)
+		ha a páratlan és b páros -> lnko(a, b/2)
+		ha a és b páratlan -> lnko(b, (a-b)/2)
+
+
+static int BinLegnKozOszto(int a, int b, double k)
+    {
+        k = 0;
+        if (b == 0)
+        {
+            return a;
+        }
+        else if (a >= b)
+        {
+            if (ParosE(a) && ParosE(b))
+            {
+                return 2 * BinLegnKozOszto(a / 2, b / 2, k++);
+            }
+            else if (ParosE(a) && !ParosE(b))
+            {
+                return BinLegnKozOszto(a / 2, b, k);
+            }
+            else if (!ParosE(a) && ParosE(b))
+            {
+                return BinLegnKozOszto(a, b / 2, k);
+            }
+            else
+            {
+                return BinLegnKozOszto(b, (a - b) / 2, k);
+            }
+        }
+        else
+        {
+            return BinLegnKozOszto(b, a, Math.Pow(2,k)*a);
+        }
+    }
+    static bool ParosE(int a)
+    {
+        if (a%2==0)
+        {
+            return true;    
+        }
+        return false;
+    }
+
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
+
+    a=35 mivel tér vissza, mennyi a hívások száma
+    Vsetkojedno(a,d)
+    if(a=0)
+    then d<-0
+    else Vsetkojedno(a Div2, d)
+    d <- d+(aMOD2)
+    return (d)
+   
+            static double Vsetkojedno(double a, out double d)
+        {
+            int szamlalo =0;
+            if (a == 0)
+            {
+                d = 0;
+            }
+            else
+            {
+                Vsetkojedno(a / 2, out d);
+                d = d + (a % 2);
+                szamlalo++;
+            }
+            return d;
+        }
+_____________________________________________________________________________________________________________________
+        
+        
+     eljárás hanoi(n:egészl r1,r3,r2: karakter)
+    algo
+        ha n>0 akkor
+            hanoi(n-1,r1,r2,r3);
+            ki:n, "korong atrakasa", r1, ->, r3
+            hanoi(n-1,r2,r3,r1)
+        ha vége
+    evege
+            
+        static int Hanoi(int n, char r1, char r3, char r2)
+        {
+            if (n>0)
+            {
+                Hanoi(n - 1, r1, r2, r3);
+                Console.WriteLine("Korong átrakása " + r1 + " -> " + r3);
+                Hanoi(n - 1, r2, r3, r1);
+            }
+            return n;
+        }
+_____________________________________________________________________________________________________________________
+        
+        HIBÁS
+        
+        static int MinKivRend(int[] A, int mettol, int meddig)
+        {
+            if (mettol<meddig)
+            {
+                int min_index = mettol;
+                for (int i = mettol + 1; i < meddig; i++)
+                {
+                    if (A[i] < A[min_index])
+                    {
+                        min_index = i;
+                    }
+                }
+                A.
+                MinKivRend(A, mettol + 1, meddig);
+            }
+            return A[0];
+        }
+        static  Csere(int mettol, int meddig)
+        {
+            List<int> cserelista = new List<int>();
+            cserelista.Add(meddig);
+            cserelista.Add(mettol);
+
+        }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------_________________________________________________________________________________________________________________2.zh_________________________________
+
+            List<int> ElsoFeladat = new List<int>() {20,30,12,4};
+            Torles(ElsoFeladat);
+            Console.WriteLine("----------------------------");
+            HozzaAdas(ElsoFeladat);
+
+            //---------------------------------//
+
+            int[,] MasodikFeladatTomb = { { 20,5 }, { 0,0},{ 4,-1},{ 0,0},{ 0,0},{ 30,8},{ 0,0},{ 0,0},{ 12,2},{ 0, 0} };
+
+
+            Console.ReadKey();
+        }
+        #region ElsoFeladat
+        public static void Torles(List<int> ElsoFeladat)
+        {
+           
+            Console.WriteLine("Az jelenlegi lista elemek: ");
+            foreach (int szam in ElsoFeladat)
+            {
+                Console.WriteLine(szam);
+            }
+            Console.WriteLine("----------------------------------\n");
+
+            Console.WriteLine("A törlés utáni elemek: ");
+            ElsoFeladat.Remove(12);
+            foreach (int torlesUtan in ElsoFeladat)
+            {
+                Console.WriteLine(torlesUtan);
+            }
+
+        }
+        public static void HozzaAdas(List<int> ElsoFeladat)
+        {
+            int hozzaadandoszam = 10;
+            Console.WriteLine("Az jelenlegi lista elemek: ");
+            foreach (int szam in ElsoFeladat)
+            {
+                Console.WriteLine(szam);
+            }
+            Console.WriteLine("----------------------------------\n");
+
+            Console.WriteLine("A hozzáadás utáni elemek: ");
+            for (int i = 0; i < ElsoFeladat.Count; i++)
+            {
+                while (!(hozzaadandoszam>i))
+                {
+                    if (i <= hozzaadandoszam)
+                    {
+                        ElsoFeladat.Add(hozzaadandoszam);
+                    }
+                    else
+                    {
+                        ElsoFeladat.Add(hozzaadandoszam - ElsoFeladat[i]);
+                    }
+                }
+            }
+            
+            foreach (int hozzaadasUtan in ElsoFeladat)
+            {
+                Console.WriteLine(hozzaadasUtan);
+            }
+        }
+        #endregion
+
+
+        #region MasodikFeladat
+        
+
+        public static int MasodikFeladatTorles(int[,] MasodikFeladatTomb)
+        {
+            int fej = 0;
+            for (int i = 0; i < MasodikFeladatTomb.Length; i++)
+            {
+                if (fej == -1)
+                {
+                    return MasodikFeladatTomb[0,0];
+                }
+                else if (i == fej)
+                {
+                    return MasodikFeladatTomb[i, 1];
+                }
+                while (i != -1)
+                {
+                    i = MasodikFeladatTomb[i, 1];
+                    return MasodikFeladatTomb[i, 0];
+                }
+            }            
+        }
+
+        public static int MasodikFeladatHozzaadas(int[,] MasodikFeladatTomb)
+        {
+
+        }
+
+        #endregion
+    }
+
+}
+
+
+______________________________________________________________________________________________________________________________________________________
+
+            int fej = 3;
+            int[,] tabla = new int[10, 3] {
+            { 11, 7, 6}, { -1, -1, -1 }, { -1, -1, -1 }, { 23, -1, 7 },
+            { 19, 3, -1 }, { -1, -1, -1 }, { 17, 0, 4 }, { 38, 3, 0 },
+            { -1, -1, -1 }, { -1, -1, -1 }};
+
+            //1) feladat
+            ListaKiir(tabla);
+
+            //2) feladat
+            ListaTorol(tabla, 17);
+
+            //3) feladat
+            //a)
+            ListaBeszurA(tabla, 88);
+            //b)
+            ListaBeszurB(tabla, 88);
+            //c)
+            ListaBeszurC(tabla, 88, 23);
+
+
+            Console.ReadKey();
+        }
+
+        public static void ListaKiir(int[,] tabla)
+        {
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("A lista jelenleg: \n");
+            Console.WriteLine("[\n");
+            int szamlalo = 1;
+
+            foreach (int item in tabla)
+            {
+                if (szamlalo ==3)
+                {
+                    Console.Write(item + ", ");
+                    Console.WriteLine("\n");
+                    szamlalo = 1;
+                }
+                else
+                {
+                    Console.Write(item + ", ");
+                    szamlalo++;
+                }
+            }
+            Console.WriteLine("]");
+            Console.WriteLine("---------------------------------------");
+        }
+
+        public static void ListaTorol(int[,] tabla, int torlesSzam)
+        {
+            Console.WriteLine("=======================================");
+            Console.WriteLine($"\t2) Listából törlés ({torlesSzam})");
+            ListaKiir(tabla);
+            int torlesIndex = -1;
+            for (int i = 0; i < 10; i++)
+            {
+                if (tabla[i, 0] == torlesSzam)
+                {
+                    torlesIndex = i;
+                    break;
+                }
+            }
+            if (torlesIndex != -1)
+            {
+                tabla[tabla[torlesIndex, 1], 2] = tabla[torlesIndex, 2];
+                tabla[tabla[torlesIndex, 2], 1] = tabla[torlesIndex, 1];
+                tabla[torlesIndex, 0] = -1;
+            }
+            ListaKiir(tabla);
+            Console.WriteLine("\n");
+            Console.WriteLine("=======================================");
+        }
+
+        public static void ListaBeszurA(int[,] tabla, int elem)
+        {
+            Console.WriteLine("=======================================");
+            Console.WriteLine($"\t3/a) A listába beszúrás az elejére ({elem})");
+            ListaKiir(tabla);
+            for (int i = 0; i < 10; i++)
+            {
+                if (tabla[i,0] == -1)
+                {
+                    tabla[i, 0] = elem;
+                    tabla[i, 1] = -1;
+                    tabla[i, 2] = tabla[0, 1];
+                    tabla[0, 1] = i;
+                    break;
+                }
+            }
+            ListaKiir(tabla);
+            Console.WriteLine("\n");
+            Console.WriteLine("=======================================");
+        }
+
+        public static void ListaBeszurB(int[,] tabla, int elem)
+        {
+            Console.WriteLine("=======================================");
+            Console.WriteLine($"\t3/b) A listába beszúrás a végére ({elem})");
+            ListaKiir(tabla);
+            for (int i = 0; i < 10; i++)
+            {
+                if (tabla[i, 0] == -1)
+                {
+                    tabla[i, 0] = elem;
+                    tabla[i, 1] = i -1;
+                    tabla[i - 1, 2] = i;
+                    tabla[i, 2] = -1;
+                    break;
+                }
+            }
+            ListaKiir(tabla);
+            Console.WriteLine("=======================================");
+            Console.WriteLine("\n");
+        }
+
+        public static void ListaBeszurC(int[,] tabla, int elem, int beszurUtana)
+        {
+            Console.WriteLine("=======================================");
+            Console.WriteLine($"\t3/c) A listába beszúrás egy adat helyére (ezt: {elem}, e helyére: {beszurUtana})");
+            ListaKiir(tabla);
+            for (int i = 0; i < 10; i++)
+            {
+                if (tabla[i, 0] == beszurUtana)
+                {
+                    for (int j = 0; j < 10; j++)
+                    {
+                        if (tabla[j, 0] == -1)
+                        {
+                            tabla[j, 0] = elem;
+                            tabla[j, 1] = i;
+                            tabla[j, 2] = tabla[i, 2];
+                            tabla[i, 2] = j;
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+            ListaKiir(tabla);
+            Console.WriteLine("\n");
+            Console.WriteLine("=======================================");
+        }
+    }
+}
+______________________________________________________________________________________________________________________________________________________
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1123
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            ElsoFeladat();
+            MasodikFeladat();
+            HarmadikFeladat();        
+            NegyedikFeladat();
+            OtodikFeladat();
+            HatodikFeladat();
+            HetedikFeladat();
+            NyolcadikFeladat();
+            Console.ReadLine();
+        }
+
+        static void ELVALASZTO()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("=====================================================================");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+        #region FELADATOK
+        static void ElsoFeladat()
+        {
+            ELVALASZTO();
+
+
+            Console.WriteLine("1. Feladat");
+
+            LinkedList<int> list = new LinkedList<int>();
+            list.AddLast(3);
+            list.AddLast(33);
+            list.AddLast(3333);
+            list.AddLast(333);
+
+            Console.WriteLine("A kapott lista:");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("------------------");
+            list.Remove(3333);
+
+            Console.WriteLine("Eltávolítás után");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+
+            ELVALASZTO();
+        }
+        static void MasodikFeladat()
+        {
+            ELVALASZTO();
+            Console.WriteLine("2. Feladat");
+            int[] tomb = new int[8];
+            tomb[0] = 3;
+            tomb[1] = 33;
+            tomb[2] = 3333;
+            tomb[3] = 333;
+
+            LinkedList<int> list = new LinkedList<int>(tomb);
+            
+
+            Console.WriteLine("A kapott lista:");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("------------------");
+            list.Remove(3333);
+
+            Console.WriteLine("Eltávolítás után");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+
+            ELVALASZTO();
+
+        }
+        static void HarmadikFeladat()
+        {
+            ELVALASZTO();
+            Console.WriteLine("3. Feladat");
+            Console.WriteLine("A folyamat: 9, 8, 7, 6, Törlés, 5, Törlés, 4");
+
+            Stack<int> verem = new Stack<int>();
+            verem.Push(9);
+            verem.Push(8);
+            verem.Push(7);
+            verem.Push(6);
+            verem.Pop();
+            verem.Push(5);
+            verem.Pop();
+            verem.Push(4);
+            
+            Console.WriteLine("A kapott verem:");
+            foreach (var item in verem)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            ELVALASZTO();
+
+
+        }
+        static void NegyedikFeladat()
+        {
+            ELVALASZTO();
+            Console.WriteLine("4. Feladat");
+
+            Console.WriteLine("A folyamat: 9, 8, 7, 6, Törlés, 5, Törlés, 4");
+
+            int[] tomb = new int[6];
+            
+            Stack<int> verem = new Stack<int>(tomb);
+
+            tomb[0] = 9;
+            tomb[1] = 8;
+            tomb[2] = 7;
+            tomb[3] = 6;
+
+            verem.Push(tomb[0]);
+            verem.Push(tomb[1]);
+            verem.Push(tomb[2]);
+            verem.Push(tomb[3]);
+            verem.Pop();
+            tomb[4] = 5;
+            verem.Push(tomb[4]);
+            verem.Pop();
+            tomb[5] = 4;
+            verem.Push(tomb[5]);
+
+            Console.WriteLine("A kapott verem:");
+            foreach (var item in verem)
+            {
+                Console.WriteLine(item);
+            }
+
+            ELVALASZTO();
+
+        }
+
+        static void OtodikFeladat()
+        {
+            ELVALASZTO();
+
+            Console.WriteLine("5. Feladat");
+            Console.WriteLine("A folyamat: 9, 8, 7, 6, Törlés, 5, Törlés, 4");
+            
+            List<int> lista = new List<int>();
+            lista.Add(9);
+            lista.Add(8);
+            lista.Add(7);
+            lista.Add(6);
+
+            Queue<int> sor = new Queue<int>(lista);
+
+
+            sor.Dequeue();
+            lista.Add(5);
+            sor.Enqueue(lista[4]);
+            sor.Dequeue();
+            lista.Add(4);
+            sor.Enqueue(lista[5]);
+
+            Console.WriteLine("A kapott sor:");
+            foreach (var item in sor)
+            {
+                Console.WriteLine(item);
+            }
+            ELVALASZTO();
+        }
+
+        static void HatodikFeladat()
+        {
+            ELVALASZTO();
+
+            Console.WriteLine("6. Feladat");
+            Console.WriteLine("A folyamat: 9, 8, 7, 6, Törlés, 5, Törlés, 4");
+            int[] tomb = new int[6];
+            Queue<int> sor = new Queue<int>(tomb);
+
+            tomb[0] = 9;
+            tomb[1] = 8;
+            tomb[2] = 7;
+            tomb[3] = 6;
+
+            sor.Enqueue(tomb[0]);
+            sor.Enqueue(tomb[1]);
+            sor.Enqueue(tomb[2]);
+            sor.Enqueue(tomb[3]);
+            sor.Dequeue();
+            tomb[4] = 5;
+            sor.Enqueue(tomb[4]);
+            sor.Dequeue();
+            tomb[5] = 4;
+            sor.Enqueue(tomb[5]);
+
+            Console.WriteLine("A kapott sor:");
+            foreach (var item in sor)
+            {
+                Console.WriteLine(item);
+            }
+            ELVALASZTO();            
+        }
+
+        static void HetedikFeladat()
+        {
+            ELVALASZTO();
+
+            Console.WriteLine("7. Feladat");
+            Console.WriteLine("A folyamat: 9, 8, 7, 6, Törlés, 5, Törlés, 4");
+            List<int> lista = new List<int>();
+            lista.Add(9);
+            lista.Add(8);
+            lista.Add(7);
+            lista.Add(6);
+
+            Stack<int> verem = new Stack<int>(lista);
+
+            verem.Pop();
+            lista.Add(5);
+            verem.Push(lista[4]);
+            verem.Pop();
+            lista.Add(4);
+            verem.Push(lista[5]);
+
+            Console.WriteLine("A kapott verem:");
+            foreach (var item in verem)
+            {
+                Console.WriteLine(item);
+            }
+            ELVALASZTO();
+        }
+
+        static void NyolcadikFeladat()
+        {
+            ELVALASZTO();
+
+            Console.WriteLine("8. Feladat");
+            Console.WriteLine("A folyamat: 9, 8, 7, 6, Törlés, 5, Törlés, 4");
+            int[] tomb = new int[6];
+            Stack<int> verem = new Stack<int>(tomb);
+
+            tomb[0] = 9;
+            tomb[1] = 8;
+            tomb[2] = 7;
+            tomb[3] = 6;
+
+            verem.Push(tomb[0]);
+            verem.Push(tomb[1]);
+            verem.Push(tomb[2]);
+            verem.Push(tomb[3]);
+            verem.Pop();
+            tomb[4] = 5;
+            verem.Push(tomb[4]);
+            verem.Pop();
+            tomb[5] = 4;
+            verem.Push(tomb[5]);
+
+            Console.WriteLine("A kapott verem:");
+            foreach (var item in verem)
+            {
+                Console.WriteLine(item);
+            }
+            ELVALASZTO();
+        }
+        #endregion
+    }
+}
+
+

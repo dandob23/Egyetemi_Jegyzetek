@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>BetterMail</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #007bff;
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 10px;
+        }
+
+        .alert {
+            margin-top: 20px;
+        }
+
+        .table-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .table {
+            width: 80%;
+        }
+
+        th, td {
+            text-align: center;
+        }
+
+        .table th, .table td {
+            vertical-align: middle;
+        }
+
+        .h3, .h4 {
+            color: #007bff;
+        }
+
+        .font-italic {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" th:href="@{/}">BetterMail</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link h3">Manage Users</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link h4 font-italic" th:href="@{/users/new}">Add New User</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div th:if="${message}" class="alert alert-success text-center">
+    [[${message}]]
+</div>
+<div class="table-container">
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="user : ${listUsers}">
+            <tr>
+                <td>[[${user.id}]]</td>
+                <td>[[${user.email}]]</td>
+                <td>[[${user.firstName}]]</td>
+                <td>[[${user.lastName}]]</td>
+                <td>
+                    <a class="h4 mr-3 font-italic" th:href="@{'/users/edit/' + ${user.id}}">Edit</a>
+                    <a class="h4 mr-3 font-italic" th:href="@{'/users/delete/' + ${user.id}}">Delete</a>
+                    <a class="h4 font-italic" th:href="@{'/users/upload/' + ${user.id}}">File Upload</a>
+                </td>
+            </tr>
+        </th:block>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

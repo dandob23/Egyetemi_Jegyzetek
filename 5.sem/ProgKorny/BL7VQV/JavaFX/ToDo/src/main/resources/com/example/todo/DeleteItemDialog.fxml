@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.Controller.DeleteItemDialogController">
+
+    <ListView fx:id="itemListView" prefWidth="200" prefHeight="200">
+        <VBox.margin>
+            <Insets left="20" right="20"/>
+        </VBox.margin>
+    </ListView>
+
+    <Button id="deleteButton" onAction="#deleteItem" text="Törlés">
+        <VBox.margin>
+            <Insets left="20" right="20"/>
+        </VBox.margin>
+    </Button>
+</VBox>

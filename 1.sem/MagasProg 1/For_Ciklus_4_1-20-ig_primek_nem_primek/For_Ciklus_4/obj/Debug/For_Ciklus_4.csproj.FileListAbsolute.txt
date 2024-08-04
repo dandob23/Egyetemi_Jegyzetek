@@ -1,0 +1,6 @@
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_4\For_Ciklus_4\bin\Debug\For_Ciklus_4.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_4\For_Ciklus_4\bin\Debug\For_Ciklus_4.exe
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_4\For_Ciklus_4\bin\Debug\For_Ciklus_4.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_4\For_Ciklus_4\obj\Debug\For_Ciklus_4.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_4\For_Ciklus_4\obj\Debug\For_Ciklus_4.exe
+c:\users\dbz\documents\visual studio 2015\Projects\For_Ciklus_4\For_Ciklus_4\obj\Debug\For_Ciklus_4.pdb

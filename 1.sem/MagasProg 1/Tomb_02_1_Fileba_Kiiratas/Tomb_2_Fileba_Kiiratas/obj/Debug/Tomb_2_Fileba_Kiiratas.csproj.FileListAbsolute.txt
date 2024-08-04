@@ -1,0 +1,5 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_2_Fileba_Kiiratas\Tomb_2_Fileba_Kiiratas\bin\Debug\Tomb_2_Fileba_Kiiratas.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_2_Fileba_Kiiratas\Tomb_2_Fileba_Kiiratas\bin\Debug\Tomb_2_Fileba_Kiiratas.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_2_Fileba_Kiiratas\Tomb_2_Fileba_Kiiratas\bin\Debug\Tomb_2_Fileba_Kiiratas.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_2_Fileba_Kiiratas\Tomb_2_Fileba_Kiiratas\obj\Debug\Tomb_2_Fileba_Kiiratas.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Tomb_2_Fileba_Kiiratas\Tomb_2_Fileba_Kiiratas\obj\Debug\Tomb_2_Fileba_Kiiratas.pdb

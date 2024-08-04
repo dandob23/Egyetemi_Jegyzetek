@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\bin\Debug\EgyszemelyesJatekok.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\bin\Debug\EgyszemelyesJatekok.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\bin\Debug\EgyszemelyesJatekok.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\obj\Debug\EgyszemelyesJatekok.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\obj\Debug\EgyszemelyesJatekok.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\obj\Debug\EgyszemelyesJatekok.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\MestInt\EgyszemelyesJatekok\obj\Debug\EgyszemelyesJatekok.pdb

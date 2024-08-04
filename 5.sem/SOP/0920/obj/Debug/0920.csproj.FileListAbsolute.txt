@@ -1,0 +1,11 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\bin\Debug\0920.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\bin\Debug\0920.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\bin\Debug\0920.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\0920.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\0920.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\_0920.Form1.resources
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\_0920.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\0920.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\0920.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\0920.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\SOP\0920\obj\Debug\0920.pdb

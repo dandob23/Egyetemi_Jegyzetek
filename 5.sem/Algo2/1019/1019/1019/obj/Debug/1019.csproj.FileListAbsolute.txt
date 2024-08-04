@@ -1,0 +1,7 @@
+C:\Users\Student\Desktop\1019\1019\1019\bin\Debug\1019.exe.config
+C:\Users\Student\Desktop\1019\1019\1019\bin\Debug\1019.exe
+C:\Users\Student\Desktop\1019\1019\1019\bin\Debug\1019.pdb
+C:\Users\Student\Desktop\1019\1019\1019\obj\Debug\1019.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\1019\1019\1019\obj\Debug\1019.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\1019\1019\1019\obj\Debug\1019.exe
+C:\Users\Student\Desktop\1019\1019\1019\obj\Debug\1019.pdb

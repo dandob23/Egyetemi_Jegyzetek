@@ -1,0 +1,49 @@
+Rekurzív sorozatok:
+1)  aˇ1 = 1
+    aˇn = ( (aˇ(n-1)^2) + 3*aˇ(n-1) )/5   (n>=2)  --> irassuk ki a sorozat első 10 számát
+
+        sorozat(n:int)
+            ha n=1 akkor S <- 1
+                egyébként S <- (( (sorozat)*n-1)^2 + 3*sorozat(n-1))/5
+            RETURN (S)
+
+        for i = 1..10:
+            sorozat(i)
+
+2)  aˇ1 = 2
+    aˇ2 = 5
+    aˇn = (6*(aˇ(n-1))^2 + 4*aˇ(n-1)*aˇ(n-2))/aˇn-1       (n>=3)
+
+        sorozat(n:int)
+            ha n = 1 : S <- 2
+            ha n = 2 : S <- 5
+            egyébként
+                S <- (...) | (...)
+
+3)  aˇ1 = 1
+    aˇn = GYÖK(4*aˇn-1 + 3)     (n>=2)
+            Math.Sqrt(4*a(n-1) + 3)
+
+
+
+Fibonacci-sorozat:
+    f0 = 1
+    f1 = 1
+    fn = fˇ(n-1) + fˇ(n-2)      (n>=2)    -->20at
+___________________________________________________________
+
+[ 1/GYÖK5 * ((1 + GYÖK5)/2)^n ]     n= 0,...,10
+math.floor
+___________________________________________________________
+    f0 = C1
+    f1 = C2
+    fn = d1 * fˇ(n-1) + d2 * fˇ(n-2)
+
+        C1,C2,d1,d2 E N bekérjük
+            |
+        Fib(n,C1,C2,d1,d2)
+                .
+                .
+                .
+___________________________________________________________
+ 

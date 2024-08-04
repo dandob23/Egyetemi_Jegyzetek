@@ -1,0 +1,5 @@
+F:\yyyyyyyy\ConsoleApplication4_1\ConsoleApplication4_1\bin\Debug\ConsoleApplication4_1.exe.config
+F:\yyyyyyyy\ConsoleApplication4_1\ConsoleApplication4_1\bin\Debug\ConsoleApplication4_1.exe
+F:\yyyyyyyy\ConsoleApplication4_1\ConsoleApplication4_1\bin\Debug\ConsoleApplication4_1.pdb
+F:\yyyyyyyy\ConsoleApplication4_1\ConsoleApplication4_1\obj\Debug\ConsoleApplication4_1.exe
+F:\yyyyyyyy\ConsoleApplication4_1\ConsoleApplication4_1\obj\Debug\ConsoleApplication4_1.pdb

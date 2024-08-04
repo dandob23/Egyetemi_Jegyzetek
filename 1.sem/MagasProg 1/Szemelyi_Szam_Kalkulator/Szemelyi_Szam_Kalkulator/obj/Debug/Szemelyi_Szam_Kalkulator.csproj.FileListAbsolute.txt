@@ -1,0 +1,12 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\bin\Debug\Szemelyi_Szam_Kalkulator.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\bin\Debug\Szemelyi_Szam_Kalkulator.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\bin\Debug\Szemelyi_Szam_Kalkulator.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\obj\Debug\Szemelyi_Szam_Kalkulator.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\obj\Debug\Szemelyi_Szam_Kalkulator.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\obj\Debug\Szemelyi_Szam_Kalkulator.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\bin\Debug\Szemelyi_Szam_Kalkulator.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\obj\Debug\Szemelyi_Szam_Kalkulator.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\obj\Debug\Szemelyi_Szam_Kalkulator.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\bin\Debug\Szemelyi_Szam_Kalkulator.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\bin\Debug\Szemelyi_Szam_Kalkulator.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Szemelyi_Szam_Kalkulator\Szemelyi_Szam_Kalkulator\obj\Debug\Szemelyi_Szam_Kalkulator.csprojResolveAssemblyReference.cache

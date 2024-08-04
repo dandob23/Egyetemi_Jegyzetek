@@ -1,0 +1,21 @@
+F:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+F:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+F:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+F:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\yyyyyyyyyy\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Dbz\Desktop\magasprog\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Dbz\Desktop\magasprog\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Dbz\Desktop\magasprog\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Dbz\Desktop\magasprog\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Dbz\Desktop\magasprog\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Dbz\Desktop\magasprog\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Metodus_Kiiratas_1-10\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Metodus_Kiiratas_1-10\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\Prog 1\Metodus_Kiiratas_1-10\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Metodus_Kiiratas_1-10\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Metodus_Kiiratas_1-10\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\MagasProg 1\Metodus_Kiiratas_1-10\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

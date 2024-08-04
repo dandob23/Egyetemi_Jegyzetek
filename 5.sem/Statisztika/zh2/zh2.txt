@@ -1,0 +1,88 @@
+szigma jelentése = szórás
+m jelentése = várható érték
+
+________________________________________
+________________________________________
+normalis eloszl.
+1 minta
+szórás ismert
+várható érték >=!=< ÉRTÉK
+
+Z.PRÓB(minta;H0;szórás)
+___________egymintás U proba____________
+________________________________________		58.oldal/1114.xlsx
+normalis eloszl.
+2 minta
+2 szórás ismert
+m ismeretlen
+próba szintje (döntsön X szinten)
+független
+nincs rá beépített függvény:
+
+u= (atlag(minta1)-atlag(minta2))/gyök(szigma1^2/darab(minta1) + szigma2^2/darab(minta2))
+2-2Phi(|u|)= 2-2*NORM.S.ELOSZLÁS(ABS(u);IGAZ)
+____________kétmintás U proba___________		59.oldal/1121.xlsx
+________________________________________
+normalis eloszl.
+2 minta ( a második minta annyiszor m, amennyi az első minta )
+proba szintje
+alfa
+m ismert
+
+=T.PRÓB(minta1;minta2;2;1)				
+____________egymintás T proba___________		60.oldal/1121.xlsx
+________________________________________
+normalis eloszl.
+2 minta
+proba szintje
+alfa
+szigma1 = szigma2 (szórás)
+független
+
+kritikus érték =F.PRÓB(minta1;minta2)
+______________________F proba___________		61.oldal/1128.xlsx
+________________________________________
+2 minta
+normalis eloszlású
+proba szintje
+alfa
+m nem ismert
+ha a szórások megegyeznek, kétmintás t proba
+szigma1 = szigma2
+független	erre F proba
+
+kritikus érték= T.PRÓB(minta1;minta2;2;2)
+
+m1 = m2 (várható érték)	erre Kétmintás T proba
+___________________Kétmintás T proba____		61.oldal/1128.xlsx
+________________________________________
+2 minta
+normalis eloszlású
+szigma1 != szigma2
+független	erre F proba
+
+m1 = m2 	erre Kétmintás T proba
+___Welch proba (T.PROB(.;.;2;3))________		65.oldal/1128.xlsx
+________________________________________
+m ismert
+2 minta ( a masodik a mellete lévő elem - m)
+bizt. szint
+alfa
+keressük a szigmat -> tau1, tau2
+tau 1= GYÖK(NÉGYZETÖSSZEG(minta2)/KHINÉGYZET.INVERZ(1-alfa/2;DARAB(minta1)))
+tau 2= GYÖK(NÉGYZETÖSSZEG(minta2)/KHINÉGYZET.INVERZ(alfa/2;DARAB(minta1)))
+-----------------------------------------------
+se a szigma, se az m nem ismert
+1 minta
+bizt szint 
+alfa
+tau1 =SZÓR.S(minta)*GYÖK(DARAB(minta)/KHINÉGYZET.INVERZ(1-alfa/2;DARAB(minta)-1))
+tau2 =SZÓR.S(minta)*GYÖK(DARAB(minta)/KHINÉGYZET.INVERZ(alfa/2;DARAB(minta)-1))
+------------------------------------------------
+1 minta
+bizt szint
+alfa
+tau1 =ÁTLAG(minta)-MEGBÍZHATÓSÁG.T(alfa;SZÓR.M(minta);DARAB(minta))
+tau2 =ÁTLAG(minta)+MEGBÍZHATÓSÁG.T(alfa;SZÓR.M(minta);DARAB(minta))
+____________intervallum becsl___________		51.oldaltól/Intervallumbecslések.xlsx
+________________________________________

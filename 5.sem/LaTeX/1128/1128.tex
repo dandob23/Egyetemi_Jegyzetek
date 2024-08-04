@@ -1,0 +1,68 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme[secheader]{Boadilla}
+\usecolortheme{beaver}
+\setbeamercolor{myblockupper}{bg=gray!40, fg=blue!50!black}
+\setbeamercolor{myblocklower}{bg=gray!10, fg=cyan}
+
+\newenvironment{myblock}[1]
+{\begin{beamerboxesrounded}[shadow, upper=myblockupper, lower=myblocklower]{#1}}
+{\end{beamerboxesrounded}}
+
+
+\usepackage[T1]{fontenc}
+\PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
+\usepackage[magyar]{babel}
+\begin{document}
+\title[Cím]{A prezentáció címe}
+\author[Név]{Szerző neve}
+\institute[EKKE]{Eszterházy Károly Katolikus Egyetem}
+\logo{\includegraphics[width=25mm]{eszterhazy-logo-hu}}
+\maketitle
+
+\section{Szakasz címe}
+\subsection{Alszakasz címe}
+\begin{frame}{Keret címe}{Keret alcíme}
+\pause
+\begin{block}{Feladat}
+Blokk tartalma
+\pause
+\begin{enumerate}
+	\item első pont \pause
+	\item második pont
+\end{enumerate}
+\end{block}
+\pause
+\begin{exampleblock}{Példa}
+	Példa blokk tartalma
+\end{exampleblock}
+\begin{alertblock}{Figyelem}
+	Figyelem blokk tartalma
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame} {Keret címe} {Keret alcíme}
+
+\begin{myblock}{Saját blokk címe}
+	VALAMI TARTALOM....
+\end{myblock}
+\end{frame}
+
+\begin{frame}{Keret címe} {Keret alcíme}
+\begin{columns}[t]
+\begin{column}{5cm}
+A asda a sd a wfs mskjdfmnkj skjndskjn skneskjfnskmf jknsksjenfs jknasdnnkj nkes 
+\end{column}
+\begin{column}{5cm}
+	A asda a sd a wfs mskjdfmnkj skjndsda as ads dasjn ajkn kjanskd nak  sadnkasjndkjasndk asnkdn kjnes fksjn dnf kjesn kjesnkfjnsk jklnfgdlkgntngitoijiorjgoi jr skjn skneskjfnskmf jknsksjenfs jknasdnnkj nkes 
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}[plain]
+\begin{center}
+{\Huge Köszönöm a figyelmet}
+\end{center}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,2 @@
+\select@language {magyar} \contentsline {chapter}{\numberline {1}Fejezet címe}{5}{chapter.1}%
+\select@language {magyar} \contentsline {section}{\numberline {1.1}Alfejezet címe}{5}{section.1.1}%

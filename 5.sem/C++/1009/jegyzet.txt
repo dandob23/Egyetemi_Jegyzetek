@@ -1,0 +1,29 @@
+int a;
+const int *aptr = &a;  //  aptr -> a; ( konstans )
+
+int b;
+aptr = &b;
+
+++(*aptr);  // ERROR!
+
+int *cptr const = &a;
+++(*cptr);  //  OK!
+cptr = &b;  //  ERROR!
+====================================================================
+___
+| int t1[10];
+| t[0] = 1;
+| t[1] = 5;
+| .
+| .
+| .
+|
+|
+| int t2[10] = {2, 4, 5};
+|
+| int t3[10] = {};  //  nullázás
+|
+| int t4 [] = {2,5,4,7};  //  4 elemű tömb
+|
+|----   int  0
+             1

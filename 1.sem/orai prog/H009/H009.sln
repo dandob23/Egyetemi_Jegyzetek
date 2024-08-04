@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P001_Alprogramok", "P001_Alprogramok\P001_Alprogramok.csproj", "{B325A023-6D46-4BA0-B654-6A63F1ECABB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P002_Lotto", "P002_Lotto\P002_Lotto.csproj", "{8C4DEBA0-E5F9-4DC2-9DA7-E8E32006F413}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B325A023-6D46-4BA0-B654-6A63F1ECABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B325A023-6D46-4BA0-B654-6A63F1ECABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B325A023-6D46-4BA0-B654-6A63F1ECABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B325A023-6D46-4BA0-B654-6A63F1ECABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4DEBA0-E5F9-4DC2-9DA7-E8E32006F413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4DEBA0-E5F9-4DC2-9DA7-E8E32006F413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4DEBA0-E5F9-4DC2-9DA7-E8E32006F413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4DEBA0-E5F9-4DC2-9DA7-E8E32006F413}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBCA904E-6C69-4D74-8FBE-DE00431D9B15}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\bin\Debug\BL7VQV.exe.config
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\bin\Debug\BL7VQV.exe
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\bin\Debug\BL7VQV.pdb
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\obj\Debug\BL7VQV.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\obj\Debug\BL7VQV.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\obj\Debug\BL7VQV.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\obj\Debug\BL7VQV.exe
+C:\Users\Lenovo\Desktop\SZOPZH\BL7VQV\obj\Debug\BL7VQV.pdb

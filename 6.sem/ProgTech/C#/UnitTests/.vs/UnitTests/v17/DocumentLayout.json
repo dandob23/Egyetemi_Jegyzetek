@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\progtech\\c#\\unittests\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CCC15E-90DC-4C63-B45A-97BD7082C0EA}|..\\TestProject\\TestProject.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\progtech\\c#\\testproject\\mymathtester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CCC15E-90DC-4C63-B45A-97BD7082C0EA}|..\\TestProject\\TestProject.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\progtech\\c#\\testproject\\mystudenttester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\progtech\\c#\\unittests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\progtech\\c#\\unittests\\dateofbirthlateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|solutionrelative:dateofbirthlateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|c:\\users\\lenovo\\desktop\\egyetem\\orai\\progtech\\c#\\unittests\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB476E09-9B3B-4606-945A-4234E73019E5}|UnitTests.csproj|solutionrelative:mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyStudentTester.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\TestProject\\MyStudentTester.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\MyStudentTester.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\TestProject\\MyStudentTester.cs",
+              "RelativeToolTip": "..\\TestProject\\MyStudentTester.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:32:19.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyMathTester.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\TestProject\\MyMathTester.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\MyMathTester.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\TestProject\\MyMathTester.cs",
+              "RelativeToolTip": "..\\TestProject\\MyMathTester.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:31:41.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DateOfBirthLateException.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\DateOfBirthLateException.cs",
+              "RelativeDocumentMoniker": "DateOfBirthLateException.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\DateOfBirthLateException.cs",
+              "RelativeToolTip": "DateOfBirthLateException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:29:26.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyMath.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\MyMath.cs",
+              "RelativeDocumentMoniker": "MyMath.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\MyMath.cs",
+              "RelativeToolTip": "MyMath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:23:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:12:22.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Egyetem\\orai\\ProgTech\\C#\\UnitTests\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:12:04.564Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

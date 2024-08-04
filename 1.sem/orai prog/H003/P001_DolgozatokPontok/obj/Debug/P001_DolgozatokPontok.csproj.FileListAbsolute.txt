@@ -1,0 +1,14 @@
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\bin\Debug\P001_DolgozatokPontok.exe.config
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\bin\Debug\P001_DolgozatokPontok.exe
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\bin\Debug\P001_DolgozatokPontok.pdb
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.csproj.AssemblyReference.cache
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.csproj.CoreCompileInputs.cache
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.exe
+C:\Users\Balla\source\repos\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.pdb
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\bin\Debug\P001_DolgozatokPontok.exe.config
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\bin\Debug\P001_DolgozatokPontok.exe
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\bin\Debug\P001_DolgozatokPontok.pdb
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.exe
+C:\Users\Dániel\Desktop\H003\P001_DolgozatokPontok\obj\Debug\P001_DolgozatokPontok.pdb

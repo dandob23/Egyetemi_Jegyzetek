@@ -1,0 +1,5 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Random_szam_megmondja_hany_paros\Random_szam_megmondja_hany_paros\bin\Debug\Random_szam_megmondja_hany_paros.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Random_szam_megmondja_hany_paros\Random_szam_megmondja_hany_paros\bin\Debug\Random_szam_megmondja_hany_paros.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Random_szam_megmondja_hany_paros\Random_szam_megmondja_hany_paros\bin\Debug\Random_szam_megmondja_hany_paros.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Random_szam_megmondja_hany_paros\Random_szam_megmondja_hany_paros\obj\Debug\Random_szam_megmondja_hany_paros.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Random_szam_megmondja_hany_paros\Random_szam_megmondja_hany_paros\obj\Debug\Random_szam_megmondja_hany_paros.pdb

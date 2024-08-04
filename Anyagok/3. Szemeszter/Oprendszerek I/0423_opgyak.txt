@@ -1,0 +1,464 @@
+    1  LS
+    2  ls
+    3  open
+    4  open hello.txt
+    5  top
+    6  open hello.txt
+    7  cat hello.txt
+    8  date
+    9  date --date='2 days ago'
+   10  date --help
+   11  date %h
+   12  date %H
+   13  date [MMDDhhmm]
+   14  date -d
+   15  date -d --date='january'
+   16  date -d --date='2 days ago'
+   17  date --date='2 days ago'
+   18  date --date='january'
+   19  date --date='1 months ago'
+   20  date --date='now'
+   21  clear
+   22  cat hello.txt
+   23  date
+   24  date --date='now' [MMDDhhmm]
+   25  date --date='now' [+MMDDhhmm]
+   26  top
+   27  who
+   28  date --help
+   29  ps
+   30  date --date='now'
+   31  date --date='now' [+%T]
+   32  date +[%T]
+   33  date +[%M]
+   34  date +[%A]
+   35  date +%a
+   36  date +%H
+   37  date +%H +%M
+   38  date +%H+%M
+   39  date +%H:%M
+   40  clear
+   41  who
+   42  cal
+   43  cal -m
+   44  cal --help
+   45  cal [-m]
+   46  cal [-m] [[3] 2016]
+   47  cal -m
+   48  clear
+   49  pwd
+   50  cal -y
+   51  cal -m
+   52  cal --m
+   53  cd /tmp
+   54  cd -
+   55  cd /tmp
+   56  cd~
+   57  cd ~
+   58  cd -
+   59  cd ~
+   60  cd /tmp
+   61  ls
+   62  cd ~
+   63  ls
+   64  cat hello.txt
+   65  ls -l
+   66  ls -la
+   67  cat hello.tyt
+   68  cat hello.txt
+   69  id
+   70  which vi
+   71  which nano
+   72  nano szoveg.txt
+   73  cat szoveg.txt
+   74  cat *.txt
+   75  cat sz*
+   76  cat szoveg.txt 
+   77  cat -E szoveg.txt
+   78  tac szoveg.txt
+   79  cat -n szoveg.txt
+   80  tac -n szoveg.txt
+   81  mkdir doc
+   82  cd /doc
+   83  cd doc
+   84  cd ~
+   85  cd -
+   86  ls
+   87  cd ~
+   88  ls
+   89  cd doc
+   90  cd~
+   91  cd 1
+   92  cd ~
+   93  mv szoveg.txt doc
+   94  cd doc
+   95  ls
+   96  cat szoveg.txt
+   97  cd 1
+   98  cd ~
+   99  ls doc
+  100  ls temp
+  101  ls /temp
+  102  cd /temp
+  103  ls /tmp
+  104  clear
+  105  cd doc
+  106  mv szoveg.txt szoveg1.txt
+  107  ls
+  108  cd ~
+  109  ls -la
+  110  ls doc
+  111  cd doc
+  112  ls
+  113  cp szoveg1.txt szoveg2.txt
+  114  ls
+  115  cat szoveg2.txt
+  116  nano szoveg2.txt
+  117  ln-s szoveg2.txt sz.txt
+  118  ln -s szoveg2.txt sz.txt
+  119  ls -l
+  120  ln szoveg2.txt sz2.txt
+  121  ls -l
+  122  ls
+  123  cat sz2.txt
+  124  ln -l
+  125  ls -l
+  126  nano sz2.txt
+  127  cat szoveg2.txt sz2.txt
+  128  cat sz.txt
+  129  ls -l
+  130  man ls
+  131  ls -li
+  132  rm szoveg2.txt
+  133  ls
+  134  cat sz2.txt
+  135  cat sz.txt
+  136  grep alma *.txt
+  137  nano szoveg2.txt
+  138  cat sz.txt
+  139  ls
+  140  ls -l
+  141  cat *.txt
+  142  grep alma *.txt
+  143  cat *.txt | grep alma
+  144  grep -i alma
+  145  cd doc
+  146  ls -l
+  147  find .
+  148  find ..
+  149  find -d .
+  150  find -d
+  151  find -type d
+  152  cd ~
+  153  find -type d
+  154  cd doc
+  155  find -f
+  156  find -type f
+  157  find -type newer sz.txt
+  158  find -type f newer sz.txt
+  159  find .. -type f newer sz.txt
+  160  find .. -type f - newer sz.txt
+  161  find .. -type f -newer sz.txt
+  162  find .. -type f -newer sz.txt | xargs grep -i alma
+  163  grep alma *.txt
+  164  cat *.txt | grep alma
+  165  grep alma *.txt
+  166  grep alma *.txt >talalat.txt
+  167  ls
+  168  cat talalat.txt
+  169  grep alma *.txt x.txt >talalat.txt
+  170  cat talalat.txt
+  171  grep alma *.txt x.txt >talalat.txt 2>talalat.err
+  172  ls
+  173  cat talalat.err
+  174  grep alma *.txt x.txt 1>talalat.txt 2>talalat.err
+  175  grep alma *.txt x.txt 1>>talalat.txt 2>talalat.err
+  176  cat talalat.txt
+  177  echo "alma a fa alatt"
+  178  echo "alma a fa alatt" > szoveg3.txt
+  179  ls
+  180  echo "Sárga,piros alma" >>szoveg3.txt
+  181  ls
+  182  cat szoveg3.txt
+  183  cat *.txt | grep alma
+  184  cat szoveg3.txt | grep alma
+  185  grep alma <szoveg3.txt
+  186  grep alma szoveg3.txt \tee talalat.txt
+  187  cat talalat
+  188  cat talalat.txt
+  189  grep alma szoveg3.txt \ tee talalat.txt
+  190  grep alma szoveg3.txt | tee talalat.txt
+  191  cat talalalt.txt
+  192  cat talalat.txt
+  193  history
+  194  ls
+  195  grep alma *.txt | tee -a talalat.txt
+  196  cat talalat.tyt
+  197  cat talalat.txt
+  198  apropos
+  199  apropos search
+  200  apropos file
+  201  date
+  202  date +%H:%m
+  203  man date
+  204  TZ='GMT' date
+  205  date
+  206  -l
+  207  -ld
+  208  ls
+  209  -ls l
+  210  ls -d
+  211  4
+  212  [<0;67;20M10
+  213  10
+  214  ~10
+  215  10
+  216  passwd
+  217  w
+  218  cat etc/passwd
+  219  cat /etc/passwd
+  220  clear
+  221  ls
+  222  cat hello.txt
+  223  ls -l
+  224  cd /doc
+  225  mkdir -help
+  226  mkdir --help
+  227  rm --help
+  228  mkdir Teszt/T1 Teszt/T2
+  229  mkdir Teszt
+  230  ls -l
+  231  cd /doc
+  232  cd doc
+  233  ls -l
+  234  cat szoveg2
+  235  cat szoveg2.txt
+  236  cd
+  237  mkdir --help
+  238  mkdir Teszt
+  239  mkdir Teszt/T1
+  240  ls -l
+  241  cd Teszt
+  242  ls
+  243  cd
+  244  mkdir gyakorlat/Proba/test/unix
+  245  mv --help
+  246  ls -lé
+  247  ls -l
+  248  mkdir -p gyakorlat/Proba/test/unix
+  249  ls -l
+  250  mkdir -p gyakorlat/Proba/Linux
+  251  mkdir -p gyakorlat/Check/temp
+  252  mkdir gyak
+  253  ls-l
+  254  ls -l
+  255  ls -l /gyakorlat
+  256  ls -l gyakorlat
+  257  ls -l gyakorlat/Proba
+  258  ls -la
+  259  ls -l /etc
+  260  ls -l /etc/*f
+  261  rm --help
+  262  clear
+  263  rm gyakorlat/Proba
+  264  rm -r gyakorlat/Proba
+  265  ls -l gyakorlat
+  266  ls -l gyakorlat/Check
+  267  cd gyakorlat/Check/temp
+  268  cd ..
+  269  clear
+  270  touch --help
+  271  touch 
+  272  cd gyakorlat
+  273  touch szoveg1.txt
+  274  ls -l
+  275  cat szoveg1.txt
+  276  echo almafa > szoveg1.txt
+  277  cat szoveg1.txt
+  278  tac szoveg1.txt
+  279  echo szöveg >>szoveg1.txt
+  280  cat szoveg1.txt
+  281  cd
+  282  ps
+  283  ps -l
+  284  which /etc
+  285  ls -l
+  286  dvd
+  287  dwd
+  288  pwd
+  289  ls l /etc/pwd
+  290  ls -l /etc
+  291  who
+  292  tree
+  293  ls -l /etc/*.conf
+  294  mc
+  295  clear
+  296  ls -la
+  297  ps
+  298  pw
+  299  echo TODO > todo.txt
+  300  cat todo.txt
+  301  echo "ZH-ra készülés" >> todo.txt
+  302  cat todo.txt
+  303  echo zh-ra blabla >> todo.txt
+  304  cat todo.txt
+  305  mkdir backup
+  306  ls -l
+  307  cp todo.txt /backup
+  308  cp todo.txt backup
+  309  cat bakcup/todo.txt
+  310  cat backup/todo.txt
+  311  ln todo.txt todo
+  312  ls -l
+  313  ls -li
+  314  grep " " todo.txt
+  315  grep  todo.txt
+  316  ps u | grep "^NU70VQ"
+  317  zip --help
+  318  zip -r backup backup
+  319  ls -la
+  320  unzip --help
+  321  unzip -l backup
+  322  unzip backup
+  323  unzip ../backup
+  324  tree
+  325  gzip todo.txt
+  326  rm todo
+  327  gzip todo.txt
+  328  -ls -a
+  329  ls -la
+  330  gzip -l
+  331  gzip l- todo.txt.gz
+  332  gzip -l todo.txt.gz
+  333  tar --help
+  334  mkdir scripts
+  335  cd scripts
+  336  clear
+  337  ls lR ~/ > 1.txt
+  338  ls -lR ~/ > 1.txt
+  339  ls -lR ~/ > 2.txt
+  340  ls -lR ~/ >3.txt
+  341  ls -lR ~/ >4.txt
+  342  ls -lR ~/ >5.txt
+  343  ls -l
+  344  tail -n -1 1.txt
+  345  tail -n +10 1.txt
+  346  head -10 1.txt
+  347  nano elso.sh
+  348  ls -l
+  349  nano elso.sh
+  350  ls -l
+  351  sh elso.sh 5 1.txt
+  352  ./ elso.sh 5 1.txt
+  353  ./elso.sh 5 1.txt
+  354  chmod elso.sh 777
+  355  chmod -x elso.sh 
+  356  ls -l
+  357  chmod +x elso.sh
+  358  ls -l
+  359  ./elso.sh 5 1.txt
+  360  elso.sh 5 1.txt
+  361  echo $PATH
+  362  export PATH=$PATH:.
+  363  echo $path
+  364  echo $PATH
+  365  export PATH=$HOME/scripts
+  366  echo $PATH
+  367  ls -l
+  368  export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:.:$HOME/scripts
+  369  echo $PATH
+  370  ls -l
+  371  elso.sh 5 1.txt
+  372  nano elso.sh
+  373  elso.sh
+  374  nano elso.sh
+  375  elso.sh
+  376  nano elso.sh
+  377  nano masodik.sh
+  378  #
+  379  nano masodik.sh
+  380  chmod +x masodik.sh
+  381  masodik.sh 3 3.txt
+  382  masodik.sh 3 3.txt 1.txt
+  383  masodik.sh 3 3.txt 4.txt
+  384  nano elso.sh
+  385  nano masodik.sh
+  386  nano elso.sh
+  387  elso.sh
+  388  nano elso.sh
+  389  elso.sh
+  390  nano masodik.sh
+  391  nano maosdik.sh
+  392  ls -l
+  393  masodik.sh
+  394  nano masodik.sh
+  395  masodik.sh 3 3.txt
+  396  nano masodik.sh
+  397  masodik.sh 3 3.txt
+  398  nano masodik.sh
+  399  masodik.sh 3 3.xt
+  400  cp masodik.sh harmadik.sh
+  401  nano harmadik.sh
+  402  harmadik.sh
+  403  harmadik.sh 2 3.txt 4.txt
+  404  mkdir konyvtar
+  405  ls -l
+  406  harmadik.sh 1 *
+  407  nano harmadik.sh
+  408  harmadik 3 *
+  409  harmadik.sh 3 *
+  410  nano harmadik.sh
+  411  harmadik.sg 3 *
+  412  harmadik.sh 3 *
+  413  nano harmadik.sh
+  414  harmadik.sh 3 *
+  415  harmadik.sh 3 3.txt
+  416  nano harmadik.sh
+  417  harmadik.sh 4 4.txt
+  418  nano harmadik.sh
+  419  cat elso.sh harmadik.sh >>negyedik.sh
+  420  ls -l
+  421  nano negyedik.sh
+  422  negyedik.sh 3 *
+  423  chmod +x negyedik.sh
+  424  negyedik.sh 3 3.txt
+  425  nano negyedik.sh
+  426  negyedik.sh 3 3.txt
+  427  nano negyedik.sh
+  428  negyedik.sh 3 *
+  429  nano harmadik.sh
+  430  harmadik.sg 3 *
+  431  harmadik.sh 3 *
+  432  nano negyedik.sg
+  433  nano negyedik.sh
+  434  negyedik.sh 3 *
+  435  cat masodik.sh
+  436  clear
+  437  history --help
+  438  clear
+  439  cd 
+  440  ls -l
+  441  cd scripts
+  442  cat 1.txt
+  443  sed "s/NU70VQ/Nora"
+  444  sed "s/NU70VQ/Nora/g" 1.txt
+  445  cat 1.txt
+  446  sed "s/NU70VQ/Nora/g" 
+  447  sed "s/NU70VQ/Nora/g" 1.txt
+  448  clear
+  449  cat 1.txt
+  450  cat 1.txt | awk "{print $4;}"
+  451  cat 1.txt | awk '{print $4;}'
+  452  history
+  453  history > 0423_opgyak.txt
+  454  cat 1.txt | awk '{print $1,$5;}'
+  455  cat 1.txt | awk '{print substring($1, 1 1),$5;}'
+  456  cat 1.txt | awk '{print substr($1, 1 1),$5;}'
+  457  cat 1.txt | awk '{ if (substr($1, 1 1)== "-")print $5;}'
+  458  cat 1.txt | awk '{ if (substr($1, 1, 1)== "-")print $5;}'
+  459  cat 1.txt | awk 'BEGIN{s=0;}{ if (substr($1, 1, 1)== "-") s+= $5;}END {print s;}'
+  460  history >> 0423_opgyak.txt
+  461  ls -l
+  462  cat 1.txt | awk 'BEGIN{s=0;} /^-/ {s+= $5;}END {print s;}'
+  463  cd
+  464  history >> 0423_opgyak.txt

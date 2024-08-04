@@ -1,0 +1,18 @@
+c:\users\dbz\documents\visual studio 2015\Projects\Soltinak_app_1\Soltinak_app_1\bin\Debug\Soltinak_app_1.exe.config
+c:\users\dbz\documents\visual studio 2015\Projects\Soltinak_app_1\Soltinak_app_1\bin\Debug\Soltinak_app_1.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Soltinak_app_1\Soltinak_app_1\bin\Debug\Soltinak_app_1.pdb
+c:\users\dbz\documents\visual studio 2015\Projects\Soltinak_app_1\Soltinak_app_1\obj\Debug\Soltinak_app_1.csprojResolveAssemblyReference.cache
+c:\users\dbz\documents\visual studio 2015\Projects\Soltinak_app_1\Soltinak_app_1\obj\Debug\Soltinak_app_1.exe
+c:\users\dbz\documents\visual studio 2015\Projects\Soltinak_app_1\Soltinak_app_1\obj\Debug\Soltinak_app_1.pdb
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\bin\Debug\Soltinak_app_1.exe.config
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.exe
+E:\x Válogatás\Doc\Suli\Sulis Fileok\1. Félév\MagasProg 1\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\bin\Debug\Soltinak_app_1.exe.config
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\bin\Debug\Soltinak_app_1.exe
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\bin\Debug\Soltinak_app_1.pdb
+C:\Users\Dbz\Documents\Visual Studio 2015\Projects\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.csprojResolveAssemblyReference.cache
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\bin\Debug\Soltinak_app_1.exe.config
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.exe
+E:\x Válogatás\Doc\Suli\x 1. féléves cuccok\! Sulis Fileok\MagasProg 1\Beugro_6_Listaban_oszthatosag GLOBÁL NÉLKÜL\Soltinak_app_1\obj\Debug\Soltinak_app_1.pdb

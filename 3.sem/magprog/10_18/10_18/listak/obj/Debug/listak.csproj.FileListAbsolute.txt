@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\bin\Debug\listak.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\bin\Debug\listak.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\bin\Debug\listak.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\obj\Debug\listak.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\obj\Debug\listak.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\obj\Debug\listak.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\obj\Debug\listak.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_18\10_18\listak\obj\Debug\listak.pdb

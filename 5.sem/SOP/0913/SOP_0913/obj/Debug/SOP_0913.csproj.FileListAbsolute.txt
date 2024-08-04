@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\SOP_0913\SOP_0913\bin\Debug\SOP_0913.exe.config
+C:\Users\user\Desktop\SOP_0913\SOP_0913\bin\Debug\SOP_0913.exe
+C:\Users\user\Desktop\SOP_0913\SOP_0913\bin\Debug\SOP_0913.pdb
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.Form1.resources
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.Properties.Resources.resources
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.csproj.GenerateResource.cache
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.exe
+C:\Users\user\Desktop\SOP_0913\SOP_0913\obj\Debug\SOP_0913.pdb

@@ -1,0 +1,16 @@
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\H009_Alprogramok.exe
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\H009_Alprogramok.deps.json
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\H009_Alprogramok.runtimeconfig.json
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\H009_Alprogramok.runtimeconfig.dev.json
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\H009_Alprogramok.dll
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\ref\H009_Alprogramok.dll
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\bin\Debug\net5.0\H009_Alprogramok.pdb
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.csproj.AssemblyReference.cache
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.AssemblyInfoInputs.cache
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.AssemblyInfo.cs
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.csproj.CoreCompileInputs.cache
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.dll
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\ref\H009_Alprogramok.dll
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.pdb
+C:\Users\Dániel\Desktop\H009_Orai\H009_Alprogramok\obj\Debug\net5.0\H009_Alprogramok.genruntimeconfig.cache

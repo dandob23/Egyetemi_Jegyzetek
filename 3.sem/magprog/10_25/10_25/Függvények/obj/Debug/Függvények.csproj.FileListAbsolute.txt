@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\bin\Debug\Függvények.exe.config
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\bin\Debug\Függvények.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\bin\Debug\Függvények.pdb
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\obj\Debug\Függvények.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\obj\Debug\Függvények.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\obj\Debug\Függvények.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\obj\Debug\Függvények.exe
+C:\Users\Lenovo\Desktop\Egyetem\orai\magprog\10_25\10_25\Függvények\obj\Debug\Függvények.pdb

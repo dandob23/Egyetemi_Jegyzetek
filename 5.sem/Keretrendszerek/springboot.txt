@@ -1,0 +1,6 @@
+11.06.
+
+keretrendszer spring boot
+
+dependencies: Spring web, thymeleaf
+

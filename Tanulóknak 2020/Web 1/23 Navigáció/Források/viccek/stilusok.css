@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-image: url('hatter.png');
+}
+#tarolo {
+    width: 800px;
+    margin: 15px auto;
+    background-color: #FFDE81;
+}
+#fejlec {
+    height: 150px;
+    padding: 10px;
+    background-color: #1133B2;
+    background-image: url('nevetes.jpg');
+    background-position: right bottom; 
+    background-repeat: no-repeat;
+}
+#lablec {
+    padding: 10px;
+    background-color: #1133B2;
+    color: white;
+}
+#navigacio {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    background-color: #FFDE81;
+}
+#tartalom {
+    margin-left: 220px;
+    padding: 10px;
+    background-color: white;
+}
+h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: #B28810;
+    color: white;
+}
