@@ -1,0 +1,3 @@
+cd C:\Users\Lenovo\Desktop\RTT_gy\Beadandók\Docker
+
+docker run --rm -p 80:80 beadando:1

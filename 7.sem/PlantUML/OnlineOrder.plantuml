@@ -1,0 +1,110 @@
+@startuml Online rendelési folyamat
+
+
+skinparam SequenceMessageAlignment center
+autonumber
+
+participant Ügyfél as customer
+participant Weboldal as website
+participant Szerver as server
+participant Raktár as warehouse
+participant Szállítócég as shipping
+
+customer -> website : Bejelentkezés
+
+activate website
+website -> server : Bejelentkezési adatok validálása
+deactivate website
+
+activate server
+server-> website : A bejelentkezési adatok helyesek
+deactivate server
+
+activate website
+website -> customer : <font color=green> Sikeres bejelentkezés </font> 
+deactivate website
+
+activate customer
+customer -> website : Termékek böngészése 
+deactivate customer
+
+activate website
+website -> server : Termékek lekérdezése
+deactivate website
+
+activate server
+server -> website : <font color=green> Termékek megtalálva </font> 
+deactivate server
+
+activate website
+website -> customer : Termékek listázása 
+deactivate website
+
+activate customer
+customer -> website : Kosárba helyezés
+deactivate customer
+
+activate website
+website -> server : Kosár frissítése
+deactivate website
+
+activate server
+server -> website : Kosárba helyezés
+deactivate server
+
+activate website
+website -> customer : <font color = green> Kosárba helyezve </font>
+deactivate website
+
+activate customer
+customer -> website : Fizetési mód kiválasztása és fizetés
+deactivate customer
+
+activate website
+website -> server : Fizetési adatok ellenőrzése
+deactivate website
+
+activate server
+server -> website : <font color = green> Fizetés elfogadva </font>
+deactivate server
+
+
+activate website
+website -> customer : <font color = green> Számla kiküldése </font>
+website -> shipping: Rendelés továbbküldése a futárszolgálatnak
+deactivate website
+
+activate shipping
+shipping -> warehouse : Rendelés feldolgozva
+
+activate warehouse
+warehouse -> server : Üzenet továbbítása
+deactivate warehouse
+
+activate server
+server -> website : Üzenet továbbítása
+deactivate server
+
+activate website
+website -> customer : <font color = green> Rendelés feldolgozva és csomag kiszállítás alatt </font>
+deactivate website
+
+activate customer 
+
+shipping -> warehouse : Csomag átvétele
+deactivate shipping
+
+activate warehouse
+warehouse -> customer : Csomag kiszállítása
+deactivate warehouse
+
+customer -> server : <font color = green> Csomag sikeresen kiszállítva </font>
+deactivate customer
+
+
+
+@enduml
+
+
+
+
