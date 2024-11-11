@@ -1,0 +1,10 @@
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\bin\Debug\BezierSpline.exe.config
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\bin\Debug\BezierSpline.exe
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\bin\Debug\BezierSpline.pdb
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.Form1.resources
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.exe
+C:\Users\Lenovo\Desktop\BevGraf_gy\BEADANDÓK\2 beadandó\BezierSpline\obj\Debug\BezierSpline.pdb

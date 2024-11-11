@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F34820AF-9D79-4CA8-AECB-27E954DD0875}|BezierSpline.csproj|c:\\users\\lenovo\\desktop\\bevgraf_gy\\beadand\u00F3k\\2 beadand\u00F3\\bezierspline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34820AF-9D79-4CA8-AECB-27E954DD0875}|BezierSpline.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34820AF-9D79-4CA8-AECB-27E954DD0875}|BezierSpline.csproj|C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F34820AF-9D79-4CA8-AECB-27E954DD0875}|BezierSpline.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F34820AF-9D79-4CA8-AECB-27E954DD0875}|BezierSpline.csproj|C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34820AF-9D79-4CA8-AECB-27E954DD0875}|BezierSpline.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:49:51.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAowLkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:39:56.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\BevGraf_gy\\BEADAND\u00D3K\\2 beadand\u00F3\\BezierSpline\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:39:13.764Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
