@@ -1,0 +1,3 @@
+pip install pylint
+
+python linter.py

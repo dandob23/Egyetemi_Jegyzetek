@@ -1,3 +1,5 @@
 cd C:\Users\Lenovo\Desktop\RTT_gy\Beadandók\Docker
 
+docker build -t teszt:1 .
+
 docker run --rm -p 80:80 beadando:1
