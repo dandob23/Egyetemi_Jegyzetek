@@ -25,3 +25,9 @@
 	- if you want to be prepared for anything, then you cant be the strongest
 
 	
+## pvp/br 
+- idea: 3rd person shooter/fighting game
+- u get some material
+- you can draw a 2D image with the amount of material you have
+- an AI will look at that 2D image and give you a corresponding item
+  	- exaple: you draw a bottle with red liquid inside -> you get a health potion
