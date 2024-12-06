@@ -25,3 +25,39 @@
 	- if you want to be prepared for anything, then you cant be the strongest
 
 	
+## pvp/br 
+- idea: 3rd person shooter/fighting game
+- u get some material
+- you can draw a 2D image with the amount of material you have
+- an AI will look at that 2D image and give you a corresponding item
+  	- exaple: you draw a bottle with red liquid inside -> you get a health potion
+
+
+
+
+## roguelike Vampire Survivors type game
+- graphics possibilities:
+	1. stylized 2d (3d objects -> slightly pixelated pictures from different angles) 
+		- player character 40 fps, everything else is 24
+  		- real time effects/cutscenes (if the character is in cold area -> you can see breath, its not just an animation for every scenario)
+  	2. lowpoly 3d with good lighting
+	3. high quality ultra realistic 3d
+   	4. some variation of these
+- idea:
+	- premade levels and bosses or open world
+ 	- primary weapon (only 1) -> active point and click weapon (could be shotgun/sniper/assault rifle etc...)
+  	- secondary weapons (multiple) -> discover them or get them randomly when leveling up
+  	- character creator: create multiple different types of characters (they have different strengths)
+ 
+  	  
+
+
+
+
+
+
+
+
+
+
+  
