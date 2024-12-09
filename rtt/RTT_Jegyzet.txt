@@ -16,7 +16,6 @@ A két Scrum könyv közül az egyik:
 
 Beugró 1.: TDD, amiben van HashMap / Dictionary
 Beugró 2.: Rajzolni kell egy DIP-et UML-ben, lásd 7.2. fejezet.
-Beugró 3.: Rajzolni kell egy állapot gépet, lásd 7.9. fejezet.
 
 Tételek:
 - Kötelező tétel: DIP bemutatása 7. fejezet alapján. Tökéletesen kell tudni!

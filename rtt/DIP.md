@@ -1,6 +1,25 @@
 ### **Dependency Inversion Principle (DIP) - Jegyzetek**
 
 ---
+#### **Kérdések**
+
+1. **Minden nyíl absztrakcióra mutat?**  
+   - Ha igen, az egy erősen tervezett terv jele, ami gyakran tartalmaz DIP-et.  
+   - Ha nem minden nyíl mutat absztrakcióra, attól még lehet a tervben DIP, és egészségesebb is lehet így.  
+
+2. **Van olyan absztrakció, amire HAS-A és IS-A kapcsolat is mutat?**  
+   - Ha igen, ez lehet DIP, de ha ugyanaz az osztály mutat mindkét kapcsolattal, akkor nem DIP.  
+   - A DIP szétválasztja a HAS-A és IS-A oldalakat.  
+
+3. **Van olyan absztrakció, amire HAS-A és IS-A kapcsolat is mutat, és a két oldal szétválik?**  
+   - Ha szétválik, akkor DIP.  
+   - Ha van visszafelé kommunikáció, az lehet DIP, ha ez csak egyszerű visszajelzés.  
+
+4. **Van olyan absztrakció, amire HAS-A és IS-A kapcsolat is mutat, a két oldal szétválik, és a HAS-A oldal a kliens kód?**  
+   - Ha igen, akkor a legszigorúbb értelemben is DIP.  
+   - A kliens kód olyan, amely a tervezett szolgáltatásokat használja, de maga nem ismert.  
+
+---
 
 #### **Definíció és Alapok**
 - **Célja:** A logikai és fizikai szintek szétválasztása absztrakciók használatával.
