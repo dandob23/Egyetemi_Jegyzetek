@@ -1,0 +1,16 @@
+ESZTERHÁZY KÁROLY EGYETEM
+Bevezetés a számítógépi grafikába
+Tételsor (nappali)
+A húzott tétel mellé, mindenki kap még néhány kérdést egy másik tételből is!
+1.	Raszteres és vektoros grafika összehasonlítása. Szakaszrajzoló algoritmusok (DDA, MidPoint), körrajzoló algoritmus (MidPoint).
+2.	Szakasz vágása téglalapra (Cohen-Sutherland algoritmus). Szakasz vágása konvex és konkáv poligonra. 
+3.	Kitöltő algoritmusok (színinformáción alapuló algoritmusok, csúcsaival adott poligon kitöltése).
+4.	Görbék megadási módjai. Paraméteres görbék rajzolása 2- és 3 dimenzióban. Illeszkedési problémák.
+5.	Hermite-ív, görbék csatlakozása, folytonosság. Hermite-ívek csatlakoztatása, az Hermite-ív tulajdonságai.
+6.	Bézier görbe, de Casteljou algoritmus, Bernstein polinomok. A Bézier görbe tulajdonságai.
+7.	Spline görbék koncepciója, B-Spline görbe. Zárt- és végpontokat interpoláló B-Spline görbe. A B-Spline görbe tulajdonságai.
+8.	Vektorok, mátrixok, homogén koordináták. Vetítések (párhuzamos, centrális, axonometria). Ponttranszformációk (egybevágósági-, hasonlósági-, affin transzformációk). Window-viewport transzformáció.
+9.	Paraméteres felületek leírása, megjelenítése.  Coons felület, tenzori szorzat felületek.
+10.	Poligonhálók (B-Rep, Winged Edge). Hátsó lapok eltávolítása, árnyalási technikák (Flat-, Gouraud-, Phong árnyalás), Z-buffer algoritmus.
+11.	Fénysugárkövető algoritmus, fényösszetevők, fényforrások, anyagtulajdonságok.
+12.	Subdivision görbék koncepciója, corner-cutting algoritmus, Chaikin algoritmus. Subdivision felületek (Loop).
