@@ -1,40 +1,123 @@
-### Összefoglalók és ismert részletek a megadott könyvekről:
+### **Robert C. Martin – Clean Architecture: A Craftsman's Guide to Software Structure and Design**
+
+#### **A könyv felépítése**
+1. **Bevezetés:**  
+   - A szoftver architektúra fontosságának bemutatása.  
+   - Cél: megérteni, hogyan alakítsunk ki tartós, rugalmas rendszereket.  
+
+2. **Alapfogalmak:**  
+   - "Mi az architektúra?"  
+   - Szilárd alapelvek: SRP (Single Responsibility Principle), OCP (Open/Closed Principle), stb.  
+
+3. **A szoftver architektúra szabályai:**  
+   - Határok és rétegek elválasztása.  
+   - Adatok és viselkedések szétválasztása.  
+
+4. **Tiszta architektúra:**  
+   - Határrétegek szerepe.  
+   - A belső körök fontossága: entitások és használati esetek.  
+
+5. **Részletek:**  
+   - Technológiai döntések és azok időzítése.  
+   - A "döntéseink megfordíthatósága" elv.  
+
+6. **Példák és gyakorlat:**  
+   - Történetek valódi szoftverprojektekből.  
+   - Példák a tiszta architektúra alkalmazására különböző típusú rendszerekben.
+
+7. **Összegzés:**  
+   - A szoftver minőségének hosszú távú fenntartása.  
+   - A folyamatos tanulás és fejlődés fontossága.
 
 ---
 
-#### **1. Robert C. Martin: Clean Architecture: A Craftsman's Guide to Software Structure and Design**
+#### **Legfontosabb mondatok/idézetek és jelentésük**
 
-##### **Összefoglaló:**
-Robert C. Martin könyve a szoftverarchitektúra alapelveit tárgyalja, a jó szoftvertervezés elemeit bemutatva. A könyv célja, hogy a fejlesztők képesek legyenek tartós, skálázható és rugalmas rendszereket építeni. Az olvasó megismeri az architektúra szerepét, a komponensközi kapcsolatok kezelését, valamint a tiszta kód fenntartását az idő múlásával.
+1. **"Architecture is about intent."**  
+   - **Jelentés:** Az architektúra célja, hogy elősegítse a rendszer jövőbeli fenntarthatóságát és rugalmasságát.  
+   - **Hely:** Bevezető fejezet.  
 
-##### **Fontos részletek:**
-- **Szoftverarchitektúra alapelvei:** Az *"Independent of frameworks"* elv hangsúlyozza, hogy a rendszer alapvető logikája ne függjön külső keretrendszerektől.
-- **Tisztaság és rétegezés:** Az *"Onion Architecture"* modell bemutatja, hogyan lehet különválasztani az üzleti logikát és az alkalmazás interfészeit.
-- **SOLID alapelvek alkalmazása:** Ezek az alapelvek biztosítják a kód könnyű módosíthatóságát és újrafelhasználhatóságát.
-- **Függőségek kezelése:** A *Dependency Rule* előírja, hogy a belső rétegek nem ismerhetik a külső rétegek részleteit.
+2. **"A good architecture allows major decisions to be deferred."**  
+   - **Jelentés:** Egy jó architektúra megkönnyíti a technológiai vagy implementációs döntések késleltetését, amíg nem feltétlen szükségesek.  
+   - **Hely:** Technológiai döntések fejezet.  
 
----
+3. **"The Dependency Rule: Source code dependencies must point only inward, toward higher-level policies."**  
+   - **Jelentés:** Az alacsony szintű modulok (pl. adatbázisok, keretrendszerek) ne függjenek a magas szintű logikától, hanem fordítva.  
+   - **Hely:** Tiszta architektúra fejezet.  
 
-#### **2. Kanban és Scrum mindkettőből a legjobbat**
+4. **"Frameworks are tools, not ways of life."**  
+   - **Jelentés:** A keretrendszerek használata hasznos, de ne kötődjünk hozzájuk annyira, hogy az akadályozza a rugalmasságot.  
+   - **Hely:** Részletek fejezet.  
 
-##### **Összefoglaló:**
-Ez a könyv bemutatja a Kanban és a Scrum módszertanok előnyeit és különbségeit, valamint azt, hogyan kombinálhatók. Az iterációk alapú Scrum és a folyamatalapú Kanban szinergiáit kiemelve segít a csapatoknak megtalálni a számukra legjobb megoldást.
-
-##### **Fontos részletek:**
-- **Kanban alapelemei:** A folyamatos fejlesztés érdekében hangsúlyozza a munkafolyamatok vizualizálását és korlátozását (*WIP limits*).
-- **Scrum főbb jellemzői:** Az *"Time-boxed sprints"* és a napi stand-upok szerepe az agilis fejlesztésben.
-- **Kombinált alkalmazás:** Egy tipikus projektben a Scrum strukturált iterációi kiegészíthetők a Kanban rugalmas munkafolyamataival.
-- **Vizualizációs eszközök:** A táblák és diagramok használata hatékonyabb kommunikációt és munkaszervezést biztosít.
+5. **"Keep your options open as long as possible."**  
+   - **Jelentés:** Az implementációs döntéseket addig érdemes halogatni, amíg teljesen meg nem értjük a követelményeket.  
+   - **Hely:** Összegzés.
 
 ---
 
-#### **3. XP és Scrum a frontvonalról**
+#### **Rövid összefoglaló**
 
-##### **Összefoglaló:**
-Ez a könyv valós tapasztalatokon keresztül mutatja be az Extreme Programming (XP) és a Scrum módszertanok működését. Gyakorlati példákkal illusztrálja, hogyan lehet ezeket a módszertanokat implementálni a mindennapi fejlesztésben, és miként segítenek a csapatoknak gyorsan reagálni a változásokra.
+- **Cél:** Hosszú távon fenntartható, rugalmas szoftverarchitektúrák tervezése.  
+- **Fókusz:**  
+  - Szilárd alapelvek (SRP, OCP).  
+  - Határok és rétegek elválasztása.  
+  - A belső körök (entitások, use case-ek) védelme.  
+- **Fontos tanulságok:**  
+  - Az architektúra a rendszerek "életbiztosítása".  
+  - A technológia másodlagos az architektúra céljaihoz képest.  
+  - A jó döntések késleltethetők, és megfordíthatók.  
+- **Gyakorlati tanácsok:**  
+  - Keretek használata helyett az alkalmazás logikájának helyes szervezése a kulcs.  
+  - Minimalizáljuk a technológiai függőségeket.  
+  - Az egyszerűség és átláthatóság hosszú távon meghálálja magát.
 
-##### **Fontos részletek:**
-- **XP jellemzői:** Az *"Pair programming"* és a *"Test-Driven Development"* (TDD) szerepe az XP módszertanban.
-- **Scrum alkalmazása:** A csapatok önszerveződése és az *"Definition of Done"* fontossága.
-- **Problémák a frontvonalról:** Példák azokra a kihívásokra, amelyekkel csapatok szembesülhetnek a módszertanok bevezetése során.
-- **Agilitás és folyamatos tanulás:** Az agilis szemlélet folyamatos fejlődést, tanulást és alkalmazkodást követel meg a csapatoktól.
+
+
+### **Kanban és Scrum: Mindkettőből a legjobbat – Bemutató**  
+
+#### **1. A könyv felépítése:**  
+1. **Bevezetés:** Miért van szükség Kanbanra és Scrumra?  
+2. **Kanban és Scrum összehasonlítása:** Alapelvek, gyakorlatok és különbségek.  
+3. **Kanban használata Scrum csapatokban:** Hogyan egészítik ki egymást.  
+4. **Gyakorlati példák:** Konkrét helyzetek bemutatása.  
+5. **Záró gondolatok:** Mikor melyik módszert válasszuk.  
+
+---
+
+#### **2. Legfontosabb mondatok/idézetek és jelentésük:**  
+
+1. **"Kanban fokozatos változásra ösztönöz, míg a Scrum radikális váltásokat követel."**  
+   - **Jelentés:** A Kanban adaptív és kevésbé invazív, a Scrum strukturáltabb és forradalmibb.  
+   - **Elhelyezkedés:** Kanban és Scrum összehasonlítása fejezet.  
+
+2. **"A Scrum sprintjeiben fixált ütemezés uralkodik, míg a Kanban folyamatos áramlást biztosít."**  
+   - **Jelentés:** A Scrum időalapú iterációkra, a Kanban folyamatos munkafolyamat-kezelésre épül.  
+   - **Elhelyezkedés:** Scrum sprintjei és Kanban flow-rendszere közti különbségeknél.  
+
+3. **"Kanban a vizualizáció mestere, Scrum a csapatmunkáé."**  
+   - **Jelentés:** A Kanban a folyamatok átláthatóságát növeli, a Scrum a csapatdinamikát erősíti.  
+   - **Elhelyezkedés:** Alapelvek és gyakorlatok szakasz.  
+
+4. **"A Kanban nem előírásokat ad, hanem keretet, a Scrum pontos szabályrendszerrel dolgozik."**  
+   - **Jelentés:** A Kanban rugalmasan alkalmazható, a Scrum szigorúbb keretrendszert követ.  
+   - **Elhelyezkedés:** Scrum szabályrendszerének és Kanban rugalmasságának leírásánál.  
+
+---
+
+#### **3. Rövid összefoglaló:**  
+
+- **Témája:**  
+  A könyv bemutatja, hogyan egészíti ki egymást a Kanban és a Scrum, és segít eldönteni, melyiket érdemes alkalmazni a különböző helyzetekben.  
+
+- **Kulcsfogalmak:**  
+  1. **Kanban:** Rugalmas, vizualizált munkafolyamat-kezelés.  
+  2. **Scrum:** Iteráció-alapú, csapatszintű agilis keretrendszer.  
+
+- **Legfontosabb különbségek:**  
+  - Kanban: Folyamatos fejlesztés és áramlás.  
+  - Scrum: Sprint-alapú iterációk és csapatszintű szerveződés.  
+
+- **Legfontosabb tanulságok:**  
+  1. A Kanban könnyebb átmenetet biztosít a változások bevezetéséhez.  
+  2. A Scrum jobban szabályozott, ideális zárt projektekhez.  
+  3. A kettő kombinációja erősítheti az agilitást és a csapat hatékonyságát.  

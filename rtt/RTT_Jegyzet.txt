@@ -2,7 +2,12 @@ Elolvasandó fejezetek: 1-3-6-7-8-9. fejezetek, a többi már volt ProgTech-ből
 
 Vizsga menete nappali és levelezős PTI BSc esetén:
 
-Beugró 0.: Könyvolvasási élmények
+Beugró 0.: Könyvolvasási élmények:
+
+Robert C. Martin, Clean Architecture: A Craftsman's Guide to Software Structure and Design
+Kanban és Scrum mindkettőből a legjobbat
+
+
 
 Beugró 1.: TDD, amiben van HashMap / Dictionary
 
