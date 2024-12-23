@@ -1,31 +1,22 @@
-Elolvasandó fejezetek: 
-1-3-6-7-8-9. fejezetek, 
-a többi már volt ProgTech-ből, 
-illetve az átfedés a kettő közt a 6. fejezet, 
-ami ProgTech-nek és RTT-nek is része.
+Elolvasandó fejezetek: 1-3-6-7-8-9. fejezetek, a többi már volt ProgTech-ből, illetve az átfedés a kettő közt a 6. fejezet, ami ProgTech-nek és RTT-nek is része.
 
 Vizsga menete nappali és levelezős PTI BSc esetén:
-Beugró 0.: Könyvolvasási élmények
-- A jegyzetből készült könyv (elolvasandó fejezetek: 1-3-6-7-8-9): 
-- Robert C. Martin, Clean Architecture: 
-  A Craftsman's Guide to Software Structure and Design
-A két Scrum könyv közül az egyik:
-- Kanban és Scrum mindkettőből a legjobbat
-- XP és Scrum a frontvonalról
 
+Beugró 0.: Könyvolvasási élmények
 
 Beugró 1.: TDD, amiben van HashMap / Dictionary
-Beugró 2.: Rajzolni kell egy DIP-et UML-ben, lásd 7.2. fejezet.
+
 
 Tételek:
-- Kötelező tétel: DIP bemutatása 7. fejezet alapján. Tökéletesen kell tudni!
 
-- Kötelező tétel: Command-ot mindenkitől kérdezni fogom, UML ábráját, példa kódját, értelmezését. 
-DIP / nem DIP kérdés vizsgálata. Tökéletesen kell tudni!
+- Kötelező tétel: DIP bemutatása 7. fejezet alapján (az egész 7-dik fejezet alapján!!!). Tökéletesen kell tudni!
 
-- Választható tétel: Választani kell egy tervezési mintát a 8.-dik fejezetből 
-(a 8. fejezet címe: Tervezési minták és DIP), annak UML ábrája, példa kódja, értelmezése, 
+- Kötelező tétel: Command-ot mindenkitől kérdezni fogom, UML ábráját, példa kódját, értelmezését. DIP / nem DIP kérdés vizsgálata. Tökéletesen kell tudni!
+
+- Választható tétel: Választani kell egy tervezési mintát a 8.-dik fejezetből (a 8. fejezet címe: Tervezési minták és DIP), annak UML ábrája, példa kódja, értelmezése, 
 DIP / nem DIP kérdés vizsgálata. 
 
 - Én is választok egyet a 8. fejezetből, ezt kell bemutatni hasonló módon. Aki nem szeretné, hogy én válasszak, akkor itt lehet véletlenszám generátort kérni.
-Tesztelési kérdések: TDD, BDD, illetve egyeztetés alatt…
+
+Tesztelési kérdések: TDD, BDD, BVA, 3 értékű BVA, JUnit5 paraméteres unit teszt, JUnit5 ismételt unit teszt
+Teszteléssel kapcsolatos fogalmak a Szoftvertesztelés jegyzetben találhatók, lásd lejjebb.
