@@ -50,8 +50,16 @@
   	- character creator: create multiple different types of characters (they have different strengths)
  
   	  
+# Program idea
 
-
+## ablakos alkalmazás sorozatok lejátszására
+- megnyitod az alkalmazást
+- megadod neki a fájlokat (vagy egyesével, vagy egy mappát)
+- megnyitja a fájlt vlc-ben
+- készít egy txt vagy valamilyen fájlt, ahol az előző epizódot tárolja (pl ha végignéztél 3 részt, akkor a fájlt azt fogja mutatni hogy megnéztél 3 részt, és a negyedikkel fog kezdeni)
+- vlc automatikusan eltárolja hol jártál a részen belül
+- ha bezársz hamarabb egy fájlt, mint hogy végetérne, lesz egy boolean (have fully watched), amit true-ra állíthatsz, hogy a txt-ben eltárolja, hogy végignézted (így az end credits-et nem kell végigpörgetni, hogy a program tudja, hogy végetért a rész)
+- nagy gombokkal lehetne a következőt megnyitni, vagy az előzőt 
 
 
 
