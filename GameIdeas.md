@@ -91,7 +91,6 @@ Story
 •	Enters house with minor equipment (flashlight with 1 battery, cross, house’s blueprint (no hud on the map/no help))
 
 ---
-
   	  
 # Program idea
 
