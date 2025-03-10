@@ -70,8 +70,6 @@ Location
 - Run down apartment
 - Place should be big, but easy to understand
 
-![house layout](https://github.com/dandob23/jegyzetek/blob/main/horrorgamemap.png)
-
 Enemy
 - Humanoid, but disturbing
 - Features are off
@@ -91,8 +89,16 @@ Setting
  
 Story
 - Starts with main character entering house
-- Has to find something (maybe book)
-- Enters house with minor equipment (flashlight with 1 battery, cross, house’s blueprint (no hud on the map/no help))
+- brief showcase of 2 missing people (seems to be unrelated)
+- Has to find something (journal of some famous killer)
+- it is in his old mansion
+- Enters house with minor equipment (flashlight with 1 battery, house’s blueprint (no hud on the map/no help))
+- player ends up finding the 2 missing people in the tools shack (this is a secret) ,seems to be a suicide, but they leave a note saying they cant leave (paranoid text...))
+- the killer comes back as a ghost (maybe with other victims come back as ghosts as well, but they are harmless and disturbing)
+
+
+![house layout](https://github.com/dandob23/jegyzetek/blob/main/horrorgamemap.png)
+
 
 ---
   	  
