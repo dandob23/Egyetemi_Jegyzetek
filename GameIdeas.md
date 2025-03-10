@@ -51,44 +51,46 @@
  
 
 ---
-Horror game idea 2022. Nov
+## Horror game idea 2022. Nov
 Ideas to the game itself:
-•	UE5
-•	3D
-•	Character has item, can only use 1 at a time, flashlight when dark, cross when chased, but then its dark---
-•	Not a lot of jumpscares
-•	Mostly make the sound and setting creepy
-•	Mystery around the enemy/monster
-•	Game has a backstory hidden
-•	Makes the player think about it=theories
-•	Puzzles with multiple possible endings
+- UE5
+- 3D
+- Character has item, can only use 1 at a time, flashlight when dark, cross when chased, but then its dark---
+- Not a lot of jumpscares
+- Mostly make the sound and setting creepy
+- Mystery around the enemy/monster
+- Game has a backstory hidden
+- Makes the player think about it=theories
+- Puzzles with multiple possible endings
  (you find things->make a weapon->break window or you find a casette tape->record noises->make the monster break the window)
 Location
-•	Find an actual location and model it in game (abandoned house blueprint or something ..etc)
-•	Maybe tudoszuro egerben
-•	Or something similar
-•	Run down apartment
-•	Place should be big, but easy to understand
-•	
+- Find an actual location and model it in game (abandoned house blueprint or something ..etc)
+- Maybe tudoszuro egerben
+- Or something similar
+- Run down apartment
+- Place should be big, but easy to understand
+
 Enemy
-•	Humanoid, but disturbing
-•	Features are off
-•	Sound is off
-•	Movement is off
-•	Human like
-•	Only one, with hints of multiple
+- Humanoid, but disturbing
+- Features are off
+- Sound is off
+- Movement is off
+- Human like
+- Only one, with hints of multiple
+
 Player
-•	First person
-•	Attached to the place in some way
-•	No voice acting, maybe little noises for immersion
+- First person
+- Attached to the place in some way
+- No voice acting, maybe little noises for immersion
+
 Setting
-•	Dusty, old, rundown place
-•	Modern day/or 50s
+- Dusty, old, rundown place
+- Modern day/or 50s
  
 Story
-•	Starts with main character entering house
-•	Has to find something (maybe book)
-•	Enters house with minor equipment (flashlight with 1 battery, cross, house’s blueprint (no hud on the map/no help))
+- Starts with main character entering house
+- Has to find something (maybe book)
+- Enters house with minor equipment (flashlight with 1 battery, cross, house’s blueprint (no hud on the map/no help))
 
 ---
   	  
