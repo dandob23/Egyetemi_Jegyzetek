@@ -70,6 +70,8 @@ Location
 - Run down apartment
 - Place should be big, but easy to understand
 
+![house layout](https://github.com/dandob23/jegyzetek/blob/main/horrorgamemap.png)
+
 Enemy
 - Humanoid, but disturbing
 - Features are off
