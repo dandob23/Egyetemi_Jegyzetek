@@ -35,20 +35,22 @@
 
 
 
-## roguelike Vampire Survivors type game
+## 2D pixelated hack/slash type game
 - game engine: Godot
 - graphics possibilities:
 	1. stylized 2d
 		- player character 40 fps, everything else is 24
-  		- high quality lighting and effects	
+  		- high quality lighting and effects (possibly ray-traced)
   		- real time effects/cutscenes (if the character is in cold area -> you can see breath, its not just an animation for every scenario)
   	   
 - idea:
-	- premade levels and bosses or open world
- 	- primary weapon (only 1) -> active point and click weapon (could be shotgun/sniper/assault rifle etc...)
-  	- secondary weapons (multiple) -> discover them or get them randomly when leveling up
-  	- character creator
-  	- 
+	- open world connected by hidden passage ways (2d but you can go to a different zone "behind" the current one...)
+ 	- enemies difficulty comes down to ai, not levels (similar to ds/elden ring)
+ 	- active weapon => fire based weapons categorized by weight
+  		- example: heavy hammer (slow, big dmg, fire spread dmg); dagger (fast, small damage, applies burn); ...
+    	- passive weapon => trinkets that you find can be equipped (only a few), they have bonuses
+      		- example: burn the ground behind you; a fire ball flies towards the enemy; attackers get damaged when hitting you; ... 		 
+  	
  
 
 ---
