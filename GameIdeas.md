@@ -51,7 +51,11 @@
     	- passive weapon => trinkets that you find can be equipped (only a few), they have bonuses
       		- example: burn the ground behind you; a fire ball flies towards the enemy; attackers get damaged when hitting you; ... 		 
   	
- 
+ - extra idea:
+   	- player can move, jump, melee hit(stamina), range hit(mana), dodge(a set amount)
+   	- every time the player attacks, a random weapon will be chosen
+   	- example: player jumps, (currently equipped weapon is fireball), range attack, (game now automatically equips hammer), player dodges closer, melee hit, (game changes weapon again)
+   	- this could be an extra mode
 
 ---
 ## Horror game idea 2022. Nov
