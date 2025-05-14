@@ -45,17 +45,37 @@
   	   
 - idea:
 	- open world connected by hidden passage ways (2d but you can go to a different zone "behind" the current one...)
- 	- enemies difficulty comes down to ai, not levels (similar to ds/elden ring)
+ 	- player has lvls
  	- active weapon => fire based weapons categorized by weight
   		- example: heavy hammer (slow, big dmg, fire spread dmg); dagger (fast, small damage, applies burn); ...
     	- passive weapon => trinkets that you find can be equipped (only a few), they have bonuses
       		- example: burn the ground behind you; a fire ball flies towards the enemy; attackers get damaged when hitting you; ... 		 
-  	
- - extra idea:
+
+
+ - story:
+ 	- starts with tutorial-> after it player learns the true meaning behind his existance
+	- player is a soldier fighting for some mythical warlord who wants to burn the world down
+ 	- player awakens, runs away
+  	- player feels like the warlord cant be defeted
+   	- player starts the game...
+   	- player explores, gets xp, gets stronger, meet strangers, do sidequests
+   	- has to keep going (still running away)
+   	- near the end of the game he realises he has to do something (he is strong enough now)
+   	- player has to go through all the zones before
+   	- player enteres tutorial area
+   	- at the end the warlord sends his army at the player->player defeates the mindless army
+   	- player defeats the warlord
+  	   
+ - extra idea_1:
    	- player can move, jump, melee hit(stamina), range hit(mana), dodge(a set amount)
    	- every time the player attacks, a random weapon will be chosen
    	- example: player jumps, (currently equipped weapon is fireball), range attack, (game now automatically equips hammer), player dodges closer, melee hit, (game changes weapon again)
    	- this could be an extra mode
+   	  
+ - extra idea_2:
+ 	- online pvp arena
+  	- player cape has different colours 
+   
 
 ---
 ## Horror game idea 2022. Nov
