@@ -1,5 +1,0 @@
-D:\SzucsNorbert\streamalapukomm\klienshozza\bin\Debug\klienshozza.exe.config
-D:\SzucsNorbert\streamalapukomm\klienshozza\bin\Debug\klienshozza.exe
-D:\SzucsNorbert\streamalapukomm\klienshozza\bin\Debug\klienshozza.pdb
-D:\SzucsNorbert\streamalapukomm\klienshozza\obj\Debug\klienshozza.exe
-D:\SzucsNorbert\streamalapukomm\klienshozza\obj\Debug\klienshozza.pdb
